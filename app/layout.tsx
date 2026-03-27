@@ -237,6 +237,14 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BBBB6S3E7"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7BBBB6S3E7');
+        </script>
         {/* Hreflang tags for all locales */}
         <link rel="canonical" href={BASE_URL} />
         {locales.map((locale) => (
