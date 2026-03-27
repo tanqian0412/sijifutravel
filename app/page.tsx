@@ -1265,7 +1265,7 @@ function Footer() {
 // ─── Main Page ────────────────────────────────────────────────────────────────
 export default function Home() {
   const [locale, setLocaleState] = useState<Locale>('zh-CN');
-  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
+  const [isMusicPlaying, setIsMusicPlaying] = useState(true);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const toggleMusic = () => {
@@ -1288,6 +1288,10 @@ export default function Home() {
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = 0.3;
+      // Auto play when component mounts
+      audioRef.current.play().catch(() => {
+        // Autoplay might be blocked by browser, that's okay
+      });
     }
   }, []);
 
@@ -1305,7 +1309,7 @@ export default function Home() {
   return (
     <LanguageContext.Provider value={{ locale, t: translations[locale], toggleLocale, setLocale }}>
       {/* Background Music */}
-      <audio ref={audioRef} loop preload="none" controlsList="nodownload" style={{ display: 'none' }}>
+      <audio ref={audioRef} autoPlay loop preload="auto" controlsList="nodownload" style={{ display: 'none' }}>
         <source src="/素材/bgm.mp3" type="audio/mpeg" />
       </audio>
 
