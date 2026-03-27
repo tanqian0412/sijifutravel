@@ -352,9 +352,9 @@ function Navbar({ isMusicPlaying, onToggleMusic }: NavbarProps) {
   }, []);
 
   const navItems = [
-    { key: 'about', href: '#about' },
-    { key: 'services', href: '#services' },
     { key: 'destinations', href: '#destinations' },
+    { key: 'services', href: '#services' },
+    { key: 'tours', href: '#tours' },
     { key: 'contact', href: '#contact' },
   ];
 
@@ -549,83 +549,6 @@ function Hero() {
   );
 }
 
-// ─── About ───────────────────────────────────────────────────────────────────
-function About() {
-  const { t } = useLanguage();
-  const { ref, isVisible } = useScrollReveal();
-
-  return (
-    <section id="about" className="py-16 md:py-24 lg:py-32 bg-gradient-to-b from-stone-50 to-white relative overflow-hidden">
-      {/* Decorative background element */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-red-50/50 to-transparent pointer-events-none" />
-
-      <div ref={ref} className={`max-w-7xl mx-auto px-4 md:px-6 lg:px-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
-        <div className="grid lg:grid-cols-2 gap-10 md:gap-16 lg:gap-24 items-center">
-          {/* Text */}
-          <div className="order-2 lg:order-1">
-            <div className="inline-flex items-center gap-2 md:gap-3 mb-4 md:mb-6">
-              <div className="w-10 md:w-12 h-px bg-[#C41E3A]" />
-              <span className="text-[#C41E3A] font-serif text-xs md:text-sm tracking-widest uppercase">
-                {t.about.title}
-              </span>
-            </div>
-
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 md:mb-8 leading-tight">
-              {t.about.title}
-            </h2>
-
-            <p className="font-serif text-gray-600 text-base md:text-lg leading-relaxed mb-8 md:mb-10">
-              {t.about.description}
-            </p>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 md:gap-8">
-              {t.about.features.map((f, i) => (
-                <div key={i} className="relative">
-                  <div className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-br from-[#C41E3A] to-[#A01830] bg-clip-text text-transparent">
-                    {f.value}
-                  </div>
-                  <div className="font-serif text-xs md:text-sm text-gray-500 mt-1 md:mt-2 tracking-wide">{f.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Image */}
-          <div className="order-1 lg:order-2 relative">
-            <div className="relative aspect-[4/5] rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl shadow-gray-200/50">
-              <Image
-                src="/素材/四季福员工合影_final.png"
-                alt="四季福员工合影"
-                fill
-                className="object-cover"
-              />
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-            </div>
-
-            {/* Decorative floating card */}
-            <div className="absolute -bottom-4 md:-bottom-8 -left-4 md:-left-8 bg-white p-4 md:p-6 rounded-xl md:rounded-2xl shadow-xl shadow-gray-200/50">
-              <div className="flex items-center gap-3 md:gap-4">
-                <div className="w-12 md:w-14 h-12 md:h-14 rounded-full bg-gradient-to-br from-[#C41E3A] to-[#A01830] flex items-center justify-center">
-                  <span className="text-white font-serif text-lg md:text-xl font-bold">10+</span>
-                </div>
-                <div>
-                  <div className="font-serif font-semibold text-gray-900 text-sm md:text-base">{t.hero.years || 'Years'}</div>
-                  <div className="font-serif text-xs md:text-sm text-gray-500">{t.hero.yearsOfExcellence || 'of Excellence'}</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Decorative element */}
-            <div className="absolute -top-2 md:-top-4 -right-2 md:-right-4 w-20 md:w-24 h-20 md:h-24 border-2 border-[#D4A84B]/20 rounded-2xl md:rounded-3xl" />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 // ─── Services ─────────────────────────────────────────────────────────────────
 function Services() {
   const { locale, t } = useLanguage();
@@ -747,7 +670,7 @@ function TourItineraries() {
   const teamItineraries = t.services.teamTours.itineraries || [];
 
   return (
-    <section className="py-16 md:py-24 lg:py-32 bg-gradient-to-b from-white to-stone-50">
+    <section id="tours" className="py-16 md:py-24 lg:py-32 bg-gradient-to-b from-white to-stone-50">
       <div ref={ref} className={`max-w-7xl mx-auto px-4 md:px-6 lg:px-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
         <div className="text-center mb-12 md:mb-16 lg:mb-20">
           <div className="inline-flex items-center gap-2 md:gap-3 mb-4 md:mb-6">
@@ -1466,10 +1389,9 @@ export default function Home() {
       <main lang={locale}>
         <Navbar isMusicPlaying={isMusicPlaying} onToggleMusic={toggleMusic} />
         <Hero />
-        <About />
+        <Destinations />
         <Services />
         <TourItineraries />
-        <Destinations />
         <Contact />
         <Footer />
         <FloatingContactButton />
