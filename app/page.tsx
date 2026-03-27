@@ -595,8 +595,8 @@ function About() {
           <div className="order-1 lg:order-2 relative">
             <div className="relative aspect-[4/5] rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl shadow-gray-200/50">
               <Image
-                src="/素材/beijing_yiheyuan_02.png"
-                alt="Summer Palace"
+                src="/素材/四季福员工合影_final.png"
+                alt="四季福员工合影"
                 fill
                 className="object-cover"
               />
