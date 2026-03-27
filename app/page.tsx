@@ -1302,7 +1302,7 @@ function Footer() {
 // ─── Main Page ────────────────────────────────────────────────────────────────
 export default function Home() {
   const [locale, setLocaleState] = useState<Locale>('zh-CN');
-  const [isMusicPlaying, setIsMusicPlaying] = useState(true);
+  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const toggleMusic = () => {
@@ -1316,6 +1316,23 @@ export default function Home() {
     }
   };
 
+  // Sync music state with audio element events
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    const handlePlay = () => setIsMusicPlaying(true);
+    const handlePause = () => setIsMusicPlaying(false);
+
+    audio.addEventListener('play', handlePlay);
+    audio.addEventListener('pause', handlePause);
+
+    return () => {
+      audio.removeEventListener('play', handlePlay);
+      audio.removeEventListener('pause', handlePause);
+    };
+  }, []);
+
   useEffect(() => {
     const detected = detectLocale();
     setLocaleState(detected);
@@ -1325,9 +1342,12 @@ export default function Home() {
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = 0.3;
-      // Auto play when component mounts
-      audioRef.current.play().catch(() => {
-        // Autoplay might be blocked by browser, that's okay
+      // Try to auto play, but browser might block it
+      audioRef.current.play().then(() => {
+        setIsMusicPlaying(true);
+      }).catch(() => {
+        // Autoplay was blocked, user can click to play
+        setIsMusicPlaying(false);
       });
     }
   }, []);
@@ -1346,7 +1366,7 @@ export default function Home() {
   return (
     <LanguageContext.Provider value={{ locale, t: translations[locale], toggleLocale, setLocale }}>
       {/* Background Music */}
-      <audio ref={audioRef} autoPlay loop preload="auto" controlsList="nodownload" style={{ display: 'none' }}>
+      <audio ref={audioRef} loop preload="auto" controlsList="nodownload" style={{ display: 'none' }}>
         <source src="/素材/bgm.mp3" type="audio/mpeg" />
       </audio>
 
