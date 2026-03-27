@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "about": "Về Chúng Tôi",
+    "services": "Dịch Vụ",
+    "destinations": "Điểm Đến",
+    "contact": "Liên Hệ"
+  },
+  "hero": {
+    "tagline": "Hành Trình Bắc Kinh, May Mắn Cùng Bạn",
+    "subtitle": "Chuyến du lịch theo đoàn và tour tùy chỉnh chuyên nghiệp cho du khách toàn cầu",
+    "cta": "Liên Hệ Ngay",
+    "scroll": "Cuộn",
+    "exploreTours": "Khám phá tours",
+    "yearsOfExcellence": "Một thập kỷ xuất sắc",
+    "years": "Năm",
+    "scanQR": "Quét QR",
+    "qRCode": "QR:",
+    "companyName": "Bốn Mùa May Mắn",
+    "companySubname": "Chuyên gia du lịch Bắc Kinh",
+    "heroDecoration": "Bắc Kinh · Một thập kỷ xuất sắc"
+  },
+  "about": {
+    "title": "Về Bốn Mùa May Mắn",
+    "description": "Công Ty Du Lịch Bốn Mùa May Mắn Bắc Kinh đã tạo ra những trải nghiệm Bắc Kinh đặc biệt trong hơn một thập kỷ. Chúng tôi biết rõ từng ngõ hẻm và cung điện, cam kết cung cấp dịch vụ du lịch chuyên nghiệp, tận tâm cho khách viếng thăm từ khắp thế giới. Hướng dẫn viên song ngữ Trung-Anh đảm bảo giao tiếp liền mạch cho tất cả du khách quốc tế.",
+    "features": [
+      { "label": "Năm Kinh Nghiệm", "value": "10+" },
+      { "label": "Khách Du Lịch", "value": "50.000+" },
+      { "label": "Tuyến Du Lịch", "value": "30+" }
+    ]
+  },
+  "services": {
+    "title": "Dịch Vụ Của Chúng Tôi",
+    "teamTours": {
+      "title": "Tour Theo Đoàn",
+      "subtitle": "10 năm kinh nghiệm, chất lượng đảm bảo",
+      "description": "Với 10 năm kinh nghiệm trong du lịch Bắc Kinh, chúng tôi cung cấp các tuyến classic được chọn lọc kỹ lưỡng với hướng dẫn viên chuyên nghiệp. Phù hợp cho chuyến đi gia đình, team building doanh nghiệp, và tham quan giáo dục. Khởi hành hàng ngày — đặt bất cứ lúc nào. Bao gồm vé và vận chuyển.",
+      "items": ["Toàn Cảnh Bắc Kinh", "Tour Vạn Lý Trường Thành", "Khám Phá Văn Hóa Hẻm Tứ Hợp Viện", "Hành Trình Ẩm Thực Bắc Kinh"],
+      "features": ["Khởi hành hàng ngày", "Hướng dẫn riêng", "Dịch Vụ Không Lo Lắng", "Đảm bảo khởi hành"],
+      "highlights": ["🎫 Tất cả điểm tham quan", "🚗 Xe buýt du lịch A/C", "🏨 Khách sạn 4 sao", "🍽️ Ẩm thực địa phương", "📱 Đặt hàng online", "💁 Hỗ trợ 24/7"],
+      "moreRoutes": "Nhiều tuyến classic khác có sẵn như tour sâu Tử Cấm Thành & Vạn Lý Trường Thành, tour nửa ngày văn hóa Bắc Kinh, tour Đàn Thiên Miếu & Cung Điện Mùa Hè trong ngày, chào mừng liên hệ tư vấn",
+      "itineraries": [
+        {
+          "name": "Tour Toàn Cảnh Bắc Kinh 5 Ngày",
+          "duration": "5 Ngày 4 Đêm",
+          "highlights": ["Tử Cấm Thành", "Vạn Lý Trường Thành", "Đàn Thiên Miếu", "Cung Điện Mùa Hè", "Hẻm Tứ Hợp Viện", "Sân Vận Động Tổ Ong", "Công Viên Bắc Hải", "Di Sản Viên Minh"],
+          "included": "Xe đưa đón, 4 đêm nghỉ (4 sao), 9 bữa trưa + 4 bữa sáng, Vé vào cổng, Hướng dẫn viên chuyên nghiệp",
+          "desc": "Khám phá tinh hoa Bắc Kinh trong 5 ngày 4 đêm. Từ sự hùng vĩ của Tử Cấm Thành đến magnificent của Vạn Lý Trường Thành, từ charm của những hẻm tứ hợp viện đến sự thơ mộng của vườn cung điện — khám phá các điểm đến không thể bỏ qua và trải nghiệm văn hóa Bắc Kinh đích thực.",
+          "meals": "4 bữa sáng, 9 bữa trưa (ẩm thực cung đình, vịt quay Bắc Kinh, mì trộn Bắc Kinh, đồ ăn vặt Bắc Kinh)",
+          "hotel": "Khách sạn 4 sao gần Đại Lộ环三 hoặc Vương Phủ Tĩnh, gần tàu điện ngầm",
+          "itinerary": [
+            { "day": "D1", "title": "Đến Thành Phố", "content": "Đón sân bay → Nhận phòng khách sạn → Quảng trường Thiên An Môn → Tử Cấm Thành (thăm quan sâu 3 giờ) → Tháp Thiên An buổi tối → Phố Qianmen" },
+            { "day": "D2", "title": "Vạn Lý Trường Thành", "content": "Vạn Lý Trường Thành Bát Đạt Lĩnh (cáp treo lên đỉnh) → Cửa Khẩu Cư Dung → Đường Thánh Lăng Minh → Sân Vận Động Tổ Ong buổi tối" },
+            { "day": "D3", "title": "Thiên Đường Vườn", "content": "Cung Điện Mùa Hè (chèo thuyền trên hồ Kunming, hành lang dài) → Di sản Viên Minh → Chụp ảnh Đại Học Bắc Kinh hoặc Thanh Hoa → Zhongguancun" },
+            { "day": "D4", "title": "Thủ Đô Cổ Đại", "content": "Đàn Thiên Miếu (Điện cầu nguyện, Tường tiếng vọng) → Công Viên Bắc Hải (Tháp Trắng) → Nam Lộ Cổ Tự → Hồ Tây Hải → Tour xe kéo ba bánh → Phủ Công Tước → Phố Bar Hậu Hải" },
+            { "day": "D5", "title": "Trải Nghiệm Bắc Kinh", "content": "Tự do (mua sắm Vương Phủ Tĩnh, SKP) → Tiễn sân bay/ga" }
+          ]
+        },
+        {
+          "name": "Tour Tử Cấm Thành & Vạn Lý Trường Thành Trong Ngày",
+          "duration": "Khoảng 10 giờ",
+          "highlights": ["Quảng trường Thiên An Môn", "Tử Cấm Thành chuyên sâu", "Hồ Tây Hải", "Xe kéo ba bánh hutong"],
+          "included": "Vé vào cổng, Trưa (ẩm thực cung đình), Hướng dẫn viên chuyên nghiệp, Trải nghiệm xe kéo, Xe đưa đón",
+          "desc": "Trải nghiệm vẻ đẹp kép của Bắc Kinh trong một ngày. Khám phá 600 năm lịch sử Tử Cấm Thành buổi sáng, leo Vạn Lý Trường Thành buổi chiều, và thưởng ngoạn cảnh đêm Tổ Ong buổi tối.",
+          "meals": "Trưa (vịt quay hoặc mì trộn truyền thống)",
+          "hotel": "Hỗ trợ đặt khách sạn",
+          "itinerary": [
+            { "day": "Sáng", "title": "Khám Phá Tử Cấm Thành", "content": "Quảng trường Thiên An Môn → Cửa Nam → Điện Thái Hòa → Đường trục trung tâm → Cung Khải Thanh → Vườn cung đình → Cửa Thần Võ" },
+            { "day": "Chiều", "title": "Hào Kiệt Vạn Lý", "content": "Đến Vạn Lý Trường Thành Bát Đạt Lĩnh (1.5 giờ) → Cáp treo lên đỉnh → Đi bộ từ Bắc 1 đến Bắc 8 → Quay về" },
+            { "day": "Tối", "title": "Cảnh Đêm Bắc Kinh", "content": "Ngắm đại lộ Trường An → Tổ Ong & Khối Nước bên ngoài → Quay về thành phố" }
+          ]
+        },
+        {
+          "name": "Tour Văn Hóa Hẻm Tứ Hợp Viện Nửa Ngày",
+          "duration": "Khoảng 5 giờ",
+          "highlights": ["Hồ Tây Hải", "Nam Lộ Cổ Tự", "Sân Thượng Truyền Thống", "Xe kéo ba bánh", "Đồ Ăn Vặt Bắc Kinh"],
+          "included": "Trải nghiệm xe kéo, Thăm nhà truyền thống, Đồ ăn vặt Bắc Kinh, Trà đạo, Hướng dẫn viên chuyên nghiệp",
+          "desc": "Đắm chìm trong cuộc sống đích thực của Bắc Kinh cũ. Ngồi xe kéo qua những hẻm tứ hợp viện, nghe những câu chuyện thú vị từ cư dân lâu năm, thăm những ngôi nhà truyền thống được bảo tồn, và nếm những món ăn vặt chân thực nhất của Bắc Kinh.",
+          "meals": "Đồ ăn vặt Bắc Kinh (đậu phụ sữa, quẩy tôm, bánh gai, chả cốm, v.v.)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Chiều", "title": "Khám Phá Hẻm", "content": "Gặp tại Hồ Tây Hải → Cầu Yinding → Phủ Công Tước → Nam Lộ Cổ Tự → Xe kéo qua hẻm → Thăm nhà truyền thống → Nghỉ trà" }
+          ]
+        },
+        {
+          "name": "Tour Đàn Thiên Miếu & Cung Điện Mùa Hè Trong Ngày",
+          "duration": "Khoảng 8 giờ",
+          "highlights": ["Đàn Thiên Miếu", "Cung Điện Mùa Hè", "Viên Minh", "Tượng Đại Học Bắc Kinh"],
+          "included": "Vé vào cổng, Trưa, Chèo thuyền, Hướng dẫn viên chuyên nghiệp, Xe đưa đón",
+          "desc": "Sự kết hợp hoàn hảo giữa vườn cung đình và địa điểm thiêng liêng. Cảm nhận triết học hài hòa giữa trời và người tại Đàn Thiên Miếu buổi sáng, dạo quanh hồ Kunming tại Cung Điện Mùa Hè buổi chiều, và thưởng ngoạn nghệ thuật vườn Trung Quốc đỉnh cao.",
+          "meals": "Trưa (ẩm thực cung đình trong Cung Điện Mùa Hè)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Sáng", "title": "Đất Thiêng", "content": "Cửa Đông Đàn Thiên Miếu → Điện Cầu Nguyện (bên ngoài) → Tường Tiếng Vọng → Đàn Viên → Thất Tinh Đường → Hành lang dài → Từ Cung" },
+            { "day": "Trưa", "title": "Hồ Kunming", "content": "Cửa Bắc Cung Điện Mùa Hè → Phố Tô Châu → Tứ Đại Châu → Chèo thuyền hồ Kunming → Thư phòng tranh" },
+            { "day": "Chiều", "title": "Núi Tây Sơn", "content": "Phượng Hoàng Các (leo lên tùy chọn) → Núi Trường Thọ → Di sản Viên Minh (bên ngoài) → Chụp ảnh Đại Học Bắc Kinh & Thanh Hoa" }
+          ]
+        }
+      ]
+    },
+    "customTours": {
+      "title": "Tour Tùy Chỉnh",
+      "subtitle": "Lịch trình độc đáo, trải nghiệm cá nhân hóa",
+      "description": "Lịch trình độc quyền được thiết kế theo sở thích, thời gian và ngân sách của bạn. Tour riêng, team building doanh nghiệp, chuyến đi gia đình, tuần trăng mật — chúng tôi cung cấp dịch vụ cá nhân hóa để làm cho chuyến đi Bắc Kinh của bạn trở nên đặc biệt.",
+      "items": ["Riêng Tùy Chỉnh", "Team Building Doanh Nghiệp", "Gia Đình & Trẻ Em", "Tuần Trăng Mật & Cưới"],
+      "features": ["Lịch trình linh hoạt", "Hướng dẫn riêng", "Dịch vụ xe riêng", "Tiếp khách 24/7"],
+      "highlights": ["🎫 Lịch trình tùy chỉnh", "🚗 Xe riêng & hướng dẫn", "🏨 Khách sạn cao cấp", "🍽️ Ẩm thực đặc biệt", "📱 Hỗ trợ 1-đ-1", "💁 Phản hồi 24h"],
+      "itineraries": [
+        {
+          "name": "Tour Gia Đình & Trẻ Em",
+          "duration": "4-5 Ngày",
+          "highlights": ["Tử Cấm Thành phiên bản trẻ em", "Vạn Lý Trường Thành", "Bảo Tàng Khoa Học", "Thủy Cung", "Hẻm Tứ Hợp Viện", "Đại Học Bắc Kinh"],
+          "included": "Lịch trình riêng, Hướng dẫn gia đình, Vé trẻ em, Đồ ăn đặc biệt, Xe đưa đón",
+          "desc": "Lịch trình an toàn, vui vẻ và giáo dục cho cả gia đình. Hướng dẫn viên trẻ em chuyên nghiệp mang lịch sử đến với những câu chuyện hấp dẫn tại Tử Cấm Thành. Các triển lãm tương tác tại Bảo Tàng Khoa Học khiến việc học trở nên thú vị, và đường hầm dưới nước tại Thủy Cung khiến trẻ em kinh ngạc.",
+          "meals": "Đồ ăn gia đình đặc biệt (lẩu đồng truyền thống, workshop làm mì)",
+          "hotel": "Phòng gia đình tại khu vực Sanlitun hoặc Guomao, gần trung tâm mua sắm",
+          "itinerary": [
+            { "day": "D1", "title": "Giới Thiệu Hoàng Thành", "content": "Đón → Tử Cấm Thành phiên bản trẻ em (2.5 giờ) → Công Viên Đỉnh Nhìn Toàn Cảnh → Phố Qianmen" },
+            { "day": "D2", "title": "Hào Kiệt Vạn Lý", "content": "Vạn Lý Trường Thành Bát Đạt Lĩnh (cáp treo) → Bảo Tàng Vạn Lý Trường Thành → Bảo Tàng Khoa Học Trung Quốc khu trẻ em → Cảnh đêm Tổ Ong" },
+            { "day": "D3", "title": "Khám Phá Thiên Nhiên", "content": "Sở Thú Bắc Kinh (Phòng Gấu Trúc) → Thủy Cung (đường hầm dưới nước) → Bảo Tàng Thiên Văn Bắc Kinh" },
+            { "day": "D4", "title": "Khuôn Viên & Văn Hóa", "content": "Đại Học Bắc Kinh hoặc Thanh Hoa (chụp ảnh) → Di sản Viên Minh → Xe kéo ba bánh hẻm → Trải nghiệm thư pháp sân thượng" },
+            { "day": "D5", "title": "Về Nhà Vui Vẻ", "content": "Tự do (SKP, China World Mall) → Tiễn sân bay/ga" }
+          ]
+        },
+        {
+          "name": "Team Building Doanh Nghiệp",
+          "duration": "2-3 Ngày",
+          "highlights": ["Đi bộ Vạn Lý Trường Thành", "Thử thách đội nhóm", "Trải nghiệm văn hóa", "Dịch vụ họp"],
+          "included": "Huấn luyện viên chuyên nghiệp, Thiết bị team building, Tất cả bữa ăn, Phòng họp, Nghỉ ngơi, Xe",
+          "desc": "Kết hợp phiêu lưu ngoài trời với trải nghiệm văn hóa. Xây dựng tinh thần đội nhóm qua đi bộ Vạn Lý Trường Thành, tăng cường liên kết qua các thử thách đội nhóm, tạo kỷ niệm qua trải nghiệm văn hóa, và định hướng qua các buổi họp.",
+          "meals": "Tất cả bữa ăn (tiệc vịt quay, ẩm thực cung đình, BBQ)",
+          "hotel": "Resort hoặc khách sạn hội nghị với tiện nghi đầy đủ",
+          "itinerary": [
+            { "day": "D1", "title": "Phá Băng", "content": "Sáng: Đón → Đăng ký → Lễ khai mạc\nChiều: Thử thách ngoài trời (đĩa ném, xây tháp) → Thi đấu đội nhóm\nTối: Tiệc vịt quay chào mừng" },
+            { "day": "D2", "title": "Thử Thách Đỉnh Cao", "content": "Sáng: Định hướng đi bộ Vạn Lý Trường Thành (nhiệm vụ đội)\nChiều: Trải nghiệm văn hóa (làm đồ gốm men / vẽ mặt nạ Kinh Kịch)\nTối: Tự do hoặc tổng kết" },
+            { "day": "D3", "title": "Đoàn Kết & Khép Lại", "content": "Sáng: Khám phá văn hóa hẻm (săn tìm kho báu)\nTrưa: Lễ bế mạc & trao giải\nChiều: Khởi hành" }
+          ]
+        },
+        {
+          "name": "Tour Riêng Tùy Chỉnh",
+          "duration": "1-10 Ngày",
+          "highlights": ["Hướng dẫn riêng", "Lịch trình linh hoạt", "Xe riêng", "Trải nghiệm đặc biệt"],
+          "included": "Tài xế + hướng dẫn riêng, Xe riêng, Lịch trình linh hoạt, Khách sạn cao cấp tùy chọn",
+          "desc": "Hoàn toàn tùy chỉnh theo sở thích và lịch trình của bạn. Muốn đi đâu? Ở bao lâu? Ăn gì? Bạn quyết định. Dịch vụ tài xế và hướng dẫn riêng giúp bạn tập trung tận hưởng hành trình.",
+          "meals": "Theo khẩu vị của bạn, bữa ăn không bao gồm",
+          "hotel": "Có thể chọn: nhà truyền thống, khách sạn 5 sao, hoặc khách sạn thiết kế boutique",
+          "itinerary": [
+            { "day": "D1", "title": "Chuyến Đi Theo Cách Bạn", "content": "Tùy chỉnh theo sở thích của bạn:\n• Xem lễ thượng cờ buổi sáng\n• Tour Tử Cấm Thành chuyên sâu\n• Hoàng hôn Vạn Lý Trường Thành\n• Phố bar Hậu Hải ban đêm\n• Nhà hàng sao Michelin\n• Và nhiều trải nghiệm khác..." }
+          ]
+        }
+      ]
+    }
+  },
+  "tours": {
+    "title": "Tour Nổi Bật",
+    "subtitle": "Tuyến cổ điển, trải nghiệm đích thực",
+    "itinerary": "Lịch Trình",
+    "highlights": "Điểm Nổi Bật",
+    "meals": "Ẩm Thực",
+    "hotel": "Lưu Trú",
+    "included": "Bao Gồm"
+  },
+  "destinations": {
+    "title": "Điểm Đến Nổi Bật",
+    "subtitle": "Bắc Kinh, thành phố 3000 năm lịch sử...",
+    "intro": "Bắc Kinh, thành phố 3000 năm lịch sử, là trung tâm chính trị, văn hóa, giao lưu quốc tế và đổi mới công nghệ của Trung Quốc. Nơi đây có quần thể cung điện lớn nhất thế giới — Tử Cấm Thành, Vạn Lý Trường Thành tráng lệ, Cung Điện Mùa Hè đẹp nhất, và những hẻm tứ hợp viện Bắc Kinh cũ đầy sức sống.",
+    "highlights": "Điểm Không Thể Bỏ Qua",
+    "bestTime": "Thời Điểm Tốt Nhất",
+    "items": [
+      {
+        "name": "Tử Cấm Thành",
+        "desc": "Sự hùng vĩ của Tử Cấm Thành",
+        "img": "01_gugong.jpg",
+        "detail": "Quần thể kiến trúc cổ bằng gỗ lớn nhất và được bảo tồn tốt nhất thế giới, cung điện của 24 hoàng đế thời Minh và Thanh. Bao phủ 720.000 mét vuông với khoảng 150.000 mét vuông diện tích sàn, chứa hơn 70 cung điện và hơn 9.000 phòng.",
+        "highlights": ["Điện Thái Hòa (lễ nghi lớn của hoàng đế)", "Cung Khải Thanh (nơi ở hoàng đế)", "Vườn cung đình (giải trí hoàng đế)", "Phòng bảo tàng (bảo vật triều Thanh)"],
+        "bestTime": "Mọi mùa, nên dành 3-4 giờ"
+      },
+      {
+        "name": "Vạn Lý Trường Thành",
+        "desc": "Kỳ quan thế giới, cảnh đẹp ngoạn mục",
+        "img": "beijing_greatwall_02.jpg",
+        "detail": "Vạn Lý Trường Thành Bát Đạt Lĩnh là đoạn đại diện nhất của Vạn Lý Trường Thành thời Minh và là đoạn đầu tiên mở cửa cho du khách. Tường cao trung bình 7.8 mét và rộng khoảng 5 mét, đủ rộng cho mười người hoặc năm con ngựa chạy song song.",
+        "highlights": ["Bát Đạt Lĩnh (đoạn cổ điển)", "Mộc Vân Vũ (cảnh đẹp)", "Tử Mã Đài (bảo tồn nguyên trạng)", "Kim Sơn Lĩnh (thiên đường nhiếp ảnh)"],
+        "bestTime": "Mùa xuân & mùa thu, tốt nhất tháng 4-6 / 9-10"
+      },
+      {
+        "name": "Đàn Thiên Miếu",
+        "desc": "Đất thiêng cho cầu nguyện và hài hòa",
+        "img": "beijing_tiantan_02.jpg",
+        "detail": "Đàn Thiên Miếu là nơi các hoàng đế thời Minh và Thanh thờ phụng trời và cầu mùa màng. Bao phủ khoảng 2.73 triệu mét vuông, các công trình chính bao gồm Điện Cầu Nguyện Mùa Màng, Đàn Viên, và Tường Tiếng Vọng. Được công nhận Di sản Thế giới UNESCO năm 1998.",
+        "highlights": ["Điện Cầu Nguyện Mùa Màng", "Đàn Viên (tế trời)", "Tường Tiếng Vọng (kỳ quan ba tiếng vọng)", "Bảy Viên Đá (bố trí phong thủy)"],
+        "bestTime": "Nên dành 2-3 giờ, sáng sớm là tốt nhất"
+      },
+      {
+        "name": "Hẻm Tứ Hợp Viện",
+        "desc": "Linh hồn đích thực của Bắc Kinh cũ",
+        "img": "beijing_hutong_02.jpg",
+        "detail": "Hẻm tứ hợp viện là mạch máu của Bắc Kinh và là vi mô của cuộc sống Bắc Kinh cũ. Khu vực Hồ Tây Hải bảo tồn khu phố lịch sử hoàn chỉnh nhất, nơi bạn có thể ngồi xe kéo qua những hẻm trong khi nghe những câu chuyện hấp dẫn từ cư dân lâu năm.",
+        "highlights": ["Hồ Tây Hải (khu vực hồ đẹp nhất)", "Nam Lộ Cổ Tự (hẻm thời thượng)", "Yandai Xiejie (không khí chợ)", "Phủ Công Tước (Hà Thế Sung)"],
+        "bestTime": "Bắt đầu buổi chiều, phố bar Hậu Hải buổi tối"
+      },
+      {
+        "name": "Cung Điện Mùa Hè",
+        "desc": "Vẻ đẹp thơ mộng của vườn cung đình",
+        "img": "beijing_yiheyuan_02.png",
+        "detail": "Cung Điện Mùa Hè là vườn cung đình lớn nhất còn tồn tại của Trung Quốc, kết hợp những tinh hoa của vườn Giang Nam với hồ Kunming và núi Trường Thọ. Được công nhận Di sản Thế giới UNESCO năm 1998, được gọi là Bảo tàng Vườn Cung Đình.",
+        "highlights": ["Hồ Kunming (Cầu Mười Bảy Vòm)", "Phượng Hoàng Các (đỉnh núi Trường Thọ)", "Hành lang dài (hơn 7.000 bức tranh)", "Phố Tô Châu (chợ trên mặt nước)"],
+        "bestTime": "Nên dành 3-4 giờ, mọi mùa"
+      },
+      {
+        "name": "Công Viên Bắc Hải",
+        "desc": "Vườn cung đình cổ điển bên hồ",
+        "img": "beijing_beihai_03.jpg",
+        "detail": "Công Viên Bắc Hải là vườn cung đình hoàng gia cổ nhất còn tồn tại của Trung Quốc với gần một nghìn năm lịch sử. Tháp Trắng đứng trên đỉnh đảo Qionghua, là biểu tượng nổi bật của Bắc Kinh. Công viên còn có Ngũ Long Các, Hảo Phú Tranh Gia, và Cửu Long Bi.",
+        "highlights": ["Tháp Trắng (đỉnh đảo Qionghua)", "Cửu Long Bi", "Hảo Phú Tranh Gia (núi giả thác nước)", "Đoàn Thành (thành phố thu nhỏ)"],
+        "bestTime": "1-2 giờ, có thể kết hợp tour hẻm cả ngày"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "subtitle": "Chúng tôi mong được gặp bạn tại Bắc Kinh",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp",
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "wechatNote": "Hỗ trợ trả lời bằng văn bản bằng tất cả ngôn ngữ, dịch vụ thoại chỉ bằng tiếng Trung",
+    "whatsappNote": "Dịch vụ thoại tiếng Trung, dịch vụ văn bản tất cả ngôn ngữ",
+    "emailNote": "Hỗ trợ trả lời bằng văn bản bằng tất cả ngôn ngữ, dịch vụ thoại chỉ bằng tiếng Trung",
+    "phoneNote": "Dịch vụ thoại chỉ bằng tiếng Trung",
+    "hours": "Giờ Dịch Vụ",
+    "localTime": "Giờ địa phương hiện tại",
+    "workingNow": "Hiện đang mở cửa",
+    "notWorkingNow": "Hiện không trong giờ làm việc",
+    "delayedReply": "Tin nhắn ngoài giờ làm việc sẽ có chút chậm trễ, phản hồi trong vòng 12 giờ",
+    "multilingual": "Dịch Vụ Song Ngữ Trung-Anh"
+  },
+  "footer": {
+    "copyright": "© 2024 Công Ty Du Lịch Bốn Mùa May Mắn Bắc Kinh | Mọi Quyền Được Bảo Lưu",
+    "tagline": "Hành trình Bắc Kinh bắt đầu từ chúng tôi"
+  }
+}

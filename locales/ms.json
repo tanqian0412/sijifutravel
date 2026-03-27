@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "about": "Tentang Kami",
+    "services": "Perkhidmatan",
+    "destinations": "Destinasi",
+    "contact": "Hubungi"
+  },
+  "hero": {
+    "tagline": "Perjalanan Beijing Anda, Keberuntungan Kami",
+    "subtitle": "Lawatan berkumpulan dan tersuai untuk pelancong global",
+    "cta": "Hubungi Kami",
+    "scroll": "Skrol",
+    "exploreTours": "Teroka Lawatan",
+    "yearsOfExcellence": "Sep dekad kecemerlangan",
+    "years": "Tahun",
+    "scanQR": "Imbas QR",
+    "qRCode": "QR:",
+    "companyName": "Four Seasons Fortune",
+    "companySubname": "Pakar Perjalanan Beijing",
+    "heroDecoration": "Beijing · Sep dekad kecemerlangan"
+  },
+  "about": {
+    "title": "Tentang Four Seasons Fortune",
+    "description": "Beijing Four Seasons Fortune Travel telah menciptakan pengalaman Beijing yang luar biasa selama lebih satu dekad. Kami mengenali setiap lorong hutong dan Dewan istana, berdedikasi untuk menyediakan perkhidmatan perjalanan profesional dan penuh perhatian untuk pelawat dari seluruh dunia. Pemandal dwibahasa Cina-Inggeris kami memastikan komunikasi yang lancar untuk semua pelancong antarabangsa.",
+    "features": [
+      { "label": "Tahun Pengalaman", "value": "10+" },
+      { "label": "Pelancong Gembira", "value": "50,000+" },
+      { "label": "Laluan Terpilih", "value": "30+" }
+    ]
+  },
+  "services": {
+    "title": "Perkhidmatan Kami",
+    "teamTours": {
+      "title": "Lawatan Berkumpulan",
+      "subtitle": "Agensi 10 tahun, kualiti dijamin",
+      "description": "Dengan 10 tahun pengalaman dalam pelancongan Beijing, kami menawarkan laluan klasik yang dipilih dengan teliti bersama panduan profesional. Sesuai untuk perjalanan keluarga, team building korporat dan lawatan pendidikan. Berlepas setiap hari — tempah bila-bila masa. Semua tiket dan pengangkutan termasuk.",
+      "items": ["Penglihatan Panorama Beijing", "Lawatan Sehari Tembok Besar", "Pelancong Budaya Hutong", "Pengembaraan Makanan Beijing"],
+      "features": ["Berlepas setiap hari", "Panduan persendirian", "Servis Tanpa Kerisauan", "Berlepas dijamin"],
+      "highlights": ["🎫 Semua tarikan termasuk", "🚗 Bas pelancongan A/C", "🏨 Hotel 4 bintang", "🍽️ Makanan tempatan khas", "📱 tempahan kontrak elektronik", "💁 Sokongan 24/7"],
+      "moreRoutes": "Laluan klasik lain tersedia, seperti lawatan mendalam Bandar Terlarang & Tembok Besar, lawatan separuh hari budaya Beijing, Temple of Heaven & Summer Palace sehari, sila hubungi untuk pertanyaan",
+      "itineraries": [
+        {
+          "name": "Lawatan Panorama Beijing 5 Hari",
+          "duration": "5 Hari 4 Malam",
+          "highlights": ["Bandar Terlarang", "Tembok Besar", "Kuil Syurga", "Istana Musim Panas", "Hutong", "Sarang Burung", "Taman Beihai", "Xuanming Yuan"],
+          "included": "Pengangkutan, 4 malam penginapan (4 bintang), 9 makan tengah hari + 4 sarapan, Semua tiket masuk, Pemandal profesional",
+          "desc": "Terokai inti pati Beijing dalam 5 hari 4 malam. Dari kemegahan Bandar Terlarang ke keagungan Tembok Besar, dari pesona hutong ke puisi taman istana — jelajahi mercu tanda yang tidak boleh dilewatkan dan alami budaya Beijing yang tulen.",
+          "meals": "4 sarapan, 9 makan tengah hari (masakan diraja, itik Peking, mi Beijing, snek Beijing)",
+          "hotel": "Hotel 4 bintang berhampiran Jalan Lingkaran Timur 3 atau Wangfujing, akses metro mudah",
+          "itinerary": [
+            { "day": "D1", "title": "Ketibaan Diraja", "content": "Pengambilan lapangan terbang → Check-in hotel → Dataran Tiananmen → Bandar Terlarang (lawatan mendalam 3 jam) → Pemandangan malam Menara Tiananmen → Jalan Qianmen" },
+            { "day": "D2", "title": "Pengembaraan Tembok Besar", "content": "Tembok Besar Badaling (kereta cable ke puncak) → Penglihatan Juyongguan → Laluan Suci Makam Ming → Pemandangan malam Sarang Burung & Kiub Air" },
+            { "day": "D3", "title": "Syurga Taman", "content": "Istana Musim Panas (perahu tasik Kunming, Lorong Panjang) → Tapak Xuanming Yuan → Universiti Peking atau berhenti foto Tsinghua → Zhongguancun" },
+            { "day": "D4", "title": "Ibu Kota Purba", "content": "Kuil Syurga (Dewan Doa, Dinding Gema) → Taman Beihai (Pagoda Putih) → Nanluoguxiang → Lawatan hutong Shichahai → Becak → Mansion Putera Gong → Jalan Bar Houhai" },
+            { "day": "D5", "title": "Pengalaman Beijing", "content": "Masa bebas (beli-belah Wangfujing, SKP) → Hantar ke lapangan terbang/stesen" }
+          ]
+        },
+        {
+          "name": "Lawatan Bandar Terlarang & Tembok Besar Sehari",
+          "duration": "Kira-kira 10 jam",
+          "highlights": ["Dataran Tiananmen", "Bandar Terlarang mendalam", "Shichahai", "Becak Hutong"],
+          "included": "Semua tiket masuk, Makan tengah hari (masakan gaya diraja), Pemandal pakar, Pengalaman becak, Pengangkutan ulang-alik",
+          "desc": "Rasakan pesona berganda Beijing dalam satu hari. Terokai 600 tahun sejarah Bandar Terlarang pada waktu pagi, panjat Tembok Besar sebagai wira pada waktu petang, dan nikmati pemandangan malam Sarang Burung pada waktu malam.",
+          "meals": "Makan tengah hari (itik Peking atau mi zhajiang tradisional)",
+          "hotel": "Bantuan tempahan hotel tersedia",
+          "itinerary": [
+            { "day": "Pagi", "title": "Memasuki Bandar Terlarang", "content": "Dataran Tiananmen → Pintu Meridian → Dewan Tertinggi Harmoni → Paksi Tengah → Dewan Kemurnian Syurga → Taman Imperial → Pintu Shenwu" },
+            { "day": "Petang", "title": "Wira Tembok Besar", "content": "Memandu ke Badaling (1.5 jam lebuh raya) → Kereta cable ke puncak → Berjalan dari Utara 1 ke Utara 8 → Pulang" },
+            { "day": "Malam", "title": "Pemandangan Malam Beijing", "content": "Memandu melalui Avenue Chang'an → Sarang Burung & Kiub Air luaran → Pulang ke Bandar" }
+          ]
+        },
+        {
+          "name": "Lawatan Budaya Hutong Separuh Hari",
+          "duration": "Kira-kira 5 jam",
+          "highlights": ["Shichahai", "Nanluoguxiang", "Halaman Tradisional", "Becak Hutong", "Snek Beijing"],
+          "included": "Pengalaman becak, Lawatan rumah halaman, Snek Beijing, Majlis teh, Pemandal pakar",
+          "desc": "Selami kehidupan autentik Beijing lama. Berlumba becak melalui hutong, dengar cerita menarik daripada penduduk tetap, lawati rumah halaman yang terpelihara, dan rasa snek paling tulen Beijing.",
+          "meals": "Snek Beijing autentik (douzhi, jiaoyuan, aiwowo, ludagun, dll.)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Petang", "title": "Penjelajahan Hutong", "content": "Bertemu di Shichahai → Jambatan Yinding → Mansion Putera Gong → Nanluoguxiang → Becak melalui hutong → Lawatan rumah halaman → Rehat teh" }
+          ]
+        },
+        {
+          "name": "Lawatan Kuil Syurga & Istana Musim Panas Sehari",
+          "duration": "Kira-kira 8 jam",
+          "highlights": ["Kuil Syurga", "Istana Musim Panas", "Xuanming Yuan", "Pemandangan Universiti Peking"],
+          "included": "Semua tiket masuk, Makan tengah hari, Naik bot, Pemandal pakar, Pengangkutan ulang-alik",
+          "desc": "Gabungan sempurna antara taman imperial dan tapak suci. Rasa falsafah keharmonian antara langit dan manusia di Kuil Syurga pada waktu pagi, berjalan di sepanjang tasik Kunming di Istana Musim Panas pada waktu petang, dan hargai puncak seni taman Cina.",
+          "meals": "Makan tengah hari (masakan diraja di dalam Istana Musim Panas)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Pagi", "title": "Tapak Sucai", "content": "Pintu Timur Kuil Syurga → Dewan Doa (luaran) → Dinding Gema → Altar Bulatan → Dewan Tujuh Bintang → Lorong Bertudung → Zhaigong" },
+            { "day": " Tengahari", "title": "Tasik Kunming", "content": "Pintu Utara Istana Musim Panas → Jalan Suzhou → Empat Alam Semesta Besar → Bot tasik Kunming → Galeri Lukisan Lorong Panjang" },
+            { "day": "Petang", "title": "Bukit Barat", "content": "Pavilion Foxiang (naik secara sukarela) → Bukit Ketahanan Lama → Tapak Xuanming Yuan (luaran) → Berhenti foto Universiti Peking & Tsinghua" }
+          ]
+        }
+      ]
+    },
+    "customTours": {
+      "title": "Lawatan Tersuai",
+      "subtitle": "Jadual eksklusif, pengalaman peribadi",
+      "description": "Jadual eksklusif yang direka mengikut minat, masa dan bajet anda. Lawatan persendirian, pembentukan pasukan korporat, perjalanan keluarga, bulan madu — kami menyediakan perkhidmatan peribadi untuk menjadikan perjalanan Beijing anda unik.",
+      "items": ["Tersuai Peribadi", "Pembentukan Pasukan Korporat", "Keluarga & Kanak-kanak", "Bulan Madu & Perkahwinan"],
+      "features": ["Jadual fleksibel", "Panduan khas", "Perkhidmatan kereta", "Penerimaan 24/7"],
+      "highlights": ["🎫 Jadual tersuai", "🚗 Kereta & panduan persendirian", "🏨 Pilihan hotel premium", "🍽️ Makan khusus", "📱 Sokongan 1-ke-1", "💁 Respons 24 jam"],
+      "itineraries": [
+        {
+          "name": "Lawatan Keluarga & Kanak-kanak",
+          "duration": "4-5 Hari",
+          "highlights": ["Bandar Terlarang versi kanak-kanak", "Tembok Besar", "Museum Sains", "Akuarium", "Hutong", "Universiti Peking"],
+          "included": "Jadual tersuai, Pemandal keluarga, Tiket kanak-kanak, Makanan khas, Pengangkutan",
+          "desc": "Jadual yang selamat, menyeronokkan dan mendidik untuk seluruh keluarga. Pemandal kanak-kanak profesional kami menghidupkan sejarah dengan cerita menarik di Bandar Terlarang. Pameran interaktif di Museum Sains menjadikan pembelajaran menarik, dan terowong bawah air di Akuarium membuatkan kanak-kanak kagum.",
+          "meals": "Makanan keluarga khas (hotpot tembaga tradisional, bengkel DIY mi zhajiang)",
+          "hotel": "Suite keluarga di kawasan Sanlitun atau Guomao, berhampiran daerah beli-belah",
+          "itinerary": [
+            { "day": "D1", "title": "Pengenalan Imperial", "content": "Pengambilan → Bandar Terlarang versi kanak-kanak (2.5 jam) → Taman Jingshan pemandangan panoramik → Jalan Qianmen" },
+            { "day": "D2", "title": "Wira Tembok Besar", "content": "Tembok Besar Badaling (kereta cable) → Museum Tembok Besar → Zon kanak-kanak Museum Sains & Teknologi China → Pemandangan malam Sarang Burung" },
+            { "day": "D3", "title": "Penjelajahan Semulajadi", "content": "Zoo Beijing (Dewan Panda) → Akuarium (terowong bawah air) → Planetarium Beijing" },
+            { "day": "D4", "title": "Kampus & Budaya", "content": "Universiti Peking atau Tsinghua (berhenti foto) → Tapak Xuanming Yuan → Becak hutong → Pengalaman kalligrafi halaman" },
+            { "day": "D5", "title": "Kepulangan Gembira", "content": "Masa bebas (SKP, China World Mall) → Hantar ke lapangan terbang/stesen" }
+          ]
+        },
+        {
+          "name": "Pembentukan Pasukan Korporat",
+          "duration": "2-3 Hari",
+          "highlights": ["Pendakian Tembok Besar", "Cabaran pasukan", "Pengalaman budaya", " Perkhidmatan mesyuarat"],
+          "included": "Jurulatih profesional, Kemunculan pasukan, Semua makan, Bilik mesyuarat, Penginapan, Pengangkutan",
+          "desc": "Gabungkan pengembaraan luar dengan pengalaman budaya. Bina semangat pasukan melalui pendakian Tembok Besar, perkukuh ikatan melalui cabaran pasukan, cipta kenangan melalui pengalaman budaya, dan selaraskan arah melalui sesi mesyuarat.",
+          "meals": "Semua makan (jamuan itik Peking, masakan diraja, BBQ)",
+          "hotel": "Resort atau hotel persidangan dengan kemudahan lengkap",
+          "itinerary": [
+            { "day": "D1", "title": "Pemecahan Ais", "content": "AM: Pengambilan → Pendaftaran → Upacara pembukaan\nPM: Cabaran luar (Frisbee, Pembinaan Menara) → Pertandingan pasukan\nMalam: Jamuan itik Peking alu-aluan" },
+            { "day": "D2", "title": "Cabaran Puncak", "content": "AM: Orientasi pendakian Tembok Besar (misi pasukan)\nPM: Pengalaman budaya (pembuatan cloisonne /DIY topeng opera Peking)\nMalam: Masa bebas atau ringkasan mesyuarat" },
+            { "day": "D3", "title": "Perpaduan & Penutupan", "content": "AM: Penjelajahan budaya hutong ( memburu harta)\nTengahari: Upacara penutup & anugerah\nPM: Berlepas" }
+          ]
+        },
+        {
+          "name": "Lawatan Tersuai Peribadi",
+          "duration": "1-10 Hari",
+          "highlights": ["Pemandal khusus", "Jadual fleksibel", "Kenderaan peribadi", "Pengalaman khas"],
+          "included": "Pemandu+ pemandal khusus, Kenderaan peribadi, Jadual fleksibel, Hotel premium pilihan",
+          "desc": "Sepenuhnya disesuaikan berdasarkan minat dan jadual anda. Mahu ke mana? Mahu tinggal berapa lama? Mahu makan apa? Anda yang decide. Perkhidmatan pemandu dan pemandal khusus membolehkan anda fokus menikmati perjalanan.",
+          "meals": "Cadangan berdasarkan cita rasa anda, makan tidak termasuk",
+          "hotel": "Pilihan: rumah halaman tradisional, hotel 5 bintang, atau hotel reka bentuk boutique",
+          "itinerary": [
+            { "day": "D1", "title": "Perjalanan Anda, Cara Anda", "content": "Disesuaikan berdasarkan minat anda:\n• Upacara raise bendera pagi\n• Lawatan Bandar Terlarang mendalam\n• Matahari terbenam di Tembok Besar\n• Jalan bar Houhai pada waktu malam\n• Restoran Michelin\n• Lebih banyak pengalaman menanti..." }
+          ]
+        }
+      ]
+    }
+  },
+  "tours": {
+    "title": "Lawatan Pilihan",
+    "subtitle": "Laluan klasik, pengalaman autentik",
+    "itinerary": "Jadual",
+    "highlights": "Sorotan",
+    "meals": "Makan",
+    "hotel": "Penginapan",
+    "included": "Termasuk"
+  },
+  "destinations": {
+    "title": "Destinasi Pilihan",
+    "subtitle": "Beijing, Bandar dengan sejarah 3,000 tahun...",
+    "intro": "Beijing, sebuah Bandar dengan sejarah 3,000 tahun, adalah pusat politik, budaya, pertukaran antarabangsa dan inovasi teknologi China. Di sini anda akan mencari kompleks istana terbesar di dunia — Bandar Terlarang, Tembok Besar yang megah, Istana Musim Panas yang paling indah, dan hutong Beijing lama yang penuh dengan kehidupan tempatan.",
+    "highlights": "Sorotan Yang Tidak Boleh Dilewatkan",
+    "bestTime": "Masa Terbaik Untuk Dilawati",
+    "items": [
+      {
+        "name": "Bandar Terlarang",
+        "desc": "Keagungan Bandar Terlarang Ungu",
+        "img": "01_gugong.jpg",
+        "detail": "Kompleks bangunan kuno berasaskan kayu terbesar dan paling terpelihara di dunia, istana emperor 24 dinasti Ming dan Qing. Merangkumi 720,000 meter persegi dengan kira-kira 150,000 meter persegi keluasan lantai, mengandungi lebih 70 istana dan 9,000+ bilik.",
+        "highlights": ["Dewan Tertinggi Harmoni (Upacara besar emperor)", "Dewan Kemurnian Syurga (Kediaman emperor)", "Taman Imperial (Rehat emperor)", "Galeri Harta (Harta dinasti Qing)"],
+        "bestTime": "Setiap musim, 3-4 jam disyorkan"
+      },
+      {
+        "name": "Tembok Besar",
+        "desc": "Keajaiban dunia, pemandangan yang menakjubkan",
+        "img": "beijing_greatwall_02.jpg",
+        "detail": "Tembok Besar Badaling adalah bahagian paling representatif Tembok Besar Ming dan yang pertama dibuka kepada pelancong. Dinding setinggi 7.8 meter secara purata dan kira-kira 5 meter lebar, cukup luas untuk sepuluh orang atau lima kuda berjalan bersebelahan.",
+        "highlights": ["Badaling (bahagian klasik)", "Mutianyu (keindahan landskap)", "Simatai (asli terpelihara)", "Jinshanling (syurga fotografer)"],
+        "bestTime": "Musim bunga & autumn, terbaik April-Jun / September-Oktober"
+      },
+      {
+        "name": "Kuil Syurga",
+        "desc": "Tanah suci untuk doa dan keharmonian",
+        "img": "beijing_tiantan_02.jpg",
+        "detail": "Kuil Syurga adalah tempat emperor dinasti Ming dan Qing menyembah langit dan berdoa untuk tuaian. Merangkumi kira-kira 2.73 juta meter persegi, bangunan utamanya termasuk Dewan Doa untuk Tuaian Baik, Altar Bulatan Mound, dan Dinding Gema. Diwartakan sebagai Warisan Dunia UNESCO pada 1998.",
+        "highlights": ["Dewan Doa untuk Tuaian Baik", "Altar Bulatan Mound (penyembahan langit)", "Dinding Gema (keajaiban gema tiga)", "Batu Tujuh Bintang (reka bentuk fengshui)"],
+        "bestTime": "2-3 jam disyorkan, awal pagi terbaik"
+      },
+      {
+        "name": "Hutong",
+        "desc": "Jiwa autentik Beijing lama",
+        "img": "beijing_hutong_02.jpg",
+        "detail": "Hutong adalah saluran kehidupan Beijing dan mikrokosmos kehidupan Beijing lama. Kawasan Shichahai mengekalkan kejiranan bersejarah paling lengkap, di mana anda boleh menaiki beca k melalui lorong sambil mendengar cerita menarik daripada penduduk tetap.",
+        "highlights": ["Shichahai (kawasan tasik paling indah)", "Nanluoguxiang (hutong moden)", "Yandai Xiejie (atmosfera pasar)", "Mansion Putera Gong (Kediaman He Shen)"],
+        "bestTime": "Mula pada waktu petang, jalan bar Houhai pada waktu malam"
+      },
+      {
+        "name": "Istana Musim Panas",
+        "desc": "Keindahan puisi taman imperial",
+        "img": "beijing_yiheyuan_02.png",
+        "detail": "Istana Musim Panas adalah taman imperial terbesar China yang masih ada, mengintegrasikan elemen terbaik taman Jiangnan dengan tasik Kunming dan Bukit Ketahanan Lama. Diwartakan sebagai Warisan Dunia UNESCO pada 1998, sering dipanggil Museum Taman Imperial.",
+        "highlights": ["Tasik Kunming (Jambatan Tujuh Belas Segi)", "Pavilion Foxiang (puncak Bukit Ketahanan Lama)", "Lorong Panjang (7,000+ lukisan)", "Jalan Suzhou (pasar air)"],
+        "bestTime": "3-4 jam disyorkan, setiap musim"
+      },
+      {
+        "name": "Taman Beihai",
+        "desc": "Taman imperial klasik di tepi tasik",
+        "img": "beijing_beihai_03.jpg",
+        "detail": "Taman Beihai adalah taman imperial tertua China yang masih ada dengan hampir seribu tahun sejarah. Pagoda Putih berdiri di puncak Pulau Qionghua, menjadikannya mercu tanda ikonik Beijing. Taman ini juga menampilkan Lima Pavilion Naga, Haopuzhengjia, dan Dinding Sembilan Naga.",
+        "highlights": ["Pagoda Putih (puncak Pulau Qionghua)", "Dinding Sembilan Naga", "Haopuzhengjia (batu karang & air terjun)", "Tuancheng (kota purba kecil)"],
+        "bestTime": "1-2 jam, boleh digabungkan dengan lawatan hutong sehari"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kami menantikan jumpa anda di Beijing",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp",
+    "phone": "Telefon",
+    "email": "E-mel",
+    "wechatNote": "Jawapan teks dalam semua bahasa disokong, perkhidmatan suara dalam Bahasa Cina sahaja",
+    "whatsappNote": "Perkhidmatan suara Bahasa Cina, perkhidmatan teks semua bahasa",
+    "emailNote": "Jawapan teks dalam semua bahasa disokong, perkhidmatan suara dalam Bahasa Cina sahaja",
+    "phoneNote": "Perkhidmatan suara dalam Bahasa Cina sahaja",
+    "hours": "Jam Perkhidmatan",
+    "localTime": "Masa tempatan semasa",
+    "workingNow": "Sedang beroperasi",
+    "notWorkingNow": "Bukan waktu perkhidmatan",
+    "delayedReply": "Mesej di luar waktu perkhidmatan akan mengalami sedikit kelewatan, dijawab dalam 12 jam",
+    "multilingual": "Perkhidmatan Dwibahasa Cina-Inggeris"
+  },
+  "footer": {
+    "copyright": "© 2024 Beijing Four Seasons Fortune Travel Co., Ltd. | Hak Cipta Terpelihara",
+    "tagline": "Perjalanan Beijing anda bermula dengan kami"
+  }
+}

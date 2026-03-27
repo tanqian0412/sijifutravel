@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "destinations": "Reiseziele",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Ihre Beijing-Reise, unser Glück",
+    "subtitle": "Experten-Gruppenreisen und maßgeschneiderte Itinerare für global Reisende, die authentische Beijing-Erlebnisse suchen",
+    "cta": "Kontaktieren Sie uns",
+    "scroll": "Scrollen",
+    "exploreTours": "Touren erkunden",
+    "yearsOfExcellence": "Ein Jahrzehnt Exzellenz",
+    "years": "Jahre",
+    "scanQR": "QR scannen",
+    "qRCode": "QR:",
+    "companyName": "Four Seasons Fortune",
+    "companySubname": "Beijing Reiseexperte",
+    "heroDecoration": "Peking · Ein Jahrzehnt Exzellenz"
+  },
+  "about": {
+    "title": "Über Four Seasons Fortune",
+    "description": "Beijing Four Seasons Fortune Travel gestaltet seit über einem Jahrzehnt außergewöhnliche Beijing-Erlebnisse. Wir kennen jede Hütong-Gasse und jeden Palastsaal und sind der Bereitstellung professioneller, aufmerksamer und herzlicher Reisedienstleistungen für Besucher aus aller Welt gewidmet. Unsere zweisprachigen chinesisch-englischen Guides gewährleisten nahtlose Kommunikation für alle internationalen Reisenden.",
+    "features": [
+      { "label": "Jahre Erfahrung", "value": "10+" },
+      { "label": "Zufriedene Reisende", "value": "50.000+" },
+      { "label": "Ausgewählte Routen", "value": "30+" }
+    ]
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "teamTours": {
+      "title": "Gruppenreisen",
+      "subtitle": "10 Jahre lizenzierte Agentur, Qualität garantiert",
+      "description": "Mit 10 Jahren Erfahrung im Beijing-Tourismus bieten wir sorgfältig ausgewählte klassische Routen mit professionellen Guides. Perfekt für Familienreisen, Firmenevents und Bildungsreisen. Tägliche Abfahrten — buchen Sie jederzeit. Alle Tickets und Transport inklusive.",
+      "items": ["Beijing Panorama", "Große Mauer Tagestour", "Hütong-Kultur-Entdecker", "Beijing Food-Abenteuer"],
+      "features": ["Tägliche Abfahrt", "Privater Guide", "Sorgenfreier Service", "Garantierte Abfahrt"],
+      "highlights": ["🎫 Alle Attraktionen inklusive", "🚗 Klimatisierter Touristenbus", "🏨 4-Sterne-Hotels", "🍽️ Lokale Spezialgerichte", "📱 E-Vertrag Buchung", "💁 24/7 dedizierter Support"],
+      "moreRoutes": "Weitere klassische Routen verfügbar, wie z.B. Tiefenführung durch Verbotene Stadt & Große Mauer, Peking-Kultur Halbtagestour, Himmelstempel & Sommerpalast Tagestour, bitte anfragen",
+      "itineraries": [
+        {
+          "name": "Beijing Panorama 5-Tage-Tour",
+          "duration": "5 Tage, 4 Nächte",
+          "highlights": ["Verbotene Stadt", "Große Mauer", "Himmelstempel", "Sommerpalast", "Hütongs", "Vogelnest", "Beihai-Park", "Alter Sommerpalast"],
+          "included": "Ganzer Transport, 4 Nächte Unterkunft (4-Sterne), 9 Mittagessen + 4 Frühstück, Alle Eintrittskarten, Professioneller Guide",
+          "desc": "Tauchen Sie tief in Beijings besten Teil mit 5 Tagen und 4 Nächten ein. Von der Großartigkeit der Verbotenen Stadt bis zur Pracht der Großen Mauer, vom Charme der Hütongs zur Poesie der kaiserlichen Gärten – erkunden Sie Beijings unvermeidliche Wahrzeichen und erleben Sie authentische Beijing-Kultur.",
+          "meals": "4 Frühstück, 9 Mittagessen (Kaiserliche Küche, Peking-Ente, Beijing Zhajiangmian, Beijing-Snacks)",
+          "hotel": "Empfohlenes 4-Sterne-Hotel in der Nähe der östlichen dritten Ringstraße oder Wangfujing, bequemer U-Bahn-Zugang",
+          "itinerary": [
+            { "day": "T1", "title": "Kaiserliche Ankunft", "content": "Flughafen-Abholung → Hotel-Check-in → Tiananmen-Platz → Verbotene Stadt (3 Std. Tiefgang-Tour) → Tiananmen-Turm Nachtansicht → Qianmen-Straße" },
+            { "day": "T2", "title": "Große Mauer Abenteuer", "content": "Badaling Große Mauer (Seilbahn zum Gipfel) → Juyongguan-Pass Blick → Heiliger Weg der Ming-Gräber → Vogelnest & Wasserwürfel Nachtansicht" },
+            { "day": "T3", "title": "Garten-Paradies", "content": "Sommerpalast (Kunming-See Bootstour, Langer Korridor) → Ruinen des Alten Sommerpalastes → Peking-Universität oder Tsinghua Foto-Stopp → Zhongguancun" },
+            { "day": "T4", "title": "Antike Hauptstadt", "content": "Himmelstempel (Gebetshalle, Echo-Mauer) → Beihai-Park (Weißer Pagode) → Nanluoguxiang → Shichahai Hütong-Tour → Rikscha → Prinz Gong Residenz → Houhai Barstraße" },
+            { "day": "T5", "title": "Beijing-Erlebnis", "content": "Freie Zeit (Wangfujing, SKP Einkaufen) → Flughafen/Bahnhof-Transfer" }
+          ]
+        },
+        {
+          "name": "Verbotene Stadt & Große Mauer Tagestour",
+          "duration": "Ca. 10 Stunden",
+          "highlights": ["Tiananmen-Platz", "Verbotene Stadt Tiefgang", "Shichahai", "Hütong-Rikscha"],
+          "included": "Alle Eintrittskarten, Mittagessen (Kaiser-Stil Küche), Experten-Guide, Rikscha-Erlebnis, Hin- und Rücktransport",
+          "desc": "Erleben Sie Beijings doppelten Charme an einem Tag. Erkunden Sie 600 Jahre Verbotene Stadt Geschichte am Morgen, besteigen Sie die Große Mauer als echter Held am Nachmittag, und genießen Sie die Vogelnest-Nachtansicht am Abend.",
+          "meals": "Mittagessen inklusive (Peking-Ente oder traditionelle Beijing Zhajiangmian)",
+          "hotel": "Hotelbuchungshilfe verfügbar",
+          "itinerary": [
+            { "day": "Morgen", "title": "In die Verbotene Stadt", "content": "Tiananmen-Platz → Meridian-Tor → Halle der Höchsten Harmonie → Zentralachse → Palast der Himmlischen Reinheit → Kaiserlicher Garten → Tor der Göttlichen Macht" },
+            { "day": "Nachmittag", "title": "Große Mauer Held", "content": "Fahrt nach Badaling (1,5 Std. Autobahn) → Seilbahn zum Gipfel → Spaziergang von Nord 1 bis Nord 8 Turm → Rückkehr" },
+            { "day": "Abend", "title": "Beijing Nachtszene", "content": "Fahrt durch Chang'an Avenue → Vogelnest & Wasserwürfel Außenansicht → Rückkehr in die Stadt" }
+          ]
+        },
+        {
+          "name": "Hütong-Kultur Halbtages-Tour",
+          "duration": "Ca. 5 Stunden",
+          "highlights": ["Shichahai", "Nanluoguxiang", "Traditioneller Hof", "Hütong-Rikscha", "Beijing-Snacks"],
+          "included": "Rikscha-Erlebnis, Hofbesuch, Beijing-Snacks, Teezeremonie, Experten-Guide",
+          "desc": "Tauchen Sie tief in das authentische alte Beijing ein. Gleiten Sie mit der Rikscha durch die Hütongs, hören Sie faszinierende Geschichten von langjährigen Bewohnern, besuchen Sie erhaltene Hofhäuser und schmecken Sie die authentischsten Beijing-Snacks.",
+          "meals": "Authentische Beijing-Snacks inklusive (Douzhi, Jiaoyuan, Aiwowo, Ludagun, etc.)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Nachmittag", "title": "Hütong-Entdeckung", "content": "Treffen am Shichahai → Yinding-Brücke → Prinz Gong Residenz → Nanluoguxiang → Rikscha durch Hütongs → Hof-Familienbesuch → Teepause" }
+          ]
+        },
+        {
+          "name": "Himmelstempel & Sommerpalast Tagestour",
+          "duration": "Ca. 8 Stunden",
+          "highlights": ["Himmelstempel", "Sommerpalast", "Alter Sommerpalast", "Peking-Universität Ansicht"],
+          "included": "Alle Eintrittskarten, Mittagessen, Bootsfahrt, Experten-Guide, Hin- und Rücktransport",
+          "desc": "Die perfekte Kombination aus kaiserlichen Gärten und heiligen Stätten. Spüren Sie die Philosophie der Harmonie zwischen Himmel und Mensch im Himmelstempel am Morgen, spazieren Sie am Kunming-See im Sommerpalast am Nachmittag und bewundern Sie den Gipfel der chinesischen Gartenkunst.",
+          "meals": "Mittagessen inklusive (Kaiser-Stil Küche im Sommerpalast)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Morgen", "title": "Heiliger Boden", "content": "Osttor des Himmelstempels → Gebetshalle (Außenansicht) → Echo-Mauer → Kreisaltar → Sieben-Sterne-Halle → Überdachte Promenade → Zhaigong" },
+            { "day": "Mittag", "title": "Kunming-See", "content": "Nordtor des Sommerpalastes → Suzhou-Straße → Vier Große Universen → Kunming-See Bootsfahrt → Langer Korridor Gemäldegalerie" },
+            { "day": "Nachmittag", "title": "Westliche Hügel", "content": "Foxiang-Pavillon (optionaler Aufstieg) → Langlebigkeitsberg → Ruinen des Alten Sommerpalastes (außen) → Peking-Universität & Tsinghua Foto-Stopp" }
+          ]
+        }
+      ]
+    },
+    "customTours": {
+      "title": "Maßgeschneiderte Touren",
+      "subtitle": "Exklusiver Reiseplan, personalisiertes Erlebnis",
+      "description": "Maßgeschneiderte exklusive Reiserouten nach Ihren Interessen, Ihrer Zeit und Ihrem Budget. Private Touren, Firmenevents, Familienreisen, Flitterwochen — wir bieten einen persönlichen Service, um Ihre Beijing-Reise einzigartig zu machen.",
+      "items": ["Privat maßgeschneidert", "Firmenveranstaltungen", "Familie & Kinder", "Flitterwochen & Hochzeit"],
+      "features": ["Flexible Reiseroute", "Dedizierter Guide", "Chauffeurdienst", "Rund-um-die-Uhr-Empfang"],
+      "highlights": ["🎫 Individuelles Routing", "🚗 Privatauto & Guide", "🏨 Premium-Hoteloptionen", "🍽️ Spezialitäten-Gastronomie", "📱 1-zu-1 Support", "💁 24h Antwort"],
+      "itineraries": [
+        {
+          "name": "Familien- und Kindertour",
+          "duration": "4-5 Tage",
+          "highlights": ["Kinderfreundliche Verbotene Stadt", "Große Mauer", "Wissenschaftsmuseum", "Aquarium", "Hütongs", "Peking-Universität"],
+          "included": "Maßgeschneidertes Itinerar, Familien-Guide, Kinder-Tickets, Spezialmahlzeiten, Ganzer Transport",
+          "desc": "Sichere, lustige und lehrreiche Reise für die ganze Familie. Unsere professionellen Kinder-Guides erwecken die Geschichte mit fesselnden Geschichten in der Verbotenen Stadt zum Leben. Die interaktiven Ausstellungen im Wissenschaftsmuseum machen das Lernen spannend, und der Unterwassertunnel im Aquarium begeistert die Kinder.",
+          "meals": "Familien-Sondermahlzeiten (traditioneller Kupfer-Hotpot, Zhajiangmian DIY-Workshop)",
+          "hotel": "Empfohlene Familiensuiten in Sanlitun oder Guomao, in der Nähe von Einkaufsvierteln",
+          "itinerary": [
+            { "day": "T1", "title": "Kaiserliche Einführung", "content": "Abholung → Verbotene Stadt Kinder-Version (2,5 Std.) → Jingshan-Park Panoramaaussicht → Qianmen-Straße" },
+            { "day": "T2", "title": "Große Mauer Helden", "content": "Badaling Große Mauer (Seilbahn) → Große Mauer Museum → China Wissenschafts- & Technologiemuseum Kinderzone → Vogelnest Nachtansicht" },
+            { "day": "T3", "title": "Natur-Entdeckung", "content": "Beijing Zoo (Panda-Halle) → Aquarium (Unterwassertunnel) → Beijing Planetarium" },
+            { "day": "T4", "title": "Campus & Kultur", "content": "Peking-Universität oder Tsinghua (Foto-Stopp) → Ruinen des Alten Sommerpalastes → Hütong-Rikscha → Hof-Kalligraphie-Erlebnis" },
+            { "day": "T5", "title": "Fröhliche Rückkehr", "content": "Freie Zeit (SKP, China World Mall) → Abreise" }
+          ]
+        },
+        {
+          "name": "Firmen-Team building",
+          "duration": "2-3 Tage",
+          "highlights": ["Große Mauer Wanderung", "Team-Herausforderungen", "Kulturelle Erlebnisse", "Meeting-Services"],
+          "included": "Professioneller Coach, Team-Building-Einrichtungen, Alle Mahlzeiten, Meetingraum, Unterkunft, Transport",
+          "desc": "Kombinieren Sie Outdoor-Abenteuer mit kulturellen Erlebnissen. Bauen Sie Teamgeist bei Große Mauer-Wanderungen auf, stärken Sie Bindungen durch Team-Herausforderungen, schaffen Sie bleibende Erinnerungen durch kulturelle Erlebnisse und richten Sie die Richtung bei Meeting-Sessions aus.",
+          "meals": "Alle Mahlzeiten inklusive (Peking-Ente-Fest, Kaiserliche Küche, BBQ-Buffet)",
+          "hotel": "Empfohlenes Resort oder Konferenzhotel mit vollständigen Meeting-Einrichtungen",
+          "itinerary": [
+            { "day": "T1", "title": "Eisbrecher", "content": "AM: Abholung → Anmeldung → Eröffnungszeremonie\nPM: Outdoor-Herausforderungen (Frisbee, Turm bauen) → Team-Wettbewerbe\nAbend: Willkommens-Peking-Ente-Abendessen" },
+            { "day": "T2", "title": "Gipfel-Herausforderung", "content": "AM: Große Mauer Wander-Orientierung (Team-Missionen)\nPM: Kulturelles Erlebnis (Cloisonné-Herstellung / Peking-Oper-Masken DIY)\nAbend: Freie Zeit oder Meeting-Zusammenfassung" },
+            { "day": "T3", "title": "Einheit & Abschluss", "content": "AM: Hütong-Kultur-Entdeckung (Schatzsuche)\nMittag: Abschlusszeremonie & Preise\nPM: Abreise" }
+          ]
+        },
+        {
+          "name": "Private maßgeschneiderte Tour",
+          "duration": "1-10 Tage wählbar",
+          "highlights": ["Dedizierter Guide", "Flexibles Itinerar", "Premium-Fahrzeug", "Besondere Erlebnisse"],
+          "included": "Dedizierter Fahrer+Guide, Privates Fahrzeug, Flexibler Zeitplan, Optionale Premium-Unterkunft",
+          "desc": "Komplett nach Ihren Interessen und Ihrem Zeitplan gestaltet. Wohin Sie möchten? So lange bleiben wie Sie möchten? Was Sie essen möchten? Sie entscheiden. Der dedizierte Fahrer- und Guide-Service lässt Sie auf das Genießen der Reise konzentrieren.",
+          "meals": "Empfehlungen nach Ihrem Geschmack, Mahlzeiten nicht inklusive",
+          "hotel": "Optionen: Traditionelle Hof-Pension, 5-Sterne-Hotel oder Boutique-Design-Hotel",
+          "itinerary": [
+            { "day": "T1", "title": "Ihre Reise, Ihre Art", "content": "Nach Ihren Interessen gestaltet:\n• Frühe Morgen-Fahnen-Zeremonie\n• Verbotene Stadt Tiefgang-Tour\n• Große Mauer Sonnenuntergang\n• Houhai Barstraße in der Nacht\n• Michelin-Stern-Restaurant\n• Mehr Erlebnisse warten auf Sie..." }
+          ]
+        }
+      ]
+    }
+  },
+  "tours": {
+    "title": "Empfohlene Touren",
+    "subtitle": "Klassische Routen, authentische Erlebnisse",
+    "itinerary": "Reiseroute",
+    "highlights": "Highlights",
+    "meals": "Mahlzeiten",
+    "hotel": "Unterkunft",
+    "included": "Enthalten"
+  },
+  "destinations": {
+    "title": "Empfohlene Reiseziele",
+    "subtitle": "Beijing, eine Stadt mit 3000 Jahren Geschichte...",
+    "intro": "Beijing, eine Stadt mit 3000 Jahren Geschichte, ist Chinas politisches, kulturelles, internationales Austausch- und Technologieinnovationszentrum. Hier finden Sie den größten Palastkomplex der Welt – die Verbotene Stadt, die sich über tausende Meilen erstreckende Große Mauer, den Sommerpalast – den schönsten kaiserlichen Garten, und die charmanten alten Beijing-Hütongs voller lokaler Lebensart.",
+    "highlights": "Must-See Highlights",
+    "bestTime": "Beste Reisezeit",
+    "items": [
+      {
+        "name": "Verbotene Stadt",
+        "desc": "Die Majestät der Purpurnen Verbotenen Stadt",
+        "img": "01_gugong.jpg",
+        "detail": "Der größte und am besten erhaltene Holzstruktur-Antikbaukomplex der Welt, der kaiserliche Palast von 24 Kaisern während der Ming- und Qing-Dynastien. Mit 720.000 Quadratmetern Fläche und etwa 150.000 Quadratmetern Nutzfläche enthält er über 70 Paläste und über 9.000 Räume.",
+        "highlights": ["Halle der Höchsten Harmonie (kaiserliche Großzeremonien)", "Palast der Himmlischen Reinheit (Wohnsitz des Kaisers)", "Kaiserlicher Garten (Freizeit des Kaisers)", "Schatzgalerie (Schätze des Qing-Hofes)"],
+        "bestTime": "Alle Jahreszeiten, 3-4 Stunden empfohlen"
+      },
+      {
+        "name": "Große Mauer",
+        "desc": "Ein Weltwunder, atemberaubende Ausblicke",
+        "img": "beijing_greatwall_02.jpg",
+        "detail": "Die Badaling Große Mauer ist der repräsentativste Abschnitt der Ming-Großen Mauer und der erste, der für Touristen geöffnet wurde. Die Mauer ist durchschnittlich 7,8 Meter hoch und etwa 5 Meter breit, breit genug für zehn Personen oder fünf Pferde nebeneinander.",
+        "highlights": ["Badaling (klassischer Abschnitt)", "Mutianyu (schöne Aussicht)", "Simatai (ursprünglich erhalten)", "Jinshanling (Fotografen-Paradies)"],
+        "bestTime": "Frühling & Herbst, am besten April-Juni / September-Oktober"
+      },
+      {
+        "name": "Himmelstempel",
+        "desc": "Heiliger Boden für Gebet und Harmonie",
+        "img": "beijing_tiantan_02.jpg",
+        "detail": "Der Himmelstempel war der Ort, wo Kaiser der Ming- und Qing-Dynastien den Himmel verehrten und um eine gute Ernte beteten. Mit einer Fläche von etwa 2,73 Millionen Quadratmetern umfassen die Hauptgebäude die Halle der Gebete für gute Ernten, den Kreisaltar und die Echo-Mauer. 1998 als UNESCO-Weltkulturerbe listed.",
+        "highlights": ["Halle der Gebete für gute Ernten", "Kreisaltar (Himmelsverehrung)", "Echo-Mauer (Dreifach-Echo-Wunder)", "Sieben-Sterne-Steine (Fengshui-Layout)"],
+        "bestTime": "2-3 Stunden empfohlen, früh morgens am besten"
+      },
+      {
+        "name": "Hütongs",
+        "desc": "Die authentische Seele des alten Beijing",
+        "img": "beijing_hutong_02.jpg",
+        "detail": "Hütongs sind Beijings Lebensadern und der Mikrokosmos des alten Beijing-Lebens. Das Shichahai-Gebiet bewahrt das vollständigste historische Viertel, wo Sie mit der Rikscha durch die Gassen gleiten und dabei faszinierende Geschichten und historische Legenden von langjährigen Bewohnern hören können.",
+        "highlights": ["Shichahai (schönstes Seegebiet)", "Nanluoguxiang (trendige Hütong)", "Yandai Xiejie (Marktatmosphäre)", "Prinz Gong Residenz (Ehens frühere Residenz)"],
+        "bestTime": "Nachmittags beginnen, Houhai Barstraße am Abend"
+      },
+      {
+        "name": "Sommerpalast",
+        "desc": "Poesie eines kaiserlichen Gartens",
+        "img": "beijing_yiheyuan_02.png",
+        "detail": "Der Sommerpalast ist Chinas größter existierender kaiserlicher Garten, der die feinsten Elemente der Jiangnan-Gärten mit dem Kunming-See und dem Langlebigkeitsberg integriert. 1998 als UNESCO-Weltkulturerbe gelistet, wird er oft als Museum der kaiserlichen Gärten bezeichnet.",
+        "highlights": ["Kunming-See (Siebzehn-Bogen-Brücke)", "Foxiang-Pavillon (Gipfel des Langlebigkeitsbergs)", "Langer Korridor (7.000+ Gemälde)", "Suzhou-Straße (Wasserstrandmarkt)"],
+        "bestTime": "3-4 Stunden empfohlen, alle Jahreszeiten"
+      },
+      {
+        "name": "Beihai-Park",
+        "desc": "Klassischer kaiserlicher Garten am See",
+        "img": "beijing_beihai_03.jpg",
+        "detail": "Der Beihai-Park ist Chinas ältester existierender kaiserlicher Garten mit nahezu tausend Jahren Geschichte. Die Weiße Pagode steht auf dem Gipfel der Qionghua-Insel und ist ein ikonisches Wahrzeichen von Beijing. Der Park bietet auch den Fünf-Drachen-Pavillon, Haopuzhengjia und die Neun-Drachen-Mauer.",
+        "highlights": ["Weiße Pagode (Gipfel der Qionghua-Insel)", "Neun-Drachen-Mauer", "Haopuzhengjia (Felsbau & Wasserfall)", "Tuancheng (Miniatur-Stadt)"],
+        "bestTime": "1-2 Stunden, kombinierbar mit Hütong-Tages tour"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir freuen uns, Sie in Beijing zu treffen",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "wechatNote": "Textantworten in allen Sprachen unterstützt, Sprachdienst nur auf Chinesisch",
+    "whatsappNote": "Sprachdienst auf Chinesisch, Textdienst in allen Sprachen",
+    "emailNote": "Textantworten in allen Sprachen unterstützt, Sprachdienst nur auf Chinesisch",
+    "phoneNote": "Sprachdienst nur auf Chinesisch",
+    "hours": "Servicezeiten",
+    "localTime": "Aktuelle Ortszeit",
+    "workingNow": "Derzeit im Dienst",
+    "notWorkingNow": "Derzeit nicht im Dienst",
+    "delayedReply": "Nachrichten außerhalb der Servicezeiten werden mit einer kleinen Verzögerung beantwortet, innerhalb von 12 Stunden",
+    "multilingual": "Zweisprachiger chinesisch-englischer Service"
+  },
+  "footer": {
+    "copyright": "© 2024 Beijing Four Seasons Fortune Travel Co., Ltd. | Alle Rechte vorbehalten",
+    "tagline": "Ihre Beijing-Reise beginnt mit uns"
+  }
+}

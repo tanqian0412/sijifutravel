@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "about": "Tungkol Sa Amin",
+    "services": "Mga Serbisyo",
+    "destinations": "Mga Destinasyon",
+    "contact": "Makipag-ugnayan"
+  },
+  "hero": {
+    "tagline": "Ang Iyong Journey sa Beijing, Aming Suwerte",
+    "subtitle": "Mga tour ng grupo at custom na mga itinerary para sa mga global na traveler",
+    "cta": "Makipag-ugnayan Na",
+    "scroll": "Mag-scroll",
+    "exploreTours": "Mag-explore ng Tours",
+    "yearsOfExcellence": "Taon ng Kahusayan",
+    "years": "Taon",
+    "scanQR": "I-scan ang QR",
+    "qRCode": "QR:",
+    "companyName": "Four Seasons Fortune",
+    "companySubname": "Beijing Travel Expert",
+    "heroDecoration": "Beijing · Isang Dekada ng Kahusayan"
+  },
+  "about": {
+    "title": "Tungkol sa Four Seasons Fortune",
+    "description": "Ang Beijing Four Seasons Fortune Travel ay gumagawa ng mga exceptional na Beijing experiences sa loob ng mahigit isang dekada. Kilala namin ang bawat hutong alley at palace hall, nakatuon sa pagbibigay ng propesyonal, maalalahaning, at may pusong mga serbisyo sa paglalakbay para sa mga bisita mula sa buong mundo. Ang aming mga bilingual Chinese-English na gabay ay nagsisiguro ng walang putol na komunikasyon para sa lahat ng international na traveler.",
+    "features": [
+      { "label": "Taon ng Karanasan", "value": "10+" },
+      { "label": "Masayang Traveler", "value": "50,000+" },
+      { "label": "Mga Curated na Ruta", "value": "30+" }
+    ]
+  },
+  "services": {
+    "title": "Aming mga Serbisyo",
+    "teamTours": {
+      "title": "Group Tours",
+      "subtitle": "10 Taong Licensed na Ahensya, Quality Guaranteed",
+      "description": "With 10 years of expertise sa Beijing tourism, nag-aalok kami ng maingat na curated classic routes kasama ng professional guides. Perpekto para sa family trips, corporate team building, at educational tours. Araw-araw na departure — mag-book kahit kailan. All tickets at transport kasama.",
+      "items": ["Beijing Panorama", "Great Wall Day Tour", "Hutong Culture Explorer", "Beijing Food Adventure"],
+      "features": ["Daily Departure", "Private Guide", "Walang Pag-aalala", "Guaranteed Departure"],
+      "highlights": ["🎫 All attractions included", "🚗 A/C tourist bus", "🏨 4-star hotels", "🍽️ Local specialty meals", "📱 E-contract booking", "💁 24/7 dedicated support"],
+      "moreRoutes": "More classic routes available, such as in-depth Forbidden City & Great Wall tour, Beijing culture half-day tour, Temple of Heaven & Summer Palace day tour, welcome to inquire",
+      "itineraries": [
+        {
+          "name": "Beijing Panorama 5-Day Tour",
+          "duration": "5 Araw 4 Gabi",
+          "highlights": ["Forbidden City", "Great Wall", "Temple of Heaven", "Summer Palace", "Hutongs", "Bird's Nest", "Beihai Park", "Old Summer Palace"],
+          "included": "Lahat ng transportasyon, 4 na gabi ng accommodation (4-star), 9 tanghalian + 4 almusal, Lahat ng entrance fees, Propesyonal na gabay",
+          "desc": "Malalim na pag-alam sa pinakamahusay na Beijing sa loob ng 5 araw at 4 na gabi. Mula sa kadakilaan ng Forbidden City hanggang sa kadakilaan ng Great Wall, mula sa ngiti ng mga hutong hanggang sa paglalarawan ng mga imperial garden — galugarin ang mga di-maisasantrwong landmark ng Beijing at maranasan ang tunay na Beijing culture.",
+          "meals": "4 na almusal, 9 na tanghalian (Imperial cuisine, Peking duck, Beijing noodles, Beijing snacks)",
+          "hotel": "Inirerekomendang 4-star na hotel malapit sa East Third Ring Road o Wangfujing, maginhawang metro access",
+          "itinerary": [
+            { "day": "D1", "title": "Imperial Arrival", "content": "Airport pickup → Hotel check-in → Tiananmen Square → Forbidden City (3hr na deep tour) → Tiananmen Tower night view → Qianmen Street" },
+            { "day": "D2", "title": "Great Wall Adventure", "content": "Badaling Great Wall (cable car papunta sa summit) → Juyongguan Pass view → Ming Tombs Sacred Way → Bird's Nest & Water Cube night view" },
+            { "day": "D3", "title": "Garden Paradise", "content": "Summer Palace (Kunming Lake boat ride, Long Corridor) → Old Summer Palace ruins → Peking University o Tsinghua photo stop → Zhongguancun" },
+            { "day": "D4", "title": "Ancient Capital", "content": "Temple of Heaven (Prayer Hall, Echo Wall) → Beihai Park (White Pagoda) → Nanluoguxiang → Shichahai Hutong tour → Rickshaw → Prince Gong's Mansion → Houhai bar street" },
+            { "day": "D5", "title": "Beijing Experience", "content": "Free time (Wangfujing, SKP shopping) → Airport/Station drop-off" }
+          ]
+        },
+        {
+          "name": "Forbidden City & Great Wall Day Tour",
+          "duration": "Mga 10 oras",
+          "highlights": ["Tiananmen Square", "Deep na Forbidden City", "Shichahai", "Hutong Rickshaw"],
+          "included": "Lahat ng entrance fees, Tanghalian (Imperial-style cuisine), Expert na gabay, Rickshaw experience, Round-trip transport",
+          "desc": "Marasan ang dual na charm ng Beijing sa isang araw. Galugarin ang 600 taon ng kasaysayan ng Forbidden City sa umaga, akyatin ang Great Wall bilang isang tunay na bayani sa hapon, at magsaya sa Bird's Nest night view sa gabi.",
+          "meals": "Kasama ang tanghalian (Peking duck o traditional noodles)",
+          "hotel": "Available ang assistance sa pag-book ng hotel",
+          "itinerary": [
+            { "day": "Umaga", "title": "Sa Loob ng Forbidden City", "content": "Tiananmen Square → Meridian Gate → Hall of Supreme Harmony → Central Axis → Palace of Heavenly Purity → Imperial Garden → Gate of Divine Might" },
+            { "day": "Hapon", "title": "Great Wall Hero", "content": "Mag-drive papunta sa Badaling (1.5hr highway) → Cable car papunta sa summit → Maglakad mula North 1 hanggang North 8 tower → Bumalik" },
+            { "day": "Gabi", "title": "Beijing Night Scene", "content": "Mag-drive sa Chang'an Avenue → Bird's Nest & Water Cube exterior → Bumalik sa lungsod" }
+          ]
+        },
+        {
+          "name": "Hutong Culture Half-Day Tour",
+          "duration": "Mga 5 oras",
+          "highlights": ["Shichahai", "Nanluoguxiang", "Traditional Courtyard", "Hutong Rickshaw", "Beijing Snacks"],
+          "included": "Rickshaw experience, Courtyard home visit, Beijing snacks, Tea ceremony, Expert na gabay",
+          "desc": "Malalim na paglubog sa tunay na buhay ng lumang Beijing. Sumakay ng rickshaw sa mga hutong, makinig sa mga fascinating na kuwento mula sa matatandang residente, bisitahin ang mgapreserbeng courtyard homes, at tikman ang pinaka-tunay na Beijing snacks.",
+          "meals": "Kasama ang mga tunay na Beijing snacks (douzhi, jiaoyuan, aiwowo, ludagun, atbp.)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Hapon", "title": "Hutong Exploration", "content": "Magkita sa Shichahai → Yinding Bridge → Prince Gong's Mansion → Nanluoguxiang → Rickshaw sa mga hutong → Courtyard family visit → Tea break" }
+          ]
+        },
+        {
+          "name": "Temple of Heaven & Summer Palace Day Tour",
+          "duration": "Mga 8 oras",
+          "highlights": ["Temple of Heaven", "Summer Palace", "Old Summer Palace", "Peking University view"],
+          "included": "Lahat ng entrance fees, Tanghalian, Boat ride, Expert na gabay, Round-trip transport",
+          "desc": "Ang perpektong kumbinasyon ng mga imperial garden at mga sagradong lugar. Damhin ang pilsoiya ng harmoniya sa pagitan ng langit at tao sa Temple of Heaven sa umaga, maglakad-lakad sa Kunming Lake sa Summer Palace sa hapon, at pahalagahan ang pinakamataas na antas ng Chinese garden art.",
+          "meals": "Kasama ang tanghalian (Imperial-style cuisine sa loob ng Summer Palace)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Umaga", "title": "Sagradong Lupa", "content": "East Gate ng Temple of Heaven → Prayer Hall (exterior) → Echo Wall → Circular Mound Altar → Seven-Star Hall → Covered Walkway → Zhaigong" },
+            { "day": "Tanghalian", "title": "Kunming Lake", "content": "North Gate ng Summer Palace → Suzhou Street → Four Great Universes → Kunming Lake boat ride → Long Corridor painting gallery" },
+            { "day": "Hapon", "title": "Western Hills", "content": "Foxiang Pavilion (optional na pag-akyat) → Longevity Hill → Old Summer Palace ruins (exterior) → Peking University & Tsinghua photo stop" }
+          ]
+        }
+      ]
+    },
+    "customTours": {
+      "title": "Custom Tours",
+      "subtitle": "Exclusive itinerary, personalized experience",
+      "description": "Exclusive itineraries na customized sa iyong interests, oras, at budget. Private tours, corporate team building, family trips, honeymoon — nagbibigay kami ng personal na serbisyo para gawing unique ang iyong Beijing trip.",
+      "items": ["Private Custom", "Corporate Events", "Family & Kids", "Honeymoon & Wedding"],
+      "features": ["Flexible itinerary", "Dedicated guide", "Chauffeur service", "24/7 reception"],
+      "highlights": ["🎫 Custom itinerary", "🚗 Private car & guide", "🏨 Premium hotel options", "🍽️ Specialty dining", "📱 1-on-1 dedicated support", "💁 24hr response"],
+      "itineraries": [
+        {
+          "name": "Family & Kids Tour",
+          "duration": "4-5 Araw",
+          "highlights": ["Kids-friendly na Forbidden City", "Great Wall", "Science Museum", "Aquarium", "Hutongs", "Peking University"],
+          "included": "Custom na itinerary, Family gabay, Child tickets, Specialty na pagkain, Lahat ng transportasyon",
+          "desc": "Ligtas, masaya, at educational na itinerary para sa buong pamilya. Ang aming mga propesyonal na children's guides ay nagbibigay-buhay sa kasaysayan gamit ang mga engaging na kwento sa Forbidden City. Ang mga interactive exhibit sa Science Museum ay ginagawang exciting ang pag-aaral, at ang underwater tunnel sa Aquarium ay nagpapanganga sa mga bata.",
+          "meals": "Family specialty na pagkain (traditional copper hotpot, noodles DIY workshop)",
+          "hotel": "Inirerekomendang family suites sa Sanlitun o Guomao area, malapit sa mga shopping district",
+          "itinerary": [
+            { "day": "D1", "title": "Imperial Introduction", "content": "Pickup → Kids version ng Forbidden City (2.5hr) → Jingshan Park panoramic view → Qianmen Street" },
+            { "day": "D2", "title": "Great Wall Heroes", "content": "Badaling Great Wall (cable car) → Great Wall Museum → China Science & Technology Museum kids zone → Bird's Nest night view" },
+            { "day": "D3", "title": "Nature Exploration", "content": "Beijing Zoo (Panda Hall) → Aquarium (underwater tunnel) → Beijing Planetarium" },
+            { "day": "D4", "title": "Campus & Culture", "content": "Peking University o Tsinghua (photo stop) → Old Summer Palace ruins → Hutong rickshaw → Courtyard calligraphy experience" },
+            { "day": "D5", "title": "Happy Return", "content": "Free time (SKP, China World Mall) → Airport/Station drop-off" }
+          ]
+        },
+        {
+          "name": "Corporate Team Building",
+          "duration": "2-3 Araw",
+          "highlights": ["Great Wall hiking", "Team challenges", "Cultural experiences", "Meeting services"],
+          "included": "Propesyonal na coach, Team building facilities, Lahat ng pagkain, Meeting room, Accommodation, Transport",
+          "desc": "Pagsasama ng outdoor adventure at cultural experience. Bumuo ng team spirit sa Great Wall hikes, palakasin ang mga ugnayan sa pamamagitan ng mga team challenges, lumikha ng mga lasting memories sa pamamagitan ng mga cultural experiences, at i-align ang direksyon sa pamamagitan ng mga meeting session.",
+          "meals": "Kasama ang lahat ng pagkain (Peking duck feast, Imperial cuisine, BBQ buffet)",
+          "hotel": "Inirerekomendang resort o conference hotel na may full meeting facilities",
+          "itinerary": [
+            { "day": "D1", "title": "Ice Breaking", "content": "AM: Pickup → Registration → Opening ceremony\nPM: Outdoor challenges (Frisbee, Building Tower) → Team competitions\nGabi: Welcome Peking duck dinner" },
+            { "day": "D2", "title": "Peak Challenge", "content": "AM: Great Wall hiking orientation (team missions)\nPM: Cultural experience (Cloisonne making / Peking Opera mask DIY)\nGabi: Free time o meeting summary" },
+            { "day": "D3", "title": "Unity & Closure", "content": "AM: Hutong cultural exploration (treasure hunt)\nTanghalian: Closing ceremony & awards\nPM: Departure" }
+          ]
+        },
+        {
+          "name": "Private Custom Tour",
+          "duration": "1-10 Araw",
+          "highlights": ["Dedicated na gabay", "Flexible na itinerary", "Private na sasakyan", "Special experiences"],
+          "included": "Dedicated driver+gabay, Private na sasakyan, Flexible na schedule, Optional na premium hotel",
+          "desc": "Ganap na nagbibgay ng freedom batay sa iyong mga interest at schedule. Gustong pumunta saan? Gustong tumagal ng gaano katagal? Gustong kumain ng ano? Ikaw ang bahala. Ang dedicated driver at gabay na serbisyo ay nagbibigay-daan sa iyo na tumutok sa pag-enjoy ng journey.",
+          "meals": "Recommendations batay sa iyong taste, meals not included",
+          "hotel": "Options: Traditional courtyard inn, 5-star hotel, o boutique design hotel",
+          "itinerary": [
+            { "day": "D1", "title": "Iyong Trip, Iyong Paraan", "content": "Customized batay sa iyong mga interest:\n• Early morning flag ceremony\n• Deep na Forbidden City tour\n• Great Wall sunset\n• Houhai bar street sa gabi\n• Michelin-starred restaurant\n• At marami pang ibang experiences..." }
+          ]
+        }
+      ]
+    }
+  },
+  "tours": {
+    "title": "Mga Featured Tours",
+    "subtitle": "Classic na ruta, tunay na karanasan",
+    "itinerary": "Itinerary",
+    "highlights": "Mga Highlight",
+    "meals": "Pagkain",
+    "hotel": "Accommodation",
+    "included": "Kasama"
+  },
+  "destinations": {
+    "title": "Mga Featured na Destinasyon",
+    "subtitle": "Beijing, isang lungsod na may 3,000 taong kasaysayan...",
+    "intro": "Beijing, isang lungsod na may 3,000 taong kasaysayan, ay ang sentro ng pulitika, kultura, internasyonal na pagpapalitan, at teknolohikal na innovasyon ng China. Dito makikita mo ang pinakamalaking complex ng palais sa mundo — ang Forbidden City, ang mahahalim nang Great Wall na kumakalat ng libu-libong milya, ang pinakamagandang imperial garden na Summer Palace, at ang mga kaakit-akit na lumang Beijing hutongs na puno ng lokal na buhay.",
+    "highlights": "Hindi Maisasantuwong Highlight",
+    "bestTime": "Pinakamagandang Oras ng Pagbisita",
+    "items": [
+      {
+        "name": "Forbidden City",
+        "desc": "Ang kadakilaan ng Purple Forbidden City",
+        "img": "01_gugong.jpg",
+        "detail": "Ang pinakamalaki at pinakamahusay na napanatili na wooden-structure na ancient building complex sa mundo, ang imperial palais ng 24 na emperor noong Ming at Qing dynasties. Sumasakop ng 720,000 square meters na may humigit-kumulang 150,000 square meters na floor area, may higit sa 70 na palais at 9,000+ na kwarto.",
+        "highlights": ["Hall of Supreme Harmony (mga grand ceremony ng emperor)", "Palace of Heavenly Purity (residence ng emperor)", "Imperial Garden (leisure ng emperor)", "Treasure Gallery (mga treasure ng Qing court)"],
+        "bestTime": "Lahat ng season, 3-4 na oras ang inirerekomenda"
+      },
+      {
+        "name": "Great Wall",
+        "desc": "Isang kahangahan ng mundo, kamangha-manghang tanawin",
+        "img": "beijing_greatwall_02.jpg",
+        "detail": "Ang Badaling Great Wall ay ang pinaka-representatibong seksyon ng Ming Great Wall at ang unang nagsilbing tourist destination. Ang wall ay may taas na 7.8 metro sa average at humigit-kumulang 5 metro ang lawak, sapat na malapad para sa sampung tao o lima pang kabayo na makadaan nang sabay.",
+        "highlights": ["Badaling (classic na seksyon)", "Mutianyu (magandang tanawin)", "Simatai (original na napanatili)", "Jinshanling (paraiso ng mga photographer)"],
+        "bestTime": "Spring & Autumn, pinakamahusay na Abril-June / Setyembre-Oktyubre"
+      },
+      {
+        "name": "Temple of Heaven",
+        "desc": "Sagradong lupa para sa panalangin at harmonya",
+        "img": "beijing_tiantan_02.jpg",
+        "detail": "Ang Temple of Heaven ay ang lugar kung saan nagsusunong ang mga emperor ng Ming at Qing dynasties sa langit at nananalangin para sa ani. Sumasakop ng humigit-kumulang 2.73 milyong square meters, ang mga pangunahing gusali ay kinabibilangan ng Hall of Prayer for Good Harvests, Circular Mound Altar, at Echo Wall. Itinalaga bilang UNESCO World Heritage Site noong 1998.",
+        "highlights": ["Hall of Prayer for Good Harvests", "Circular Mound Altar (panalangin sa langit)", "Echo Wall (triple echo wonder)", "Seven-Star Stones (fengshui layout)"],
+        "bestTime": "2-3 oras ang inirerekomenda, umaga ang pinakamahusay"
+      },
+      {
+        "name": "Hutongs",
+        "desc": "Ang tunay na kaluluwa ng lumang Beijing",
+        "img": "beijing_hutong_02.jpg",
+        "detail": "Ang Hutongs ay ang mga blood vessel ng Beijing at ang microcosm ng buhay ng lumang Beijing. Ang Shichahai area ay nagtataglay ng pinakamagandang preserved na historical neighborhood, kung saan maaari kang sumakay ng rickshaw sa mga alley habang nakikinig sa mga fascinating na kwento at historical na legend mula sa mga matatandang residente.",
+        "highlights": ["Shichahai (pinakamagandang lake area)", "Nanluoguxiang (trendy hutong)", "Yandai Xiejie (market atmosphere)", "Prince Gong's Mansion (former residence ni He Shen)"],
+        "bestTime": "Magsimula sa hapon, Houhai bar street sa gabi"
+      },
+      {
+        "name": "Summer Palace",
+        "desc": "Ang makataong kagandahan ng isang imperial garden",
+        "img": "beijing_yiheyuan_02.png",
+        "detail": "Ang Summer Palace ay ang pinakamalaking umiiral na imperial garden sa China, na nagbibigkis ng pinakamahuhusay na elemento ng Jiangnan gardens kasama ng Kunming Lake at Longevity Hill. Itinalaga bilang UNESCO World Heritage Site noong 1998, na kadalasang tinatawag na Museum of Imperial Gardens.",
+        "highlights": ["Kunming Lake (Seventeen-Arch Bridge)", "Foxiang Pavilion (peak ng Longevity Hill)", "Long Corridor (7,000+ na paintings)", "Suzhou Street (waterfront market)"],
+        "bestTime": "3-4 na oras ang inirerekomenda, lahat ng season"
+      },
+      {
+        "name": "Beihai Park",
+        "desc": "Classic na imperial garden sa tabi ng lawa",
+        "img": "beijing_beihai_03.jpg",
+        "detail": "Ang Beihai Park ay ang pinakamatandang umiiral na imperial garden sa China na may halos isang libong taon ng kasaysayan. Ang White Dagoba ay nakatayo sa tuktok ng Qionghua Island, na ginagawa itong iconic na landmark ng Beijing. Mayroon din ang park ng Five-Dragon Pavilion, Haopuzhengjia, at Nine-Dragon Wall.",
+        "highlights": ["White Pagoda (tuktok ng Qionghua Island)", "Nine-Dragon Wall", "Haopuzhengjia (rockery & waterfall)", "Tuancheng (mini ancient city)"],
+        "bestTime": "1-2 oras, pwedeng i-combine sa hutong day tour"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Makipag-ugnayan sa Amin",
+    "subtitle": "Inaasahan naming makilala ka sa Beijing",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp",
+    "phone": "Telepono",
+    "email": "Email",
+    "wechatNote": "Text replies sa lahat ng wika sinusuportahan, voice service sa Chinese lang",
+    "whatsappNote": "Voice service sa Chinese, text service sa lahat ng wika",
+    "emailNote": "Text replies sa lahat ng wika sinusuportahan, voice service sa Chinese lang",
+    "phoneNote": "Voice service sa Chinese lang",
+    "hours": "Oras ng Serbisyo",
+    "localTime": "Kasalukuyang oras ng locality",
+    "workingNow": "Kasalukuyang bukas",
+    "notWorkingNow": "Kasalukuyang sarado",
+    "delayedReply": "Ang mga mensahe sa labas ng oras ng serbisyo ay maaaring may kaunting pagkaantala, magreresponds sa loob ng 12 oras",
+    "multilingual": "Bilingual Chinese-English na Serbisyo"
+  },
+  "footer": {
+    "copyright": "© 2024 Beijing Four Seasons Fortune Travel Co., Ltd. | Lahat ng Karapatan ay Nakatakda",
+    "tagline": "Ang iyong Beijing journey ay nagsisimula sa amin"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "destinations": "Destinations",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Votre voyage à Beijing, notre fortune",
+    "subtitle": "Circuits organisés et itinéraires personnalisés pour les voyageurs du monde entier à la recherche d'expériences authentiques à Beijing",
+    "cta": "Contactez-nous",
+    "scroll": "Défiler",
+    "exploreTours": "Explorer les circuits",
+    "yearsOfExcellence": "Une décennie d'excellence",
+    "years": "Ans",
+    "scanQR": "Scanner QR",
+    "qRCode": "QR:",
+    "companyName": "Four Seasons Fortune",
+    "companySubname": "Expert en voyage à Beijing",
+    "heroDecoration": "Pékin · Une décennie d'excellence"
+  },
+  "about": {
+    "title": "À propos de Four Seasons Fortune",
+    "description": "Beijing Four Seasons Fortune Travel crée des expériences exceptionnelles à Beijing depuis plus d'une décennie. Nous connaissons chaque ruelle de hutong et chaque salle de palais, dédiés à fournir des services de voyage professionnels, attentifs et sincères aux visiteurs du monde entier. Nos guides bilingues chinois-anglais assurent une communication fluide pour tous les voyageurs internationaux.",
+    "features": [
+      { "label": "Années d'expérience", "value": "10+" },
+      { "label": "Voyageurs satisfaits", "value": "50 000+" },
+      { "label": "Itinéraires sélectionnés", "value": "30+" }
+    ]
+  },
+  "services": {
+    "title": "Nos Services",
+    "teamTours": {
+      "title": "Circuits en groupe",
+      "subtitle": "Agence agréée depuis 10 ans, qualité garantie",
+      "description": "Avec 10 ans d'expertise dans le tourisme à Beijing, nous proposons des circuits classiques soigneusement élaborés avec des guides professionnels. Parfait pour les voyages en famille, les team building d'entreprise et les visites éducatives. Départs quotidiens — réservez à tout moment. Tous les billets et transports inclus.",
+      "items": ["Panorama de Beijing", "Excursion d'une journée à la Grande Muraille", "Exploration de la culture Hutong", "Aventure gastronomique de Beijing"],
+      "features": ["Départ quotidien", "Guide privé", "Service sans souci", "Départ garanti"],
+      "highlights": ["🎫 Toutes attractions incluses", "🚗 Bus touristique climatisé", "🏨 Hôtels 4 étoiles", "🍽️ Repas locaux spécialisés", "📱 Réservation e-contrat", "💁 Support dédié 24/7"],
+      "moreRoutes": "Plus d'itinéraires classiques disponibles, tels que le tour approfondi de la Cité Interdite et de la Grande Muraille, le circuit demi-journée culture Beijing, le temple du Ciel et le Palais d'Été, bienvenue pour consulter",
+      "itineraries": [
+        {
+          "name": "Circuit Panorama de Beijing 5 jours",
+          "duration": "5 jours, 4 nuits",
+          "highlights": ["Cité Interdite", "Grande Muraille", "Temple du Ciel", "Palais d'Été", "Hutongs", "Nid d'Oiseau", "Parc Beihai", "Ancien Palais d'Été"],
+          "included": "Transport, 4 nuits en hôtel 4 étoiles, 9 déjeuners + 4 petits-déjeuners, Entrées, Guide professionnel",
+          "desc": "Plongez dans le meilleur de Beijing en 5 jours et 4 nuits. De la grandeur de la Cité Interdite à la magnificence de la Grande Muraille, du charme des hutongs à la poésie des jardins impériaux — explorez les sites incontournables de Beijing et vivez la culture authentique de Beijing.",
+          "meals": "4 petits-déjeuners, 9 déjeuners (cuisine impériale, canard laqué, nouilles zhajiangmian de Beijing, snacks de Beijing)",
+          "hotel": "Hôtel 4 étoiles recommandé près du 3e pont de l'Est ou de Wangfujing, accès facile au métro",
+          "itinerary": [
+            { "day": "J1", "title": "Arrivée impériale", "content": "Accueil à l'aéroport → Enregistrement à l'hôtel → Place Tiananmen → Cité Interdite (visite approfondie 3h) → Vue nocturne de la Tour Tiananmen → Rue Qianmen" },
+            { "day": "J2", "title": "Aventure à la Grande Muraille", "content": "Grande Muraille de Badaling (téléphérique vers le sommet) → Vue du col de Juyongguan → Voie sacrée des Ming Tombs → Vue nocturne du Nid d'Oiseau et du Cube d'Eau" },
+            { "day": "J3", "title": "Paradis des jardins", "content": "Palais d'Été (balade en bateau sur le lac Kunming, Long couloir) → Ruines de l'Ancien Palais d'Été → Photo devant Université Peking ou Tsinghua → Zhongguancun" },
+            { "day": "J4", "title": "Ancienne capitale", "content": "Temple du Ciel (Salle de la Prière, Mur d'Écho) → Parc Beihai (Pagode Blanche) → Nanluoguxiang → Tour des Hutongs de Shichahai → Rickshaw → Résidence du Prince Gong → Rue des bars de Houhai" },
+            { "day": "J5", "title": "Expérience Beijing", "content": "Temps libre (Wangfujing, shopping SKP) → Départ pour l'aéroport/gare" }
+          ]
+        },
+        {
+          "name": "Circuit Cité Interdite et Grande Muraille en une journée",
+          "duration": "Environ 10 heures",
+          "highlights": ["Place Tiananmen", "Cité Interdite approfondie", "Shichahai", "Rickshaw Hutong"],
+          "included": "Entrées, Déjeuner (cuisine style impérial), Guide expert, Expérience en rickshaw, Transport aller-retour",
+          "desc": "Découvrez le double charme de Beijing en une journée. Explorez 600 ans d'histoire de la Cité Interdite le matin, grimpez à la Grande Muraille comme un vrai héros l'après-midi, et admirez la vue nocturne du Nid d'Oiseau le soir.",
+          "meals": "Déjeuner inclus (canard laqué ou nouilles zhajiangmian traditionnelles de Beijing)",
+          "hotel": "Assistance pour réservation d'hôtel disponible",
+          "itinerary": [
+            { "day": "Matin", "title": "Dans la Cité Interdite", "content": "Place Tiananmen → Porte méridienne → Salle de l'Harmonie Suprême → Axe central → Palais de la Pureté Céleste → Jardin Impérial → Porte de la Puissance Divine" },
+            { "day": "Après-midi", "title": "Héros de la Grande Muraille", "content": "Route vers Badaling (1h30 d'autoroute) → Téléphérique vers le sommet → Marche de la tour Nord 1 à la tour Nord 8 → Retour" },
+            { "day": "Soir", "title": "Scène nocturne de Beijing", "content": "Conduite le long de l'Avenue Chang'an → Extérieur du Nid d'Oiseau et du Cube d'Eau → Retour en ville" }
+          ]
+        },
+        {
+          "name": "Circuit culture Hutong demi-journée",
+          "duration": "Environ 5 heures",
+          "highlights": ["Shichahai", "Nanluoguxiang", "Cour traditionnelle", "Rickshaw Hutong", "Snacks de Beijing"],
+          "included": "Expérience en rickshaw, Visite de cour, Snacks de Beijing, Cérémonie de thé, Guide expert",
+          "desc": "Plongez dans la vie authentique du vieux Beijing. Glissez à travers les hutongs en rickshaw, écoutez des histoires fascinantes des résidents de longue date, visites de cours préservées, et goûtez aux snacks les plus authentiques de Beijing.",
+          "meals": "Snacks authentiques de Beijing inclus (douzhi, jiaoyuan, aiwowo, ludagun, etc.)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Après-midi", "title": "Exploration des Hutongs", "content": "Rendez-vous à Shichahai → Pont Yinding → Résidence du Prince Gong → Nanluoguxiang → Rickshaw à travers les hutongs → Visite de famille en cour → Pause thé" }
+          ]
+        },
+        {
+          "name": "Circuit Temple du Ciel et Palais d'Été en une journée",
+          "duration": "Environ 8 heures",
+          "highlights": ["Temple du Ciel", "Palais d'Été", "Ancien Palais d'Été", "Vue de Université Peking"],
+          "included": "Entrées, Déjeuner, Balade en bateau, Guide expert, Transport aller-retour",
+          "desc": "La combinaison parfaite des jardins impériaux et des sites sacrés. Ressentez la philosophie de l'harmonie entre le ciel et l'homme au Temple du Ciel le matin, promenez-vous au bord du lac Kunming au Palais d'Été l'après-midi, et appréciez l'art sommets des jardins chinois.",
+          "meals": "Déjeuner inclus (cuisine style impérial dans le Palais d'Été)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Matin", "title": "Terrains sacrés", "content": "Porte Est du Temple du Ciel → Salle de la Prière (extérieur) → Mur d'Écho → Autel de l'Autel Circulaire → Salle des Sept Étoiles → Allée couverte → Zhaigong" },
+            { "day": "Midi", "title": "Lac Kunming", "content": "Porte Nord du Palais d'Été → Rue Suzhou → Quatre Grands Univers → Balade en bateau sur le lac Kunming → Galerie de peinture du Long couloir" },
+            { "day": "Après-midi", "title": "Collines de l'Ouest", "content": "Pavillon Foxiang (ascension optionnelle) → Colline de la Longévité → Ruines de l'Ancien Palais d'Été (extérieur) → Photo devant Université Peking et Tsinghua" }
+          ]
+        }
+      ]
+    },
+    "customTours": {
+      "title": "Circuits personnalisés",
+      "subtitle": "Itinéraire exclusif, expérience personnalisée",
+      "description": "Des itinéraires exclusifs adaptés à vos intérêts, votre temps et votre budget. Circuits privés, team building d'entreprise, voyages en famille, lunes de miel — nous offrons un service personnalisé pour rendre votre voyage à Beijing unique.",
+      "items": ["Personnalisé privé", "Événements d'entreprise", "Famille et enfants", "Lune de miel et mariage"],
+      "features": ["Itinéraire flexible", "Guide dédié", "Service de location", "Accueil 24h/24"],
+      "highlights": ["🎫 Itinéraire personnalisé", "🚗 Voiture privée et guide", "🏨 Options hôtels premium", "🍽️ Restauration spécialisée", "📱 Support dédié 1-on-1", "💁 Réponse 24h"],
+      "itineraries": [
+        {
+          "name": "Circuit Famille et Enfants",
+          "duration": "4-5 jours",
+          "highlights": ["Cité Interdite version enfants", "Grande Muraille", "Musée des sciences", "Aquarium", "Hutongs", "Université Peking"],
+          "included": "Itinéraire personnalisé, Guide famille, Billets enfants, Repas spéciaux, Tout transport",
+          "desc": "Un itinéraire sûr, amusant et éducatif pour toute la famille. Nos guides professionnels pour enfants animent l'histoire avec des histoires engageantes à la Cité Interdite. Les expositions interactives du Musée des sciences rendent l'apprentissage passionnant, et le tunnel sous-marin de l'aquarium émerveille les enfants.",
+          "meals": "Repas familiaux spéciaux (hotpot铜锅, atelier DIY nouilles zhajiangmian)",
+          "hotel": "Suites familiales recommandées à Sanlitun ou Guomao, près des districts commerciaux",
+          "itinerary": [
+            { "day": "J1", "title": "Introduction impériale", "content": "Accueil → Cité Interdite version enfants (2.5h) → Parc Jingshan vue panoramique → Rue Qianmen" },
+            { "day": "J2", "title": "Héros de la Grande Muraille", "content": "Grande Muraille de Badaling (téléphérique) → Musée de la Grande Muraille → Zone enfants du Musée des sciences → Vue nocturne du Nid d'Oiseau" },
+            { "day": "J3", "title": "Exploration de la nature", "content": "Zoo de Beijing (Pavillon Panda) → Aquarium (tunnel sous-marin) → Planétarium de Beijing" },
+            { "day": "J4", "title": "Campus et culture", "content": "Université Peking ou Tsinghua (photo) → Ruines de l'Ancien Palais d'Été → Rickshaw hutong → Expérience de calligraphie en cour" },
+            { "day": "J5", "title": "Bon retour", "content": "Temps libre (SKP, China World Mall) → Départ" }
+          ]
+        },
+        {
+          "name": "Team building d'entreprise",
+          "duration": "2-3 jours",
+          "highlights": ["Randonnée à la Grande Muraille", "Défis d'équipe", "Expériences culturelles", "Services de réunion"],
+          "included": "Coach professionnel, Installations team building, Tous repas, Salle de réunion, Hébergement, Transport",
+          "desc": "Combinez aventures en plein air et expériences culturelles. Construisez l'esprit d'équipe lors de randos à la Grande Muraille, renforcez les liens à travers des défis d'équipe, créez des souvenirs durables grâce à des expériences culturelles, et alignez la direction lors de sessions de réunion.",
+          "meals": "Tous repas inclus (festin de canard laqué, cuisine impériale, BBQ buffet)",
+          "hotel": "Résort ou hôtel de conférence recommandé avec installations complètes",
+          "itinerary": [
+            { "day": "J1", "title": "Brise-glace", "content": "AM: Accueil → Inscription → Cérémonie d'ouverture\nPM: Défis en plein air (Frisbee, Tour de construction) → Compétitions d'équipe\nSoir: Dîner de bienvenue au canard laqué" },
+            { "day": "J2", "title": "Défi du sommet", "content": "AM: Orientation randonnée Grande Muraille (missions d'équipe)\nPM: Expérience culturelle (fabrication de cloisonné / DIY masques d'opéra de Peking)\nSoir: Temps libre ou résumé de réunion" },
+            { "day": "J3", "title": "Unité et clôture", "content": "AM: Exploration culturelle des Hutongs (chasse au trésor)\nMidi: Cérémonie de clôture et prix\nPM: Départ" }
+          ]
+        },
+        {
+          "name": "Circuit personnalisé privé",
+          "duration": "1-10 jours",
+          "highlights": ["Guide dédié", "Itinéraire flexible", "Véhicule privé", "Expériences spéciales"],
+          "included": "Chauffeur+guide dédié, Véhicule privé, Horaire flexible, Hôtel premium optionnel",
+          "desc": "Complètement personnalisé selon vos intérêts et votre horaire. Voulez-vous aller quelque part? Rester aussi longtemps que vous le souhaitez? Manger ce que vous voulez? Vous décidez. Le service de chauffeur et guide dédié vous permet de vous concentrer sur le plaisir du voyage.",
+          "meals": "Recommandations selon vos goûts, repas non inclus",
+          "hotel": "Options: Auberge de cour traditionnelle, hôtel 5 étoiles, ou hôtel de design boutique",
+          "itinerary": [
+            { "day": "J1", "title": "Votre voyage, votre façon", "content": "Personnalisé selon vos intérêts:\n• Cérémonie du drapeau matinale\n• Visite approfondie de la Cité Interdite\n• Coucher de soleil à la Grande Muraille\n• Rue des bars de Houhai la nuit\n• Restaurant étoilé Michelin\n• Plus d'expériences vous attendent..." }
+          ]
+        }
+      ]
+    }
+  },
+  "tours": {
+    "title": "Circuits vedettes",
+    "subtitle": "Itinéraires classiques, expériences authentiques",
+    "itinerary": "Itinéraire",
+    "highlights": "Points forts",
+    "meals": "Repas",
+    "hotel": "Hébergement",
+    "included": "Ce qui est inclus"
+  },
+  "destinations": {
+    "title": "Destinations vedettes",
+    "subtitle": "Beijing, une ville de 3000 ans d'histoire...",
+    "intro": "Beijing, une ville de 3000 ans d'histoire, est le centre politique, culturel, d'échanges internationaux et d'innovation technologique de la Chine. Vous y trouverez le plus grand complexe palatial du monde — la Cité Interdite, la Grande Muraille majestueuse s'étendant sur des milliers de miles, le Palais d'Été — le plus beau jardin impérial, et les charmants hutongs du vieux Beijing remplis de vie locale.",
+    "highlights": "Points forts à ne pas manquer",
+    "bestTime": "Meilleur moment pour visiter",
+    "items": [
+      {
+        "name": "Cité Interdite",
+        "desc": "La majesté de la Cité Interdite pourpre",
+        "img": "01_gugong.jpg",
+        "detail": "Le plus grand et le mieux préservé complexe d'architecture ancienne en bois du monde, palais impérial de 24 empereurs des dynasties Ming et Qing. Couvrant 720 000 mètres carrés avec environ 150 000 mètres carrés de surface plancher, il contient plus de 70 palais et 9 000+ pièces.",
+        "highlights": ["Salle de l'Harmonie Suprême (cérémonies impériales)", "Palais de la Pureté Céleste (résidence de l'empereur)", "Jardin Impérial (loisir de l'empereur)", "Galerie des Trésors (trésors de la cour Qing)"],
+        "bestTime": "Toutes saisons, 3-4 heures recommandées"
+      },
+      {
+        "name": "Grande Muraille",
+        "desc": "Une merveille du monde, des vues à couper le souffle",
+        "img": "beijing_greatwall_02.jpg",
+        "detail": "La Grande Muraille de Badaling est la section la plus représentative de la Grande Muraille Ming et la première à avoir été ouverte aux touristes. Le mur mesure en moyenne 7,8 mètres de haut et environ 5 mètres de large, assez large pour dix personnes ou cinq chevaux pour marcher côte à côte.",
+        "highlights": ["Badaling (section classique)", "Mutianyu (beauté scénique)", "Simatai (préservation originale)", "Jinshanling (paradis des photographes)"],
+        "bestTime": "Printemps et Automne, meilleur Avril-Juin / Septembre-Octobre"
+      },
+      {
+        "name": "Temple du Ciel",
+        "desc": "Territoire sacré pour la prière et l'harmonie",
+        "img": "beijing_tiantan_02.jpg",
+        "detail": "Le Temple du Ciel était l'endroit où les empereurs des dynasties Ming et Qing adoraient le ciel et priaient pour la récolte. Couvrant environ 2,73 millions de mètres carrés, ses principaux bâtiments incluent la Salle de la Prière pour les Bonnes Récoltes, l'Autel de l'Autel Circulaire et le Mur d'Écho. Inscrit au patrimoine mondial de l'UNESCO en 1998.",
+        "highlights": ["Salle de la Prière pour les Bonnes Récoltes", "Autel de l'Autel Circulaire (culte du ciel)", "Mur d'Écho (merveille du triple écho)", "Pierres des Sept Étoiles (disposition fengshui)"],
+        "bestTime": "2-3 heures recommandées, tôt le matin c'est mieux"
+      },
+      {
+        "name": "Hutongs",
+        "desc": "L'âme authentique du vieux Beijing",
+        "img": "beijing_hutong_02.jpg",
+        "detail": "Les Hutongs sont les artères vitales de Beijing et le microcosme de la vie du vieux Beijing. La zone de Shichahai conserve le quartier historique le plus complet, où vous pouvez rouler en rickshaw à travers les ruelles tout en écoutant des histoires fascinantes et des légendes historiques des résidents de longue date.",
+        "highlights": ["Shichahai (plus belle zone lacustre)", "Nanluoguxiang (hutong tendance)", "Yandai Xiejie (ambiance de marché)", "Résidence du Prince Gong (ancienne résidence de He Shen)"],
+        "bestTime": "Commencez l'après-midi, rue des bars de Houhai le soir"
+      },
+      {
+        "name": "Palais d'Été",
+        "desc": "Beauté poétique d'un jardin impérial",
+        "img": "beijing_yiheyuan_02.png",
+        "detail": "Le Palais d'Été est le plus grand jardin impérial existant en Chine, intégrant les plus beaux éléments des jardins de Jiangnan avec le lac Kunming et la Colline de la Longévité. Inscrit au patrimoine mondial de l'UNESCO en 1998, il est souvent appelé le Musée des Jardins Impériaux.",
+        "highlights": ["Lac Kunming (Pont à dix-sept arches)", "Pavillon Foxiang (sommet de la Colline de la Longévité)", "Long Couloir (plus de 7 000 peintures)", "Rue Suzhou (marché fluvial)"],
+        "bestTime": "3-4 heures recommandées, toutes saisons"
+      },
+      {
+        "name": "Parc Beihai",
+        "desc": "Jardin impérial classique au bord du lac",
+        "img": "beijing_beihai_03.jpg",
+        "detail": "Le parc Beihai est le plus ancien jardin impérial existant en Chine avec près de mille ans d'histoire. La Pagode Blanche se dresse au sommet de l'île Qionghua, ce qui en fait un point de repère emblématique de Beijing. Le parc présente également le Pavillon des Cinq Dragons, Haopuzhengjia et le Mur des Neuf Dragons.",
+        "highlights": ["Pagode Blanche (sommet de l'île Qionghua)", "Mur des Neuf Dragons", "Haopuzhengjia (rocaille et cascade)", "Tuancheng (mini ville ancienne)"],
+        "bestTime": "1-2 heures, combinable avec un circuit hutong d'une journée"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous avons hâte de vous rencontrer à Beijing",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp",
+    "phone": "Téléphone",
+    "email": "Email",
+    "wechatNote": "Réponses écrites en toutes langues prises en charge, service vocal en chinois uniquement",
+    "whatsappNote": "Service vocal en chinois, service texte en toutes langues",
+    "emailNote": "Réponses écrites en toutes langues prises en charge, service vocal en chinois uniquement",
+    "phoneNote": "Service vocal en chinois uniquement",
+    "hours": "Heures de service",
+    "localTime": "Heure locale actuelle",
+    "workingNow": "Actuellement en service",
+    "notWorkingNow": "Pas en service actuellement",
+    "delayedReply": "Les messages hors des heures de service auront un léger délai, avec une réponse dans les 12 heures",
+    "multilingual": "Service bilingue chinois-anglais"
+  },
+  "footer": {
+    "copyright": "© 2024 Beijing Four Seasons Fortune Travel Co., Ltd. | Tous droits réservés",
+    "tagline": "Votre voyage à Beijing commence avec nous"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "about": "About Us",
+    "services": "Services",
+    "destinations": "Destinations",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Your Beijing Journey, Our Fortune",
+    "subtitle": "Expert team tours and custom itineraries for global travelers seeking authentic Beijing experiences",
+    "cta": "Contact Us Now",
+    "scroll": "Scroll",
+    "exploreTours": "Explore Tours",
+    "yearsOfExcellence": "A Decade of Excellence",
+    "years": "Years",
+    "scanQR": "Scan QR",
+    "qRCode": "QR:",
+    "companyName": "Four Seasons Fortune",
+    "companySubname": "Beijing Travel Expert",
+    "heroDecoration": "Beijing · A Decade of Excellence"
+  },
+  "about": {
+    "title": "About Four Seasons Fortune",
+    "description": "Beijing Four Seasons Fortune Travel has been crafting exceptional Beijing experiences for over a decade. We know every hutong alley and palace hall, dedicated to providing professional, attentive, and heartfelt travel services for visitors from around the world. Our bilingual Chinese-English guides ensure seamless communication for all international travelers.",
+    "features": [
+      { "label": "Years of Experience", "value": "10+" },
+      { "label": "Happy Travelers", "value": "50,000+" },
+      { "label": "Curated Routes", "value": "30+" }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "teamTours": {
+      "title": "Group Tours",
+      "subtitle": "10 Years Licensed Agency, Quality Guaranteed",
+      "description": "With 10 years of expertise in Beijing tourism, we offer expertly curated classic routes with professional guides, perfect for family trips, corporate team building, and educational tours. Daily departures — book anytime, travel anytime. All tickets and transport included.",
+      "items": ["Beijing Panorama", "Great Wall Day Tour", "Hutong Culture Explorer", "Beijing Food Adventure"],
+      "features": ["Daily Departure", "Private Guide", "Hassle-free Service", "Guaranteed Departure"],
+      "highlights": ["🎫 All attractions included", "🚗 A/C tourist bus", "🏨 Premium 4-star hotels", "🍽️ Local specialty meals", "📱 E-contract booking", "💁 24/7 dedicated support"],
+      "moreRoutes": "More classic routes available, such as in-depth Forbidden City & Great Wall tour, Beijing culture half-day tour, Temple of Heaven & Summer Palace day tour, welcome to inquire",
+      "itineraries": [
+        {
+          "name": "Beijing Panorama 5-Day Tour",
+          "duration": "5 Days 4 Nights",
+          "highlights": ["Forbidden City", "Great Wall", "Temple of Heaven", "Summer Palace", "Hutongs", "Bird's Nest", "Beihai Park", "Old Summer Palace"],
+          "included": "All transportation, 4 nights accommodation (4-star), 9 lunches + 4 breakfasts, All entrance fees, Professional guide",
+          "desc": "Deep dive into Beijing's finest with 5 days and 4 nights. From the grandeur of the Forbidden City to the magnificence of the Great Wall, from the charm of hutongs to the poetry of imperial gardens — explore Beijing's unmissable landmarks and experience authentic Beijing culture.",
+          "meals": "4 breakfasts, 9 lunches (Imperial cuisine, Peking duck feast, Beijing炸酱面, Beijing snacks)",
+          "hotel": "Recommended 4-star hotel near East Third Ring Road or Wangfujing, convenient metro access",
+          "itinerary": [
+            { "day": "D1", "title": "Imperial Arrival", "content": "Airport pickup → Hotel check-in → Tiananmen Square → Forbidden City (3hr in-depth tour) → Tiananmen Tower night view → Qianmen Street" },
+            { "day": "D2", "title": "Great Wall Adventure", "content": "Badaling Great Wall (cable car to summit) → Juyongguan Pass view → Ming Tombs Sacred Way → Bird's Nest & Water Cube night view" },
+            { "day": "D3", "title": "Garden Paradise", "content": "Summer Palace (Kunming Lake boat ride, Long Corridor) → Old Summer Palace ruins → Peking University or Tsinghua photo stop → Zhongguancun" },
+            { "day": "D4", "title": "Ancient Capital", "content": "Temple of Heaven (Prayer Hall, Echo Wall) → Beihai Park (White Pagoda) → Nanluoguxiang → Shichahai Hutong tour → Rickshaw → Prince Gong's Mansion → Houhai bar street" },
+            { "day": "D5", "title": "Beijing Experience", "content": "Free time (Wangfujing, SKP shopping) → Airport/Station drop-off" }
+          ]
+        },
+        {
+          "name": "Forbidden City & Great Wall Day Tour",
+          "duration": "Approx. 10 hours",
+          "highlights": ["Tiananmen Square", "Forbidden City in-depth", "Shichahai", "Hutong Rickshaw"],
+          "included": "All entrance fees, Lunch (Imperial-style cuisine), Expert guide, Rickshaw体验, Round-trip transport",
+          "desc": "Experience Beijing's dual charm in one day. Explore 600 years of Forbidden City history in the morning, climb the Great Wall as a true hero in the afternoon, and enjoy the Bird's Nest night view in the evening.",
+          "meals": "Lunch included (Peking duck or traditional炸酱面)",
+          "hotel": "Hotel booking assistance available",
+          "itinerary": [
+            { "day": "Morning", "title": "Into the Forbidden City", "content": "Tiananmen Square → Meridian Gate → Hall of Supreme Harmony → Central Axis → Palace of Heavenly Purity → Imperial Garden → Gate of Divine Might" },
+            { "day": "Afternoon", "title": "Great Wall Hero", "content": "Drive to Badaling (1.5hr highway) → Cable car to summit → Walk from North 1 to North 8 tower → Return" },
+            { "day": "Evening", "title": "Beijing Night Scene", "content": "Drive through Chang'an Avenue → Bird's Nest & Water Cube exterior → Return to city" }
+          ]
+        },
+        {
+          "name": "Hutong Culture Half-Day Tour",
+          "duration": "Approx. 5 hours",
+          "highlights": ["Shichahai", "Nanluoguxiang", "Traditional Courtyard", "Hutong Rickshaw", "Beijing Snacks"],
+          "included": "Rickshaw experience, Courtyard home visit, Beijing snacks, Tea ceremony, Expert guide",
+          "desc": "Deep dive into old Beijing's authentic life. Glide through hutongs by rickshaw, listen to fascinating stories from longtime residents, visit preserved courtyard homes, and taste the most genuine Beijing snacks.",
+          "meals": "Authentic Beijing snacks included (douzhi, jiaoyuan, aiwowo, ludagun, etc.)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Afternoon", "title": "Hutong Exploration", "content": "Meet at Shichahai → Yinding Bridge → Prince Gong's Mansion → Nanluoguxiang → Rickshaw through hutongs → Courtyard family visit → Tea break" }
+          ]
+        },
+        {
+          "name": "Temple of Heaven & Summer Palace Day Tour",
+          "duration": "Approx. 8 hours",
+          "highlights": ["Temple of Heaven", "Summer Palace", "Old Summer Palace", "Peking University view"],
+          "included": "All entrance fees, Lunch, Boat ride, Expert guide, Round-trip transport",
+          "desc": "The perfect combination of imperial gardens and sacred sites. Feel the philosophy of harmony between heaven and man at the Temple of Heaven in the morning, stroll along Kunming Lake at the Summer Palace in the afternoon, and appreciate the pinnacle of Chinese garden art.",
+          "meals": "Lunch included (Imperial-style cuisine inside Summer Palace)",
+          "hotel": "",
+          "itinerary": [
+            { "day": "Morning", "title": "Sacred Grounds", "content": "East Gate of Temple of Heaven → Prayer Hall (exterior) → Echo Wall → Circular Mound Altar → Seven-Star Hall → Covered Walkway → Zhaigong" },
+            { "day": "Noon", "title": "Kunming Lake", "content": "North Gate of Summer Palace → Suzhou Street → Four Great Universes → Kunming Lake boat ride → Long Corridor painting gallery" },
+            { "day": "Afternoon", "title": "Western Hills", "content": "Foxiang Pavilion (optional climb) → Longevity Hill → Old Summer Palace ruins (exterior) → Peking University & Tsinghua photo stop" }
+          ]
+        }
+      ]
+    },
+    "customTours": {
+      "title": "Custom Tours",
+      "subtitle": "Exclusive itinerary, personalized experience",
+      "description": "Exclusive itineraries tailored to your interests, time, and budget. Private tours, corporate team building, family trips, honeymoons — we provide personalized service to make your Beijing trip unique.",
+      "items": ["Private Custom", "Corporate Events", "Family & Kids", "Honeymoon & Wedding"],
+      "features": ["Flexible itinerary", "Dedicated guide", "Chauffeur service", "24/7 reception"],
+      "highlights": ["🎫 Custom itinerary", "🚗 Private car & guide", "🏨 Premium hotel options", "🍽️ Specialty dining", "📱 1-on-1 dedicated support", "💁 24hr response"],
+      "itineraries": [
+        {
+          "name": "Family & Kids Tour",
+          "duration": "4-5 Days",
+          "highlights": ["Kids-friendly Forbidden City", "Great Wall", "Science Museum", "Aquarium", "Hutongs", "Peking University"],
+          "included": "Custom itinerary, Family guide, Child tickets, Specialty meals, All transportation",
+          "desc": "Safe, fun, and educational行程 for the whole family. Our professional children's guides bring history alive with engaging stories at the Forbidden City. The Science Museum's interactive exhibits make learning exciting, and the Aquarium's underwater tunnel leaves kids amazed.",
+          "meals": "Family特色 meals (traditional copper hotpot, 炸酱面 DIY workshop)",
+          "hotel": "Recommended family suites in Sanlitun or Guomao area, near shopping districts",
+          "itinerary": [
+            { "day": "D1", "title": "Imperial Introduction", "content": "Pickup → Forbidden City kids version (2.5hr) → Jingshan Park panoramic view → Qianmen Street" },
+            { "day": "D2", "title": "Great Wall Heroes", "content": "Badaling Great Wall (cable car) → Great Wall Museum → China Science & Technology Museum kids zone → Bird's Nest night view" },
+            { "day": "D3", "title": "Nature Exploration", "content": "Beijing Zoo (Panda Hall) → Aquarium (underwater tunnel) → Beijing Planetarium" },
+            { "day": "D4", "title": "Campus & Culture", "content": "Peking University or Tsinghua (photo stop) → Old Summer Palace ruins → Hutong rickshaw → Courtyard calligraphy experience" },
+            { "day": "D5", "title": "Happy Return", "content": "Free time (SKP, China World Mall) → Airport/Station drop-off" }
+          ]
+        },
+        {
+          "name": "Corporate Team Building",
+          "duration": "2-3 Days",
+          "highlights": ["Great Wall hiking", "Team challenges", "Cultural experiences", "Meeting services"],
+          "included": "Professional coach, Team building facilities, All meals, Meeting room, Accommodation, Transport",
+          "desc": "Combine outdoor adventures with cultural experiences. Build team spirit on Great Wall hikes, strengthen bonds through team challenges, create lasting memories through cultural experiences, and align direction through meeting sessions.",
+          "meals": "All meals included (Peking duck feast, Imperial cuisine, BBQ buffet)",
+          "hotel": "Recommended resort or conference hotel with full meeting facilities",
+          "itinerary": [
+            { "day": "D1", "title": "Ice Breaking", "content": "AM: Pickup → Registration → Opening ceremony\nPM: Outdoor challenges (Frisbee, Building Tower) → Team competitions\nEvening: Welcome Peking duck dinner" },
+            { "day": "D2", "title": "Peak Challenge", "content": "AM: Great Wall hiking orientation (team missions)\nPM: Cultural experience (Cloisonné making / Peking Opera mask DIY)\nEvening: Free time or meeting summary" },
+            { "day": "D3", "title": "Unity & Closure", "content": "AM: Hutong cultural exploration (treasure hunt)\nNoon: Closing ceremony & awards\nPM: Departure" }
+          ]
+        },
+        {
+          "name": "Private Custom Tour",
+          "duration": "1-10 Days",
+          "highlights": ["Dedicated guide", "Flexible itinerary", "Private vehicle", "Special experiences"],
+          "included": "Dedicated driver+guide, Private vehicle, Flexible schedule, Optional premium hotel",
+          "desc": "Completely customized based on your interests and schedule. Want to go somewhere? Stay as long as you like? Eat what you want? You decide. Dedicated driver and guide service lets you focus on enjoying the journey.",
+          "meals": "Recommendations based on your taste, meals not included",
+          "hotel": "Options: Traditional courtyard inn, 5-star hotel, or boutique design hotel",
+          "itinerary": [
+            { "day": "D1", "title": "Your Trip, Your Way", "content": "Customized based on your interests:\n• Early morning flag ceremony\n• In-depth Forbidden City tour\n• Great Wall sunset\n• Houhai bar street at night\n• Michelin-starred restaurant\n• More experiences await..." }
+          ]
+        }
+      ]
+    }
+  },
+  "tours": {
+    "title": "Featured Tours",
+    "subtitle": "Classic routes, authentic experiences",
+    "itinerary": "Itinerary",
+    "highlights": "Highlights",
+    "meals": "Meals",
+    "hotel": "Accommodation",
+    "included": "What's Included"
+  },
+  "destinations": {
+    "title": "Featured Destinations",
+    "subtitle": "Beijing, a city with 3,000 years of history...",
+    "intro": "Beijing, a city with 3,000 years of history, is China's political, cultural, international exchange, and technological innovation center. Here you'll find the world's largest palace complex — the Forbidden City, the magnificent Great Wall stretching thousands of miles, the Summer Palace — the most beautiful imperial garden, and the charming old Beijing hutongs full of local life.",
+    "highlights": "Must-See Highlights",
+    "bestTime": "Best Time to Visit",
+    "items": [
+      {
+        "name": "Forbidden City",
+        "desc": "The majesty of the Purple Forbidden City",
+        "img": "01_gugong.jpg",
+        "detail": "The world's largest and best-preserved wooden-structure ancient building complex, the imperial palace of 24 emperors during the Ming and Qing dynasties. Covering 720,000 square meters with about 150,000 square meters of floor space, it contains over 70 palaces and 9,000+ rooms.",
+        "highlights": ["Hall of Supreme Harmony (emperor's grand ceremonies)", "Palace of Heavenly Purity (emperor's residence)", "Imperial Garden (emperor's leisure)", "Treasure Gallery (Qing court treasures)"],
+        "bestTime": "All seasons, 3-4 hours recommended"
+      },
+      {
+        "name": "Great Wall",
+        "desc": "A wonder of the world, breathtaking vistas",
+        "img": "beijing_greatwall_02.jpg",
+        "detail": "Badaling Great Wall is the most representative section of the Ming Great Wall and the first to open to tourists. The wall averages 7.8 meters high and about 5 meters wide, wide enough for ten people or five horses to pass abreast.",
+        "highlights": ["Badaling (classic section)", "Mutianyu (scenic beauty)", "Simatai (original preserved)", "Jinshanling (photographer's paradise)"],
+        "bestTime": "Spring & Autumn, best April-June / September-October"
+      },
+      {
+        "name": "Temple of Heaven",
+        "desc": "Sacred ground for prayer and harmony",
+        "img": "beijing_tiantan_02.jpg",
+        "detail": "The Temple of Heaven was where emperors of the Ming and Qing dynasties worshipped heaven and prayed for harvest. Covering about 2.73 million square meters, its main buildings include the Hall of Prayer for Good Harvests, Circular Mound Altar, and Echo Wall. Listed as a UNESCO World Heritage Site in 1998.",
+        "highlights": ["Hall of Prayer for Good Harvests", "Circular Mound Altar (heaven worship)", "Echo Wall (triple echo wonder)", "Seven-Star Stones (fengshui layout)"],
+        "bestTime": "2-3 hours recommended, early morning best"
+      },
+      {
+        "name": "Hutongs",
+        "desc": "Old Beijing's authentic soul",
+        "img": "beijing_hutong_02.jpg",
+        "detail": "Hutongs are Beijing's lifelines and the microcosm of old Beijing life. The Shichahai area preserves the most complete historical neighborhood, where you can ride rickshaws through the alleys while listening to fascinating stories and historical legends from longtime residents.",
+        "highlights": ["Shichahai (most beautiful lake area)", "Nanluoguxiang (trendy hutong)", "Yandai Xiejie (market atmosphere)", "Prince Gong's Mansion (He Shen's former residence)"],
+        "bestTime": "Start in afternoon, Houhai bar street in evening"
+      },
+      {
+        "name": "Summer Palace",
+        "desc": "Poetic beauty of an imperial garden",
+        "img": "beijing_yiheyuan_02.png",
+        "detail": "The Summer Palace is China's largest existing imperial garden, integrating the finest elements of Jiangnan gardens with Kunming Lake and Longevity Hill. Listed as a UNESCO World Heritage Site in 1998, it's often called the Museum of Imperial Gardens.",
+        "highlights": ["Kunming Lake (Seventeen-Arch Bridge)", "Foxiang Pavilion (peak of Longevity Hill)", "Long Corridor (7,000+ paintings)", "Suzhou Street (waterfront market)"],
+        "bestTime": "3-4 hours recommended, all seasons"
+      },
+      {
+        "name": "Beihai Park",
+        "desc": "Classic imperial garden by the lake",
+        "img": "beijing_beihai_03.jpg",
+        "detail": "Beihai Park is China's oldest existing imperial garden with nearly a thousand years of history. The White Dagoba stands atop Qionghua Island, making it an iconic Beijing landmark. The park also features the Five-Dragon Pavilion, Haopuzhengjia, and the Nine-Dragon Wall.",
+        "highlights": ["White Pagoda (Qionghua Island summit)", "Nine-Dragon Wall", "Haopuzhengjia (rockery & waterfall)", "Tuancheng (mini ancient city)"],
+        "bestTime": "1-2 hours, combinable with hutong day tour"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We look forward to meeting you in Beijing",
+    "wechat": "WeChat",
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "email": "Email",
+    "wechatNote": "Text replies in all languages supported, voice service in Chinese only",
+    "whatsappNote": "Voice service in Chinese, text service in all languages",
+    "emailNote": "Text replies in all languages supported, voice service in Chinese only",
+    "phoneNote": "Voice service in Chinese only",
+    "hours": "Service Hours",
+    "localTime": "Current local time",
+    "workingNow": "Currently working",
+    "notWorkingNow": "Not working now",
+    "delayedReply": "Messages outside working hours will have a slight delay, with replies within 12 hours",
+    "multilingual": "Bilingual Chinese-English Service"
+  },
+  "footer": {
+    "copyright": "© 2024 Beijing Four Seasons Fortune Travel Co., Ltd. | All Rights Reserved",
+    "tagline": "Your Beijing journey begins with us"
+  }
+}
