@@ -45,7 +45,7 @@
           "highlights": ["Forbidden City", "Great Wall", "Temple of Heaven", "Summer Palace", "Hutongs", "Bird's Nest", "Beihai Park", "Old Summer Palace"],
           "included": "All transportation, 4 nights accommodation (4-star), 9 lunches + 4 breakfasts, All entrance fees, Professional guide",
           "desc": "Deep dive into Beijing's finest with 5 days and 4 nights. From the grandeur of the Forbidden City to the magnificence of the Great Wall, from the charm of hutongs to the poetry of imperial gardens — explore Beijing's unmissable landmarks and experience authentic Beijing culture.",
-          "meals": "4 breakfasts, 9 lunches (Imperial cuisine, Peking duck feast, Beijing炸酱面, Beijing snacks)",
+          "meals": "4 breakfasts, 9 lunches (Imperial cuisine, Peking duck feast, Beijing Zhajiangmian, Beijing snacks)",
           "hotel": "Recommended 4-star hotel near East Third Ring Road or Wangfujing, convenient metro access",
           "itinerary": [
             { "day": "D1", "title": "Imperial Arrival", "content": "Airport pickup → Hotel check-in → Tiananmen Square → Forbidden City (3hr in-depth tour) → Tiananmen Tower night view → Qianmen Street" },
@@ -59,9 +59,9 @@
           "name": "Forbidden City & Great Wall Day Tour",
           "duration": "Approx. 10 hours",
           "highlights": ["Tiananmen Square", "Forbidden City in-depth", "Shichahai", "Hutong Rickshaw"],
-          "included": "All entrance fees, Lunch (Imperial-style cuisine), Expert guide, Rickshaw体验, Round-trip transport",
+          "included": "All entrance fees, Lunch (Imperial-style cuisine), Expert guide, Rickshaw experience, Round-trip transport",
           "desc": "Experience Beijing's dual charm in one day. Explore 600 years of Forbidden City history in the morning, climb the Great Wall as a true hero in the afternoon, and enjoy the Bird's Nest night view in the evening.",
-          "meals": "Lunch included (Peking duck or traditional炸酱面)",
+          "meals": "Lunch included (Peking duck or traditional Zhajiangmian)",
           "hotel": "Hotel booking assistance available",
           "itinerary": [
             { "day": "Morning", "title": "Into the Forbidden City", "content": "Tiananmen Square → Meridian Gate → Hall of Supreme Harmony → Central Axis → Palace of Heavenly Purity → Imperial Garden → Gate of Divine Might" },
@@ -110,8 +110,8 @@
           "duration": "4-5 Days",
           "highlights": ["Kids-friendly Forbidden City", "Great Wall", "Science Museum", "Aquarium", "Hutongs", "Peking University"],
           "included": "Custom itinerary, Family guide, Child tickets, Specialty meals, All transportation",
-          "desc": "Safe, fun, and educational行程 for the whole family. Our professional children's guides bring history alive with engaging stories at the Forbidden City. The Science Museum's interactive exhibits make learning exciting, and the Aquarium's underwater tunnel leaves kids amazed.",
-          "meals": "Family特色 meals (traditional copper hotpot, 炸酱面 DIY workshop)",
+          "desc": "Safe, fun, and educational itinerary for the whole family. Our professional children's guides bring history alive with engaging stories at the Forbidden City. The Science Museum's interactive exhibits make learning exciting, and the Aquarium's underwater tunnel leaves kids amazed.",
+          "meals": "Specialty family meals (traditional copper hotpot, Zhajiangmian DIY workshop)",
           "hotel": "Recommended family suites in Sanlitun or Guomao area, near shopping districts",
           "itinerary": [
             { "day": "D1", "title": "Imperial Introduction", "content": "Pickup → Forbidden City kids version (2.5hr) → Jingshan Park panoramic view → Qianmen Street" },
