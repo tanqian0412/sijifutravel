@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://okara.ai';
+const BASE_URL = 'https://sijifutravel.com';
 
 export default function robots(): MetadataRoute.Robots {
   return {

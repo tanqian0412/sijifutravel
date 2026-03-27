@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const BASE_URL = 'https://okara.ai';
+const BASE_URL = 'https://sijifutravel.com';
 
 const locales = [
   { code: 'zh-CN', hreflang: 'zh-CN', name: '简体中文', region: 'CN' },

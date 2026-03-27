@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://okara.ai';
+const BASE_URL = 'https://sijifutravel.com';
 
 const locales = [
   { code: 'zh-CN', hreflang: 'zh-CN', region: 'CN' },
