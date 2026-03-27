@@ -236,13 +236,42 @@ function useScrollReveal() {
 function LanguageSelector({ className = '', scrolled = false }: { className?: string; scrolled?: boolean }) {
   const { locale, setLocale, t } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const currentLang = languages.find(l => l.code === locale) || languages[0];
 
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+    // Use touchend for mobile
+    function handleTouchOutside(event: TouchEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener('touchend', handleTouchOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchend', handleTouchOutside);
+    };
+  }, [isOpen]);
+
   return (
-    <div className={`relative ${className}`}>
+    <div ref={dropdownRef} className={`relative ${className}`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
+        onTouchEnd={(e) => {
+          e.preventDefault();
+          setIsOpen(!isOpen);
+        }}
         className={`flex items-center gap-1.5 md:gap-2 px-2 md:px-3 py-1.5 md:py-1.5 rounded-full text-xs md:text-sm font-serif font-medium transition-all duration-300 backdrop-blur-sm ${
           scrolled
             ? 'bg-gray-100/90 text-gray-700 hover:bg-gray-200 hover:text-gray-900 border border-gray-200'
@@ -262,10 +291,13 @@ function LanguageSelector({ className = '', scrolled = false }: { className?: st
       </button>
 
       {/* Dropdown */}
-      <div className={`absolute right-0 top-full mt-2 bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transition-all duration-300 ${
-        isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
-      }`}>
-        <div className="py-2 max-h-64 md:max-h-80 overflow-y-auto">
+      <div
+        className={`absolute right-0 top-full mt-2 z-50 bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transition-all duration-300 ${
+          isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
+        }`}
+        style={{ minWidth: '180px' }}
+      >
+        <div className="py-2 max-h-64 md:max-h-80 overflow-y-auto touch-auto">
           {languages.map(lang => (
             <button
               key={lang.code}
@@ -273,7 +305,12 @@ function LanguageSelector({ className = '', scrolled = false }: { className?: st
                 setLocale(lang.code);
                 setIsOpen(false);
               }}
-              className={`w-full flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2 md:py-2.5 text-left transition-colors hover:bg-gray-50 ${
+              onTouchEnd={(e) => {
+                e.preventDefault();
+                setLocale(lang.code);
+                setIsOpen(false);
+              }}
+              className={`w-full flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2.5 md:py-2.5 text-left transition-colors hover:bg-gray-50 active:bg-gray-100 ${
                 locale === lang.code ? 'bg-red-50 text-[#C41E3A]' : 'text-gray-700'
               }`}
             >
