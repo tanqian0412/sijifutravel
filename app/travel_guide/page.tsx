@@ -152,7 +152,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/lazy-img1.jpg"
+                  src="/素材/beijing-1.jpg"
                   alt="天安门广场"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -167,7 +167,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing_greatwall_02.jpg"
+                  src="/素材/beijing-1.jpg"
                   alt="八达岭长城"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -183,7 +183,7 @@ export default function TravelGuidePage() {
               {/* Beijing Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing_yiheyuan_02.png"
+                  src="/素材/contact-bg.jpg"
                   alt="颐和园"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -244,7 +244,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/travel-food.jpg"
+                  src="/素材/local-food.jpg"
                   alt="北京美食"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -447,9 +447,9 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/beijing_hutong_02.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
-              <img src="/素材/lazy-img2.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
-              <img src="/素材/beijing_sanlitun_01.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/contact-bg.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/lazy-img3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/food-stall.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
@@ -507,8 +507,8 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/beijing_beihai_03.jpg" alt="北海公园" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
-              <img src="/素材/beijing_hutong_02.jpg" alt="胡同" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_niaochao_01.webp" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/beijing_gugong_03.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 强烈推荐给喜欢摄影的朋友！</p>
