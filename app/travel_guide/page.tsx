@@ -289,14 +289,6 @@ export default function TravelGuidePage() {
               <p>日用品：晕车药、肠胃药、创可贴、充电宝、润唇膏、防晒霜</p>
               <p>其他：舒适的运动鞋（爬长城必备）、轻便背包</p>
 
-              <p style={{ textAlign: 'center', margin: '15px 0' }}>
-                <img
-                  src="/素材/xhs_beijing_guide_07.jpg"
-                  alt="北京美食"
-                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
-                />
-              </p>
-
               {/* Section: 美食推荐 */}
               <p><strong>北京特色美食🍲</strong></p>
               <p>✓北京烤鸭    ✓老北京炸酱面    ✓门钉肉饼</p>
