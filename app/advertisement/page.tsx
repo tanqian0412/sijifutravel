@@ -8,6 +8,7 @@ export default function AdvertisementPage() {
 
   const guideWechatId = '18618119767';
   const guideEmail = 'a18618119767@163.com';
+  const guidePhone = '18618119767';
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
@@ -651,6 +652,51 @@ export default function AdvertisementPage() {
         }}>
           <div>专注北京旅游 · 十年品质服务 · 50,000+游客选择</div>
           <div style={{ marginTop: '5px' }}>© 2024 北京四季福旅行社 All Rights Reserved</div>
+        </div>
+      </div>
+
+      {/* Right Sidebar - Fixed */}
+      <div style={{
+        position: 'fixed',
+        right: '0',
+        top: '50%',
+        transform: 'translateY(-50%)',
+        width: '160px',
+        backgroundColor: '#fff',
+        boxShadow: '0 0 20px rgba(139, 139, 183, 0.21)',
+        borderRadius: '8px',
+        padding: '15px 10px',
+        zIndex: 1000
+      }}>
+        {/* QR Code */}
+        <div style={{ textAlign: 'center', marginBottom: '15px' }}>
+          <img
+            src="https://dj-1309972557.file.myqcloud.com/uploads/images/userfiles/58988/202511/20251113/1ed4a5c9ad61efbbde120804c813f18d.jpg"
+            alt="微信二维码"
+            style={{ width: '120px', height: '160px', borderRadius: '4px', margin: '0 auto' }}
+          />
+          <div style={{ fontSize: '11px', color: '#666', marginTop: '5px' }}>微信咨询</div>
+        </div>
+
+        {/* Divider */}
+        <div style={{ borderTop: '1px solid #eee', margin: '10px 0' }}></div>
+
+        {/* Phone */}
+        <div style={{ textAlign: 'center', marginBottom: '10px' }}>
+          <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>电话/微信</div>
+          <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#C41E3A' }}>{guidePhone}</div>
+        </div>
+
+        {/* QQ */}
+        <div style={{ textAlign: 'center', marginBottom: '10px' }}>
+          <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>QQ咨询</div>
+          <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#C41E3A' }}>2584144797</div>
+        </div>
+
+        {/* Email */}
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>邮箱</div>
+          <div style={{ fontSize: '11px', fontWeight: 'bold', color: '#666', wordBreak: 'break-all' }}>{guideEmail}</div>
         </div>
       </div>
     </div>
