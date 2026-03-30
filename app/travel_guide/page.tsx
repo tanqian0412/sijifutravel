@@ -75,7 +75,7 @@ export default function TravelGuidePage() {
             {/* Hero Image */}
             <p style={{ textAlign: 'center', margin: '15px 0' }}>
               <img
-                src="/素材/beijing-2.jpg"
+                src="/素材/xhs_beijing_guide_01.jpg"
                 alt="故宫全景"
                 style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
               />
@@ -107,8 +107,17 @@ export default function TravelGuidePage() {
               {/* Beijing Image */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing_gugong_03.jpg"
+                  src="/素材/xhs_gugong_guide_02.jpg"
                   alt="故宫博物院"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              {/* 天坛图片 */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/tiantan.jpg"
+                  alt="天坛公园"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -150,10 +159,20 @@ export default function TravelGuidePage() {
                 晚上：逛王府井小吃街，品尝北京美食
               </p>
 
+              {/* 景山公园 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/lazy-img3.jpg"
-                  alt="故宫"
+                  src="/素材/jingshan_park.jpg"
+                  alt="景山公园俯瞰故宫"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              {/* 王府井夜景 */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/wangfujing.jpg"
+                  alt="王府井夜景"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -165,10 +184,29 @@ export default function TravelGuidePage() {
                 晚上：可选择观看鸟巢灯光秀
               </p>
 
+              {/* 八达岭长城 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/food-stall.jpg"
+                  src="/素材/xhs_beijing_guide_04.jpg"
                   alt="八达岭长城"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              {/* 鸟巢 */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/bird_nest.jpg"
+                  alt="鸟巢体育场"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              {/* 水立方 */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/water_cube.jpg"
+                  alt="水立方"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -180,10 +218,19 @@ export default function TravelGuidePage() {
                 傍晚：车览清华大学、北京大学外景
               </p>
 
+              {/* 圆明园 */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/yuanmingyuan.jpg"
+                  alt="圆明园遗址"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
               {/* Beijing Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing_niaochao_01.webp"
+                  src="/素材/xhs_beijing_guide_05.jpg"
                   alt="颐和园"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -244,7 +291,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/local-food.jpg"
+                  src="/素材/xhs_beijing_guide_07.jpg"
                   alt="北京美食"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -259,7 +306,7 @@ export default function TravelGuidePage() {
               {/* Food Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing_kaoya_01.jpg"
+                  src="/素材/xhs_beijing_guide_09.jpg"
                   alt="北京烤鸭"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -267,8 +314,24 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/travel-food.jpg"
-                  alt="北京小吃"
+                  src="/素材/zhajiangmian.jpg"
+                  alt="老北京炸酱面"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/hotpot.jpg"
+                  alt="铜锅涮肉"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/mending_roubing.jpg"
+                  alt="门钉肉饼"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -283,8 +346,8 @@ export default function TravelGuidePage() {
               {/* Beijing Night */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/contact-bg.jpg"
-                  alt="鸟巢夜景"
+                  src="/素材/xhs_gugong_guide_08.jpg"
+                  alt="故宫建筑"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -294,16 +357,8 @@ export default function TravelGuidePage() {
               {/* More Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/lazy-img5.jpg"
-                  alt="北京美食"
-                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
-                />
-              </p>
-
-              <p style={{ textAlign: 'center', margin: '15px 0' }}>
-                <img
-                  src="/素材/lazy-img4.jpg"
-                  alt="北京烤鸭"
+                  src="/素材/xhs_beijing_guide_10.jpg"
+                  alt="北京夜景"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -447,9 +502,9 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/food-stall.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/lazy-img4.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/travel-food.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/tourist_selfie_1.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/tourist_selfie_2.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/tourist_selfie_3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
@@ -507,8 +562,8 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/contact-bg.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/lazy-img3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/tourist_selfie_2.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/tourist_selfie_3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 强烈推荐给喜欢摄影的朋友！</p>
