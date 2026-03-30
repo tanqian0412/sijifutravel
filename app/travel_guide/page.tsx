@@ -101,7 +101,7 @@ export default function TravelGuidePage() {
               </p>
 
               <p style={{ marginLeft: '20px' }}>
-                刚从北京游玩回来，这次选择的是半自由行模式，走了故宫、八达岭长城、颐和园、天坛等经典景区，整体体验非常棒！北京的城市规模很大，景点之间距离较远，如果没有当地人帮忙安排，自己玩会很折腾。这次幸亏有朋友推荐的地接导游帮忙全程安排，省了不少麻烦。
+                刚从北京游玩回来，这次选择的是半自由行模式，走了故宫、八达岭长城、颐和园、天坛等经典景区，整体体验非常棒！北京的城市规模很大，景点之间距离较远，如果没有当地人帮忙安排，自己玩会很折腾。这次幸亏有朋友推荐的当地导游帮忙全程安排，省了不少麻烦。
               </p>
 
               {/* Beijing Image */}
@@ -152,8 +152,8 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing-1.jpg"
-                  alt="天安门广场"
+                  src="/素材/beijing-2.jpg"
+                  alt="故宫"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -167,7 +167,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing-1.jpg"
+                  src="/素材/beijing_gugong_03.jpg"
                   alt="八达岭长城"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -183,7 +183,7 @@ export default function TravelGuidePage() {
               {/* Beijing Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/contact-bg.jpg"
+                  src="/素材/beijing_niaochao_01.webp"
                   alt="颐和园"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -294,16 +294,16 @@ export default function TravelGuidePage() {
               {/* More Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing-2.jpg"
-                  alt="北京城市风光"
+                  src="/素材/local-food.jpg"
+                  alt="北京美食"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing-1.jpg"
-                  alt="北京城市风景"
+                  src="/素材/beijing_kaoya_01.jpg"
+                  alt="北京烤鸭"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -319,12 +319,12 @@ export default function TravelGuidePage() {
             {/* Reply Section */}
             <div style={{ marginTop: '15px' }}>
               {[
-                { name: '小李', level: 'Lv.15', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaoli', time: '2天前', type: '追问', content: '攻略好详细！请问11月中旬去北京天气怎么样？长城的红叶还有吗？' },
-                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '2天前', type: '回复', content: '11月天气比较凉爽，适合出行。长城的红叶这个时候已经比较少了，但景色依然很美。' },
-                { name: 'Mika', level: 'Lv.22', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=mika', time: '1天前', type: '追问', content: '两个人可以成团吗？不想太多人一起。' },
-                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '1天前', type: '回复', content: '可以的，半自由行可以单独成团，也可以和其他小团队拼团，很灵活。' },
-                { name: '阳光明媚', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sunny', time: '1天前', type: '追问', content: '上周刚跟真真的团回来，确实很靠谱！住的酒店就在三环内，去景点都有专车接送，推荐给想去北京的朋友。' },
-                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '1天前', type: '回复', content: '是的，真真的团性价比很高，我们上次也是找她安排的，整个行程很轻松。' }
+                { name: '小李', level: 'Lv.15', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaoli', time: '3天前', type: '追问', content: '攻略好详细！请问11月中旬去北京天气怎么样？长城的红叶还有吗？' },
+                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '3天前', type: '回复', content: '11月天气比较凉爽，适合出行。长城的红叶这个时候已经比较少了，但景色依然很美。' },
+                { name: 'Mika', level: 'Lv.22', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=mika', time: '2天前', type: '追问', content: '两个人可以成团吗？不想太多人一起。' },
+                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '2天前', type: '回复', content: '可以的，半自由行可以单独成团，也可以和其他小团队拼团，很灵活。' },
+                { name: '阳光明媚', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sunny', time: '2天前', type: '追问', content: '上周跟朋友一起去的，确实不错！住宿条件很好，导游很专业，推荐！' },
+                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '2天前', type: '回复', content: '是的，真真的团性价比很高，我们上次也是找她安排的，整个行程很轻松。' }
               ].map((reply, index) => (
                 <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
                   <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
@@ -438,18 +438,18 @@ export default function TravelGuidePage() {
                 <span style={{ fontWeight: 'bold', color: '#333' }}>美食达人小美</span>
                 <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>Lv.32</span>
               </div>
-              <div style={{ fontSize: '12px', color: '#999' }}>5小时前</div>
+              <div style={{ fontSize: '12px', color: '#999' }}>2天前</div>
             </div>
           </div>
 
           <div style={{ lineHeight: '24px' }}>
-            <p>强烈推荐真真的团！这次带父母去北京，五天四晚全程专车接送，父亲腿脚不便还安排了轮椅服务。太贴心了！</p>
+            <p>强烈推荐真真的团！这次带父母去北京，五天四晚全程专车接送，行程安排得很宽松，老人走累了随时可以休息。太贴心了！</p>
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/contact-bg.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/lazy-img3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
               <img src="/素材/food-stall.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/beijing_kaoya_01.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/local-food.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
@@ -460,11 +460,11 @@ export default function TravelGuidePage() {
 
             <div style={{ marginTop: '15px' }}>
               {[
-                { name: '开心果', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=kaixinguo', time: '4小时前', type: '追问', content: '请问怎么联系真真？也想带爸妈去北京玩', contentImage: null },
-                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '4小时前', type: '回复', content: '微信：ziyue11-15，人很nice，咨询不收费', contentImage: null },
-                { name: '老北京', level: 'Lv.25', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=laobeijing', time: '3小时前', type: '追问', content: '父母游适合选择什么套餐？有高血压老人', contentImage: null },
-                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '3小时前', type: '回复', content: '真真会安排无障碍通道和充足休息时间，很适合老人', contentImage: null },
-                { name: '糖糖', level: 'Lv.14', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=tangtang', time: '2小时前', type: '追问', content: '已加真真微信，回复好快！已经报名了下周的团', contentImage: null },
+                { name: '开心果', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=kaixinguo', time: '2天前', type: '追问', content: '请问怎么联系真真？也想带爸妈去北京玩', contentImage: null },
+                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '2天前', type: '回复', content: '微信：ziyue11-15，人很nice，咨询不收费', contentImage: null },
+                { name: '老北京', level: 'Lv.25', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=laobeijing', time: '1天前', type: '追问', content: '父母游适合选择什么套餐？有高血压老人', contentImage: null },
+                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '1天前', type: '回复', content: '真真会安排无障碍通道和充足休息时间，很适合老人', contentImage: null },
+                { name: '糖糖', level: 'Lv.14', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=tangtang', time: '1天前', type: '追问', content: '已加真真微信，回复好快！已经报名了下周的团', contentImage: null },
               ].map((reply, index) => (
                 <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
                   <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
@@ -498,17 +498,17 @@ export default function TravelGuidePage() {
                 <span style={{ fontWeight: 'bold', color: '#333' }}>摄影爱好者老李</span>
                 <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>Lv.40</span>
               </div>
-              <div style={{ fontSize: '12px', color: '#999' }}>1小时前</div>
+              <div style={{ fontSize: '12px', color: '#999' }}>2天前</div>
             </div>
           </div>
 
           <div style={{ lineHeight: '24px' }}>
-            <p>作为一个摄影爱好者，我去过北京很多次，但这次跟真真的团让我拍到了最美的长城日出！行程安排非常专业，知道哪些角度最适合拍照。</p>
+            <p>作为一个摄影爱好者，之前自己去总是找不到最佳拍摄点。这次跟真真的团，领队对每个景点的最佳拍摄时间都很熟悉，拍到了满意的照片！</p>
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/beijing_niaochao_01.webp" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/beijing_gugong_03.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/contact-bg.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/lazy-img3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 强烈推荐给喜欢摄影的朋友！</p>
@@ -519,8 +519,8 @@ export default function TravelGuidePage() {
 
             <div style={{ marginTop: '15px' }}>
               {[
-                { name: '摄影师小陈', level: 'Lv.22', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaochen', time: '30分钟前', type: '追问', content: '请问是哪个季节去拍照效果最好？想拍红叶', contentImage: null },
-                { name: '摄影爱好者老李', level: 'Lv.40', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=laoli', time: '20分钟前', type: '回复', content: '10月中旬到11月初是最佳时间，长城红叶很美', contentImage: null },
+                { name: '摄影师小陈', level: 'Lv.22', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaochen', time: '2天前', type: '追问', content: '请问是哪个季节去拍照效果最好？想拍红叶', contentImage: null },
+                { name: '摄影爱好者老李', level: 'Lv.40', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=laoli', time: '2天前', type: '回复', content: '10月中旬到11月初是最佳时间，长城红叶很美', contentImage: null },
               ].map((reply, index) => (
                 <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
                   <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
