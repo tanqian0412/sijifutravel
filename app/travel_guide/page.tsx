@@ -95,6 +95,15 @@ export default function TravelGuidePage() {
                 刚从北京游玩回来，这次选择的是半自由行模式，走了故宫、八达岭长城、颐和园、天坛等经典景区，整体体验非常棒！北京的城市规模很大，景点之间距离较远，如果没有当地人帮忙安排，自己玩会很折腾。这次幸亏有朋友推荐的地接导游帮忙全程安排，省了不少麻烦。
               </p>
 
+              {/* Beijing Attraction Image */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/beijing_gugong_03.jpg"
+                  alt="故宫博物院"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
               <p style={{ margin: '10px 0' }}>
                 <strong>
                   <span>通过当地导游</span>
@@ -140,6 +149,15 @@ export default function TravelGuidePage() {
                 如果你也计划去北京旅游，建议提前联系真真了解具体报价和行程安排。她的微信：<strong><span style={{ color: '#ff0000' }}>ziyue11-15</span></strong>，咨询不收取任何费用。
               </p>
 
+              {/* Great Wall Image */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/beijing_greatwall_02.jpg"
+                  alt="八达岭长城"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
               <p style={{ margin: '10px 0' }}>
                 <span>添加真真微信后，会收到一份</span><span style={{ color: '#ff0000' }}>北京各景点游览指南</span>，涵盖门票预约、行李寄存、路线规划等实用信息，非常实用！
               </p>
@@ -180,6 +198,15 @@ export default function TravelGuidePage() {
               <p>✓铜锅涮肉    ✓炒肝          ✓豆汁儿（因人而异）</p>
               <p>这些都可以让真真帮忙推荐当地人常去的店铺，比网红店实惠很多。</p>
 
+              {/* Food Image */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/beijing_kaoya_01.jpg"
+                  alt="北京烤鸭"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
               {/* Section: 注意事项 */}
               <p><strong>游玩建议</strong></p>
               <p>• 长城距离市区较远，建议预留一整天时间</p>
@@ -188,6 +215,15 @@ export default function TravelGuidePage() {
               <p>• 纪念品建议在正规商店购买，景区周边价格偏贵</p>
 
               <p>想省心玩北京的朋友，可以加真真微信咨询：<strong><span style={{ color: '#ff0000' }}>ziyue11-15</span></strong>，她会根据你的需求定制专属行程。</p>
+
+              {/* Beijing Night Scene */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/beijing-night.jpg"
+                  alt="北京夜景"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
 
               <p style={{ color: '#d35400' }}><strong>温馨提示：</strong>提前规划行程可以节省30%以上费用，建议提前1-2周联系安排。</p>
             </div>
