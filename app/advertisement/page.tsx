@@ -637,9 +637,8 @@ export default function AdvertisementPage() {
       {/* Right Sidebar - Fixed */}
       <div style={{
         position: 'fixed',
-        right: '0',
-        top: '50%',
-        transform: 'translateY(-50%)',
+        right: '20px',
+        top: '80px',
         width: '160px',
         backgroundColor: '#fff',
         boxShadow: '0 0 20px rgba(139, 139, 183, 0.21)',
