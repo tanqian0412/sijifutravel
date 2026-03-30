@@ -490,13 +490,15 @@ export default function TravelGuidePage() {
           </div>
 
           <div style={{ lineHeight: '24px' }}>
-            <p>强烈推荐真真的团！这次带父母去北京，五天四晚全程专车接送，行程安排得很宽松，老人走累了随时可以休息。太贴心了！</p>
+            <p>强烈推荐真真的团！这次跟男朋友一起去北京，五天四晚超浪漫！男朋友说这次旅行安排得太贴心了，全程不用操心攻略，适合情侣游！</p>
 
-            {/* User submitted photos - 普通游客风格分享 */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/user_xiaomei_1.png" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/user_xiaomei_2.png" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/user_xiaomei_3.png" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+            {/* User submitted photos - 情侣游风格分享 */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', margin: '15px 0' }}>
+              <img src="/素材/故宫自拍/v2-5ec5a4eef8ad615eeb131f198f3a32b3_1440w.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/故宫自拍/v2-6ad9987db46a7c5e343d492a74760598_1440w.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/故宫自拍/v2-49e5dadccf8dc996fc45e00413d713ff_1440w.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/故宫自拍/v2-85ae6c6b5339dba88421c8206f447d96_1440w.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/故宫自拍/v2-d11b7cad61696e1dcb314dc0f99f0bc1_1440w.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
@@ -507,10 +509,10 @@ export default function TravelGuidePage() {
 
             <div style={{ marginTop: '15px' }}>
               {[
-                { name: '开心果', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=kaixinguo', time: '2天前', type: '追问', content: '请问怎么联系真真？也想带爸妈去北京玩', contentImage: null },
-                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '2天前', type: '回复', content: '微信：ziyue11-15，人很nice，咨询不收费', contentImage: null },
-                { name: '老北京', level: 'Lv.25', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=laobeijing', time: '1天前', type: '追问', content: '父母游适合选择什么套餐？有高血压老人', contentImage: null },
-                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '1天前', type: '回复', content: '真真会安排无障碍通道和充足休息时间，很适合老人', contentImage: null },
+                { name: '小雪', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaoxue', time: '2天前', type: '追问', content: '请问情侣游推荐什么套餐？有没有适合的行程', contentImage: null },
+                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '2天前', type: '回复', content: '微信：ziyue11-15，可以定制情侣行程，很浪漫', contentImage: null },
+                { name: '阿杰', level: 'Lv.25', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=ajie', time: '1天前', type: '追问', content: '请问私密性好吗？不想行程太赶', contentImage: null },
+                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '1天前', type: '回复', content: '真真安排的行程很自由，想去哪去哪，不赶时间', contentImage: null },
                 { name: '糖糖', level: 'Lv.14', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=tangtang', time: '1天前', type: '追问', content: '已加真真微信，回复好快！已经报名了下周的团', contentImage: null },
               ].map((reply, index) => (
                 <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
