@@ -306,7 +306,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhajiangmian_generated.jpg"
+                  src="/素材/zhajiangmian.jpg"
                   alt="老北京炸酱面"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
