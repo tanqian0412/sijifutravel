@@ -1,14 +1,16 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function AdvertisementPage() {
   const [expanded, setExpanded] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const guideWechatId = '18618119767';
-  const guideEmail = 'a18618119767@163.com';
-  const guidePhone = '18618119767';
+  const guideWechatId = 'ziyue11-15';
+  const guideEmail = '2584144797@qq.com';
+  const guidePhone = '+86 186 0078 9081';
+  const guideWhatsApp = '+86 189 0865 1384';
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
@@ -139,26 +141,26 @@ export default function AdvertisementPage() {
                 <p style={{ margin: '10px 0' }}>
                   <strong>
                     <span style={{ color: '#000' }}>推荐北京本地金牌导游</span>
-                    <span style={{ color: '#ff0000' }}>瑶瑶</span>
+                    <span style={{ color: '#ff0000' }}>真真</span>
                     <span style={{ color: '#000' }}>(人美踏实靠谱 人称-百事通)：</span>
-                    <span style={{ color: '#ff0000', textDecoration: 'underline' }}>瑶瑶的微信（WeChat）ID:18618119767</span>
+                    <span style={{ color: '#ff0000', textDecoration: 'underline' }}>真真的微信（WeChat）ID:ziyue11-15</span>
                     <span style={{ color: '#2ecc71' }}>（点击微信ID号复制添加好友）。</span>
-                    <span style={{ color: '#ff0000' }}>特别是在乎酒店的旅友们，一定要加瑶瑶，他们安排的酒店都在三环内！</span>
+                    <span style={{ color: '#ff0000' }}>特别是在乎酒店的旅友们，一定要加真真，他们安排的酒店都在三环内！</span>
                   </strong>
                 </p>
 
                 {/* QR Code Image */}
-                <p>
+                <p style={{ textAlign: 'center', margin: '15px 0' }}>
                   <img
-                    src="https://dj-1309972557.file.myqcloud.com/uploads/images/userfiles/58988/202511/20251113/1ed4a5c9ad61efbbde120804c813f18d.jpg"
+                    src="/素材/wechat-qr.png"
                     alt="微信二维码"
-                    style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '15px 0' }}
+                    style={{ width: '200px', height: 'auto', display: 'inline-block' }}
                   />
                 </p>
 
                 <p style={{ margin: '10px 0' }}>
-                  <span style={{ color: '#000' }}>瑶瑶做了好多年的旅游接待，非常专业，经常组团带团旅游，想要去北京玩得省心省钱的朋友，可以加她的微信  </span>
-                  <span style={{ color: '#ff0000', textDecoration: 'underline' }}><strong>18618119767</strong></span>
+                  <span style={{ color: '#000' }}>真真做了好多年的旅游接待，非常专业，经常组团带团旅游，想要去北京玩得省心省钱的朋友，可以加她的微信  </span>
+                  <span style={{ color: '#ff0000', textDecoration: 'underline' }}><strong>ziyue11-15</strong></span>
                   <span style={{ color: '#2ecc71' }}><strong>（点击微信ID号复制 去添加微信）</strong></span>
                   <span style={{ color: '#000' }}>，反正加了问线路行程又不要钱！记得和她说是熟人介绍的哦，这样不仅可以</span>
                   <span style={{ color: '#2ecc71' }}><strong>免费定制行程</strong></span>
@@ -181,7 +183,7 @@ export default function AdvertisementPage() {
                 <p style={{ color: '#e67e22' }}><strong>一、我的北京游玩经历：</strong></p>
 
                 <p style={{ marginLeft: '20px' }}>
-                  <strong><span>和朋友从香港出发，去北京玩了5天4晚，整个吃住行都是由瑶瑶安排妥当</span></strong>，<strong><span>全程的行程景点、住宿、吃饭、门票、车等都是提前安排好了的，很省心！5天这些吃住行门票加一起，瑶瑶给了我们一个早鸟优惠套餐价格，人均只</span><span style={{ color: '#ff0000' }}>花了1880人民币</span><span>，这也是我为什么推荐去</span>北京<span><strong>的原因</strong>，真的是省心又省钱，还玩的好，吃的好，住的好。</span></strong>
+                  <strong><span>和朋友从香港出发，去北京玩了5天4晚，整个吃住行都是由真真安排妥当</span></strong>，<strong><span>全程的行程景点、住宿、吃饭、门票、车等都是提前安排好了的，很省心！5天这些吃住行门票加一起，真真给了我们一个早鸟优惠套餐价格，人均只</span><span style={{ color: '#ff0000' }}>花了1880人民币</span><span>，这也是我为什么推荐去</span>北京<span><strong>的原因</strong>，真的是省心又省钱，还玩的好，吃的好，住的好。</span></strong>
                 </p>
 
                 <p style={{ color: '#3366ff' }}><strong>花费：人均1880人民币（我是提前预订的，不然很多票都预约不到）</strong></p>
@@ -190,11 +192,11 @@ export default function AdvertisementPage() {
                 <p style={{ color: '#3366ff' }}><strong>2.一线星级酒店住宿，景点门票，每日用餐、导游、旅游车、等，这个真的是物超所值！</strong></p>
 
                 <p style={{ marginLeft: '20px' }}>
-                  如果大家想去北京旅游，推荐加一下当地导游<span style={{ color: '#ff0000' }}>瑶瑶</span>的微信(人很<span style={{ color: '#ff0000' }}>实在靠谱</span>)提前了解一下行程规划，她可以根据你的需求，比如说想去哪些景点啊、想吃啥玩啥、怎么玩啊，都可以帮你解答，还可以免费定制几条旅游线路，也省的自己到处找资料做攻略，就是个行走的北京攻略，哈哈~她的微信：<strong><span style={{ color: '#ff0000' }}>18618119767</span><span style={{ color: '#2ecc71' }}>(👈点击复制，添加微信 免费领取北京行程+报价) 咨询是免费的。</span></strong>
+                  如果大家想去北京旅游，推荐加一下当地导游<span style={{ color: '#ff0000' }}>真真</span>的微信(人很<span style={{ color: '#ff0000' }}>实在靠谱</span>)提前了解一下行程规划，她可以根据你的需求，比如说想去哪些景点啊、想吃啥玩啥、怎么玩啊，都可以帮你解答，还可以免费定制几条旅游线路，也省的自己到处找资料做攻略，就是个行走的北京攻略，哈哈~她的微信：<strong><span style={{ color: '#ff0000' }}>ziyue11-15</span><span style={{ color: '#2ecc71' }}>(👈点击复制，添加微信 免费领取北京行程+报价) 咨询是免费的。</span></strong>
                 </p>
 
                 <p style={{ margin: '10px 0' }}>
-                  <span>加上</span><span style={{ color: '#ff0000' }}>瑶瑶</span>微信时，她会给每个人赠送了一份2025年【最新北京景点旅游攻略】的电子文档，非常接地气，为我们的旅游做好了足够的准备！
+                  <span>加上</span><span style={{ color: '#ff0000' }}>真真</span>微信时，她会给每个人赠送了一份2025年【最新北京景点旅游攻略】的电子文档，非常接地气，为我们的旅游做好了足够的准备！
                 </p>
 
                 {/* Lazy Image 1 */}
@@ -207,12 +209,12 @@ export default function AdvertisementPage() {
                 </p>
 
                 <p style={{ color: '#ff0000' }}>
-                  <strong>瑶瑶</strong>说去北京一定要玩这一条经典线路，我把瑶瑶根据我的意向景区安排的<span style={{ color: '#ff0000' }}>五天四晚行程</span>发出来参考下：
+                  <strong>真真</strong>说去北京一定要玩这一条经典线路，我把真真根据我的意向景区安排的<span style={{ color: '#ff0000' }}>五天四晚行程</span>发出来参考下：
                 </p>
 
                 {/* Itinerary */}
                 <div style={{ margin: '15px 0' }}>
-                  <p><span style={{ color: '#27ae60' }}>❤️D1：</span><span style={{ color: '#2ecc71' }}>上午抵达北京，瑶瑶安排接机（24小时都可以接），入住饭店，自由活动，推荐，前门大街，王府井小吃街，西单，东单，三里屯等等....</span></p>
+                  <p><span style={{ color: '#27ae60' }}>❤️D1：</span><span style={{ color: '#2ecc71' }}>上午抵达北京，真真安排接机（24小时都可以接），入住饭店，自由活动，推荐，前门大街，王府井小吃街，西单，东单，三里屯等等....</span></p>
                   <p>宿：北京 </p>
                   <p>餐：自理</p>
 
@@ -232,9 +234,9 @@ export default function AdvertisementPage() {
                   <p>餐：早餐</p>
                 </div>
 
-                <p>本地导游<span style={{ color: '#ff0000' }}><strong>瑶瑶</strong></span>的微信：<span style={{ color: '#ff0000' }}><strong>18618119767</strong></span><span style={{ color: '#16a085' }}>(👈点击微信ID复制，添加微信 免费领取行程+报价）</span></p>
+                <p>本地导游<span style={{ color: '#ff0000' }}><strong>真真</strong></span>的微信：<span style={{ color: '#ff0000' }}><strong>ziyue11-15</strong></span><span style={{ color: '#16a085' }}>(👈点击微信ID复制，添加微信 免费领取行程+报价）</span></p>
 
-                <p>也可以发送邮件给瑶瑶，瑶瑶的邮箱是：<strong><span style={{ color: '#ff0000' }}>a18618119767@163.com</span></strong></p>
+                <p>也可以发送邮件给真真，真真的邮箱是：<strong><span style={{ color: '#ff0000' }}>2584144797@qq.com</span></strong></p>
 
                 {/* Section: 出行必备 */}
                 <p><strong>出行必备</strong></p>
@@ -253,14 +255,14 @@ export default function AdvertisementPage() {
 
                 {/* Section: 省RMB窍门 */}
                 <p><strong>省RMB窍门：</strong></p>
-                <p>第一次去是纯自由行，网上的攻略看的我是一头的雾水，花了很多冤枉钱还不省心！北京各个景点太分散，交通、安排路线也很麻烦，还有酒店预订、景点门票一大堆事情。在第一次去北京的时候，一个偶然的机会认识了一名网红旅游规划师--瑶瑶，她家是专门做北京半自由行的，有北京旅游的内部资源和专业的旅游规划服务，于是上次去的时候就联系她设计了行程旅游方案并陪同带着玩北京，不仅行程酒店全包干，还品尝了很多北京当地特色小吃，重点是只人均花了1880多人民币！强烈推荐一下</p>
+                <p>第一次去是纯自由行，网上的攻略看的我是一头的雾水，花了很多冤枉钱还不省心！北京各个景点太分散，交通、安排路线也很麻烦，还有酒店预订、景点门票一大堆事情。在第一次去北京的时候，一个偶然的机会认识了一名网红旅游规划师--真真，她家是专门做北京半自由行的，有北京旅游的内部资源和专业的旅游规划服务，于是上次去的时候就联系她设计了行程旅游方案并陪同带着玩北京，不仅行程酒店全包干，还品尝了很多北京当地特色小吃，重点是只人均花了1880多人民币！强烈推荐一下</p>
 
-                <p>瑶瑶 微信：<span style={{ color: '#ff0000' }}><strong>18618119767</strong></span><span style={{ color: '#1abc9c' }}>(👈点击ID号复制或扫描二维码，添加微信 免费领取北京行程+报价+优惠) 咨询是免费的.</span></p>
+                <p>真真 微信：<span style={{ color: '#ff0000' }}><strong>ziyue11-15</strong></span><span style={{ color: '#1abc9c' }}>(👈点击ID号复制或扫描二维码，添加微信 免费领取北京行程+报价+优惠) 咨询是免费的.</span></p>
 
                 {/* Section: 特色美食 */}
                 <p><strong>特色美食🍲</strong></p>
                 <p>✓北京烤鸭<br/>✓老北京炸酱面<br/>✓门钉肉饼<br/>✓铜锅涮肉<br/>✓炒肝（不是真的炒，像炖的）<br/>✓豆汁儿（谨慎😰尝试）<br/>✓老北京糖葫芦串</p>
-                <p>这些瑶瑶统统都可以安排~</p>
+                <p>这些真真统统都可以安排~</p>
 
                 {/* Lazy Image 3 - Food */}
                 <p>
@@ -277,7 +279,7 @@ export default function AdvertisementPage() {
                 <p>特产：去当地的超市买，不要去司机或导游介绍的地方买，多半是坑！</p>
                 <p>路边吃饭拉客的不要去，多半是坑等着你跳。</p>
 
-                <p><span style={{ color: '#ff0000' }}><strong>要安排三环内酒店的旅友们可以加一下瑶瑶：18618119767</strong></span><span style={{ color: '#16a085' }}>(👈点击复制添加微信 免费领取北京行程+报价+优惠) 咨询是免费的。</span></p>
+                <p><span style={{ color: '#ff0000' }}><strong>要安排三环内酒店的旅友们可以加一下真真：ziyue11-15</strong></span><span style={{ color: '#16a085' }}>(👈点击复制添加微信 免费领取北京行程+报价+优惠) 咨询是免费的。</span></p>
 
                 {/* Lazy Images 4 & 5 */}
                 <p>
@@ -294,11 +296,11 @@ export default function AdvertisementPage() {
                 </p>
 
                 {/* Tips Section */}
-                <p><span>Tips：第一次来北京旅游的宝宝们，担心消费被宰被坑的，建议选</span>瑶瑶<span>的这种定制服务，五天四晚只要1880人民币，尽情玩。而且像八达岭长城这些较远的景区景点，就省去不少烦心事，自己也乐得轻松自在，还包含接送、门票和餐饮、住宿、导游、保险等费用，是非常省心划算的出行方式了，墙裂推荐给懒人宝宝们！！</span></p>
+                <p><span>Tips：第一次来北京旅游的宝宝们，担心消费被宰被坑的，建议选</span>真真<span>的这种定制服务，五天四晚只要1880人民币，尽情玩。而且像八达岭长城这些较远的景区景点，就省去不少烦心事，自己也乐得轻松自在，还包含接送、门票和餐饮、住宿、导游、保险等费用，是非常省心划算的出行方式了，墙裂推荐给懒人宝宝们！！</span></p>
 
                 <p><span>发了这篇攻略之后，很多人私信我问</span>美女<span>的微信号是多少</span></p>
                 <p><span>个人也强烈推荐去</span>北京<span>找</span>美女<span>帮忙安排吧，我已经亲自体验回来了</span></p>
-                <p><span>我把她的微信发出来，</span>瑶瑶的微信ID：<span style={{ color: '#ff0000' }}><strong>18618119767</strong></span><span>（</span><span style={{ color: '#16a085' }}>←点击微信号复制添加，免费获取行程跟报价</span><span>）</span></p>
+                <p><span>我把她的微信发出来，</span>真真的微信ID：<span style={{ color: '#ff0000' }}><strong>ziyue11-15</strong></span><span>（</span><span style={{ color: '#16a085' }}>←点击微信号复制添加，免费获取行程跟报价</span><span>）</span></p>
 
                 <p style={{ color: '#d35400' }}><strong>楼主温馨提醒: </strong><span style={{ color: '#16a085' }}>3分钟看完替您省40%费用，加好友再省30%</span></p>
               </div>
@@ -340,7 +342,7 @@ export default function AdvertisementPage() {
                   avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-220610114H05.jpg',
                   time: '5天前',
                   type: '追问',
-                  content: '攻略做的好详细啊，刚才看别人的都看晕了，都打算放弃了，看到你的又想去了，正好想带孩子去北京玩，可以说是很及时了，听说北京的景区都很大，自己玩的话作为外地人太费脑筋了，我也准备找一下你说的瑶瑶带我们玩。'
+                  content: '攻略做的好详细啊，刚才看别人的都看晕了，都打算放弃了，看到你的又想去了，正好想带孩子去北京玩，可以说是很及时了，听说北京的景区都很大，自己玩的话作为外地人太费脑筋了，我也准备找一下你说的真真带我们玩。'
                 },
                 {
                   name: '宋青鵆',
@@ -356,7 +358,7 @@ export default function AdvertisementPage() {
                   avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-220Q6155JO.jpg',
                   time: '5天前',
                   type: '追答',
-                  content: '當然可以，你可以直接加入瑤瑤微信，她會為你安排詳細的行程，這是客服的微信：18618119767（👈點選複製新增好友（電話微信同號碼奧））咨詢瑤瑤的人很多，不一定及時通過，可以多試幾次~或者發送郵件告訴瑤瑤，郵箱：a18618119767@163.com'
+                  content: '當然可以，你可以直接加入真真微信，她會為你安排詳細的行程，這是客服的微信：ziyue11-15（👈點選複製新增好友）咨詢真真的人很多，不一定及時通過，可以多試幾次~或者發送郵件告訴真真，郵箱：2584144797@qq.com'
                 },
                 {
                   name: 'LUV 2U',
@@ -419,7 +421,7 @@ export default function AdvertisementPage() {
           {/* Content */}
           <div style={{ lineHeight: '24px' }}>
             <p style={{ margin: '10px 0' }}>
-              关于北京之前在网上翻看了N多的自助游，自由行等等，什么10块钱打的到故宫门票站，什么50块钱一晚的住宿，什么门票折扣8折的，到了北京之后发现这一切都确确实实存在，但是这些全是骗人的!出门在外最重要的还是安全问题，在不知如何选择的情况下，偶然看到-家叫做"北京私人定制品质游"的自由行攻略。她们24小时提供免费的专车接站服务。抱着试试看的态度跟瑶瑶咨询了一下，给我们的感觉非常不错，她跟我们介绍的都是一条一条清清楚楚的线路,瑶瑶对我说北京这边最好的是结伴游，不像别家旅行社的团，几十人跟赶鸭子一样，自由度非常的高，时间景点都是由自己掌控,就叫我们故宫一天的时间，八达岭和奥林匹克公园一天的时间，颐和园和天坛一天的时间(一般早上1-2个景点，下午2-3个景点，时间非常充足，完全没有走马观花的感觉)。这样的话，时间就完全掌握在自己手中，非常人性化的设计，考虑的非常周到，这点做的是非常不错的。
+              关于北京之前在网上翻看了N多的自助游，自由行等等，什么10块钱打的到故宫门票站，什么50块钱一晚的住宿，什么门票折扣8折的，到了北京之后发现这一切都确确实实存在，但是这些全是骗人的!出门在外最重要的还是安全问题，在不知如何选择的情况下，偶然看到-家叫做"北京私人定制品质游"的自由行攻略。她们24小时提供免费的专车接站服务。抱着试试看的态度跟真真咨询了一下，给我们的感觉非常不错，她跟我们介绍的都是一条一条清清楚楚的线路,真真对我说北京这边最好的是结伴游，不像别家旅行社的团，几十人跟赶鸭子一样，自由度非常的高，时间景点都是由自己掌控,就叫我们故宫一天的时间，八达岭和奥林匹克公园一天的时间，颐和园和天坛一天的时间(一般早上1-2个景点，下午2-3个景点，时间非常充足，完全没有走马观花的感觉)。这样的话，时间就完全掌握在自己手中，非常人性化的设计，考虑的非常周到，这点做的是非常不错的。
             </p>
 
             <p>
@@ -458,7 +460,7 @@ export default function AdvertisementPage() {
                   avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-200PQ4421E.jpg',
                   time: '5天前',
                   type: '追答',
-                  content: '2个人可以呀，她说不管是1个人还是2个人，都可以去，我个人还是不一样的，有时间的值得一去，瑶瑶也会根据不同人的需求进行安排的，还是比较自由的，具体的行程和价格的话你要自己和瑶瑶去商议，我把她的微信贴出来，瑶瑶WeChat ID：18618119767 （点击ID复制去微信添加好友咨询）'
+                  content: '2个人可以呀，她说不管是1个人还是2个人，都可以去，我个人还是不一样的，有时间的值得一去，真真也会根据不同人的需求进行安排的，还是比较自由的，具体的行程和价格的话你要自己和真真去商议，我把她的微信贴出来，真真WeChat ID：ziyue11-15 （点击ID复制去微信添加好友咨询）'
                 },
                 {
                   name: '李惟诺',
@@ -466,7 +468,7 @@ export default function AdvertisementPage() {
                   avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-2206101346026.jpg',
                   time: '5天前',
                   type: '追问',
-                  content: '刚从北京回来，说来也是缘分，找的就是瑶瑶，可能是因为口碑太好了吧，大家都找她，去了5天亲身体验确实服务的很周到'
+                  content: '刚从北京回来，说来也是缘分，找的就是真真，可能是因为口碑太好了吧，大家都找她，去了5天亲身体验确实服务的很周到'
                 }
               ].map((reply, index) => (
                 <div key={index} style={{
@@ -525,7 +527,7 @@ export default function AdvertisementPage() {
               1、 故宫门票，八达岭长城门票，颐和园门票<br/>
               2、北京全程的交通费，路程较远<br/>
               3、还包含特色客栈的住宿（条件舒适、位置极佳，交通方便）<br/>
-              4、全程优秀国证导游服务费（瑶瑶很细心、服务周到）
+              4、全程优秀国证导游服务费（真真很细心、服务周到）
             </p>
 
             <p>
@@ -536,7 +538,7 @@ export default function AdvertisementPage() {
               />
             </p>
 
-            <p>个人觉得这趟北京旅游旅游很实惠,很自由,很开心，全程安排的很细致，当时我是打算给她一点小费的，但是她太正直了拒绝了，她说我实在是想感谢她就帮她做做宣传就是最好的了，正好看见这攻略，写的很实在，就顺带提一下，这个瑶瑶真的很好</p>
+            <p>个人觉得这趟北京旅游旅游很实惠,很自由,很开心，全程安排的很细致，当时我是打算给她一点小费的，但是她太正直了拒绝了，她说我实在是想感谢她就帮她做做宣传就是最好的了，正好看见这攻略，写的很实在，就顺带提一下，这个真真真的很好</p>
 
             {/* Comment Info */}
             <div style={{
@@ -570,7 +572,7 @@ export default function AdvertisementPage() {
                     <span style={{ fontSize: '11px', color: '#999' }}>5天前</span>
                   </div>
                   <div style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                    我们当时也是找瑶瑶，本来一开始我们打算自己玩的，但是去过的同学给我推荐了瑶瑶，告诉我找个人带着玩比较好。去北京就是冲着那个八达岭长城去的，真的是幸好提前联系了瑶瑶给我们订好了票，因为到了北京才知道八达岭长城需要提前几天定票才可以的，每天的人数是限量的，很多人去了山下都不能上即刻上去，要排队买票，还不一定买得到。我心里一直在小窃喜，哈哈哈......果然去旅游就要找专业人士带着玩，不然就搞砸这次旅行了，但最让我惊憾的还是长城的雄浑壮阔，终生难忘！
+                    我们当时也是找真真，本来一开始我们打算自己玩的，但是去过的同学给我推荐了真真，告诉我找个人带着玩比较好。去北京就是冲着那个八达岭长城去的，真的是幸好提前联系了真真给我们订好了票，因为到了北京才知道八达岭长城需要提前几天定票才可以的，每天的人数是限量的，很多人去了山下都不能上即刻上去，要排队买票，还不一定买得到。我心里一直在小窃喜，哈哈哈......果然去旅游就要找专业人士带着玩，不然就搞砸这次旅行了，但最让我惊憾的还是长城的雄浑壮阔，终生难忘！
                   </div>
                 </div>
               </div>
@@ -592,24 +594,24 @@ export default function AdvertisementPage() {
 
           <div style={{ marginBottom: '15px' }}>
             <img
-              src="https://dj-1309972557.file.myqcloud.com/uploads/images/userfiles/58988/202511/20251113/1ed4a5c9ad61efbbde120804c813f18d.jpg"
+              src="/素材/wechat-qr.png"
               alt="微信二维码"
-              style={{ width: '150px', height: '200px', borderRadius: '4px' }}
+              style={{ width: '150px', height: 'auto', borderRadius: '4px' }}
             />
           </div>
 
           <div style={{ fontSize: '14px', color: '#666', marginBottom: '10px' }}>
-            扫描二维码添加瑶瑶微信
+            扫描二维码添加真真微信
           </div>
 
           <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <div style={{ backgroundColor: '#fff', padding: '12px 20px', borderRadius: '6px' }}>
-              <div style={{ fontSize: '12px', color: '#666' }}>📱 微信 / WhatsApp</div>
-              <div style={{ fontSize: '18px', fontWeight: 'bold', color: '#333' }}>{guideWechatId}</div>
+              <div style={{ fontSize: '12px', color: '#666', marginBottom: '5px' }}>📱 微信 / WhatsApp</div>
+              <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#333', marginBottom: '8px' }}>{guideWechatId}</div>
+              <div style={{ fontSize: '14px', color: '#666', marginBottom: '8px' }}>WhatsApp: {guideWhatsApp}</div>
               <button
                 onClick={() => copyToClipboard(guideWechatId)}
                 style={{
-                  marginTop: '8px',
                   padding: '6px 12px',
                   backgroundColor: '#C41E3A',
                   color: 'white',
@@ -624,8 +626,13 @@ export default function AdvertisementPage() {
             </div>
 
             <div style={{ backgroundColor: '#fff', padding: '12px 20px', borderRadius: '6px' }}>
-              <div style={{ fontSize: '12px', color: '#666' }}>📧 邮箱</div>
+              <div style={{ fontSize: '12px', color: '#666', marginBottom: '5px' }}>📧 邮箱</div>
               <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#333' }}>{guideEmail}</div>
+            </div>
+
+            <div style={{ backgroundColor: '#fff', padding: '12px 20px', borderRadius: '6px' }}>
+              <div style={{ fontSize: '12px', color: '#666', marginBottom: '5px' }}>📞 电话</div>
+              <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#333' }}>{guidePhone}</div>
             </div>
           </div>
 
@@ -671,9 +678,9 @@ export default function AdvertisementPage() {
         {/* QR Code */}
         <div style={{ textAlign: 'center', marginBottom: '15px' }}>
           <img
-            src="https://dj-1309972557.file.myqcloud.com/uploads/images/userfiles/58988/202511/20251113/1ed4a5c9ad61efbbde120804c813f18d.jpg"
+            src="/素材/wechat-qr.png"
             alt="微信二维码"
-            style={{ width: '120px', height: '160px', borderRadius: '4px', margin: '0 auto' }}
+            style={{ width: '120px', height: 'auto', borderRadius: '4px', margin: '0 auto' }}
           />
           <div style={{ fontSize: '11px', color: '#666', marginTop: '5px' }}>微信咨询</div>
         </div>
@@ -684,13 +691,13 @@ export default function AdvertisementPage() {
         {/* Phone */}
         <div style={{ textAlign: 'center', marginBottom: '10px' }}>
           <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>电话/微信</div>
-          <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#C41E3A' }}>{guidePhone}</div>
+          <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#C41E3A' }}>{guideWechatId}</div>
         </div>
 
-        {/* QQ */}
+        {/* WhatsApp */}
         <div style={{ textAlign: 'center', marginBottom: '10px' }}>
-          <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>QQ咨询</div>
-          <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#C41E3A' }}>2584144797</div>
+          <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>WhatsApp</div>
+          <div style={{ fontSize: '12px', fontWeight: 'bold', color: '#25D366' }}>{guideWhatsApp}</div>
         </div>
 
         {/* Email */}
