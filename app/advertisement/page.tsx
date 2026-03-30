@@ -1,14 +1,14 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function AdvertisementPage() {
   const [copied, setCopied] = useState(false);
-  const [showReplies, setShowReplies] = useState<{[key: number]: boolean}>({});
+  const [expanded, setExpanded] = useState(false);
 
-  const guideWechatId = '18195895772';
-  const guideEmail = '18195895772@163.com';
+  const guideWechatId = '18618119767';
+  const guideEmail = 'a18618119767@163.com';
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
@@ -16,603 +16,486 @@ export default function AdvertisementPage() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const toggleReplies = (index: number) => {
-    setShowReplies(prev => ({ ...prev, [index]: !prev[index] }));
-  };
+  const content = `我是香港的游客，刚刚从北京旅游回来，那边景色真的非常美，故宫博物院、八达岭长城、圆明园、颐和园、天坛公园、奥林匹克体育中心、清华北大等精华景点都玩遍了，还品尝了北京烤鸭、炸酱面、豆汁儿等特色小吃，全程我们的相机和GoPro都停不下来。和大家分享下游玩北京的经验，相信对于第一次去北京玩的朋友一定会有很大帮助。
+
+推荐北京本地金牌导游瑶瑶(人美踏实靠谱 人称-百事通)：瑶瑶的微信（WeChat）ID:18618119767（点击微信ID号复制添加好友）。特别是在乎酒店的旅友们，一定要加瑶瑶，他们安排的酒店都在三环内！
+
+瑶瑶做了好多年的旅游接待，非常专业，经常组团带团旅游，想要去北京玩得省心省钱的朋友，可以加她的微信  18618119767（点击微信ID号复制 去添加微信），反正加了问线路行程又不要钱！记得和她说是熟人介绍的哦，这样不仅可以免费定制行程，还可以帮买机票 ！
+
+`;
+
+  const fullContent = `我是香港的游客，刚刚从北京旅游回来，那边景色真的非常美，故宫博物院、八达岭长城、圆明园、颐和园、天坛公园、奥林匹克体育中心、清华北大等精华景点都玩遍了，还品尝了北京烤鸭、炸酱面、豆汁儿等特色小吃，全程我们的相机和GoPro都停不下来。和大家分享下游玩北京的经验，相信对于第一次去北京玩的朋友一定会有很大帮助。
+
+推荐北京本地金牌导游瑶瑶(人美踏实靠谱 人称-百事通)：瑶瑶的微信（WeChat）ID:18618119767（点击微信ID号复制添加好友）。特别是在乎酒店的旅友们，一定要加瑶瑶，他们安排的酒店都在三环内！
+
+瑶瑶做了好多年的旅游接待，非常专业，经常组团带团旅游，想要去北京玩得省心省钱的朋友，可以加她的微信  18618119767（点击微信ID号复制 去添加微信），反正加了问线路行程又不要钱！记得和她说是熟人介绍的哦，这样不仅可以免费定制行程，还可以帮买机票 ！
+
+加上瑶瑶微信时，她会给每个人赠送了一份2025年【最新北京景点旅游攻略】的电子文档，非常接地气，为我们的旅游做好了足够的准备！
+
+瑶瑶说去北京一定要玩这一条经典线路，我把瑶瑶根据我的意向景区安排的五天四晚行程发出来参考下：
+
+D1：上午抵达北京，瑶瑶安排接机（24小时都可以接），入住饭店，自由活动，推荐，前门大街，王府井小吃街，西单，东单，三里屯等等....
+宿：北京
+餐：自理
+
+D2：天安门广场-毛主席纪念堂—故宫博物院－天坛公园-什刹海
+宿：北京
+餐：早、中(正宗京菜）
+
+D3：八达岭长城深度游－-奥林匹克公园（外观鸟巢、水立方）
+宿:  北京
+餐：早、中（烤鸭餐）
+
+D4：颐和园深游-圆明园-车览清北
+住：北京
+餐：早、中
+
+D5：回程，依回程车次时间，统一安排送站/送机，返回温馨的家
+餐：早餐
+
+本地导游瑶瑶的微信：18618119767(👈点击微信ID复制，添加微信 免费领取行程+报价）
+
+也可以发送邮件给瑶瑶，瑶瑶的邮箱是：a18618119767@163.com
+
+出行必备
+
+证件类：带好身份证（大部分景点都需要）护照，台胞证，港澳通行证，有学生证的必带，大部分景点是半票。
+
+药品类：晕船药、肠胃药、创可贴、抗过敏药
+
+自拍杆、保湿喷雾、美白面膜都可以带上。
+
+充电宝建议带一个，美照拍到一半手机没电可就尴尬了。
+
+省RMB窍门：
+
+第一次去是纯自由行，网上的攻略看的我是一头的雾水，花了很多冤枉钱还不省心！北京各个景点太分散，交通、安排路线也很麻烦，还有酒店预订、景点门票一大堆事情。在第一次去北京的时候，一个偶然的机会认识了一名网红旅游规划师--瑶瑶，她家是专门做北京半自由行的，有北京旅游的内部资源和专业的旅游规划服务，于是上次去的时候就联系她设计了行程旅游方案并陪同带着玩北京，不仅行程酒店全包干，还品尝了很多北京当地特色小吃，重点是只人均花了1880多人民币！强烈推荐一下
+
+瑶瑶 微信：18618119767(👈点击ID号复制或扫描二维码，添加微信 免费领取北京行程+报价+优惠) 咨询是免费的.
+
+特色美食🍲
+
+✓北京烤鸭
+✓老北京炸酱面
+✓门钉肉饼
+✓铜锅涮肉
+✓炒肝（不是真的炒，像炖的）
+✓豆汁儿（谨慎😰尝试）
+✓老北京糖葫芦串
+
+这些瑶瑶统统都可以安排~
+
+避90%的坑
+
+不建议坐公交车，等车难，坐车累，到处堵车
+
+特产：去当地的超市买，不要去司机或导游介绍的地方买，多半是坑！
+
+路边吃饭拉客的不要去，多半是坑等着你跳。
+
+要安排三环内酒店的旅友们可以加一下瑶瑶：18618119767​​​​​​​(👈点击复制添加微信 免费领取北京行程+报价+优惠) 咨询是免费的。
+
+Tips：第一次来北京旅游的宝宝们，担心消费被宰被坑的，建议选瑶瑶的这种定制服务，五天四晚只要1880人民币，尽情玩。而且像八达岭长城这些较远的景区景点，就省去不少烦心事，自己也乐得轻松自在，还包含接送、门票和餐饮、住宿、导游、保险等费用，是非常省心划算的出行方式了，墙裂推荐给懒人宝宝们！！
+
+发了这篇攻略之后，很多人私信我问美女的微信号是多少
+
+个人也强烈推荐去北京找美女帮忙安排吧，我已经亲自体验回来了
+
+我把她的微信发出来，瑶瑶的微信ID：18618119767 （←点击微信号复制添加，免费获取行程跟报价）
+
+楼主温馨提醒: 3分钟看完替您省40%费用，加好友再省30%`;
 
   return (
     <div style={{
-      fontFamily: '"PingFang SC", "Microsoft YaHei", "Microsoft JhengHei", sans-serif',
-      backgroundColor: '#f5f5f5',
-      minHeight: '100vh',
-      padding: '20px',
-      color: '#333'
+      fontFamily: '"PingFang SC", "Lantinghei SC", "Microsoft YaHei", Arial, "宋体", sans-serif, tahoma',
+      backgroundColor: '#fff',
+      color: 'rgb(51, 51, 51)',
+      fontSize: '14px',
+      lineHeight: '24px',
+      margin: 0,
+      padding: 0
     }}>
-      {/* Header */}
-      <div style={{
-        maxWidth: '800px',
-        margin: '0 auto 20px',
-        backgroundColor: '#fff',
-        borderRadius: '8px',
-        padding: '20px',
-        boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '15px' }}>
-          <div style={{
-            width: '48px',
-            height: '48px',
-            borderRadius: '50%',
-            background: 'linear-gradient(135deg, #C41E3A, #A01830)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: 'white',
-            fontSize: '20px',
-            fontWeight: 'bold'
-          }}>
-            福
-          </div>
-          <div>
-            <div style={{ fontWeight: 'bold', fontSize: '16px', color: '#C41E3A' }}>
-              北京四季福旅行社
-            </div>
-            <div style={{ fontSize: '12px', color: '#999' }}>
-              專注北京旅遊 · 十年品質服務
-            </div>
+      {/* Main Content Container */}
+      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 55px 0 0' }}>
+
+        {/* Question Section */}
+        <div style={{ marginBottom: '15px' }}>
+          <h1 style={{ fontSize: '16px', fontWeight: 700, color: 'rgb(51, 51, 51)', margin: 0, lineHeight: '26px' }}>
+            <strong>计划去北京玩5天左右，路线行程怎么安排？费用大概多少？</strong>
+          </h1>
+          <div style={{ marginTop: '5px', lineHeight: '20px' }}>
+            <span style={{ color: '#27ae60' }}>近期想和朋友一起去北京旅行，门票和酒店好订吗？有没有省钱又好玩的行程路线推荐一下？</span>
+            <span> 求去过的朋友推荐下适合的线路 感谢！</span>
           </div>
         </div>
 
-        <h1 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          lineHeight: '1.6'
-        }}>
-          計劃去北京玩5天左右，路線行程怎麼安排？費用大概多少？
-        </h1>
-
-        <div style={{ fontSize: '13px', color: '#999', marginBottom: '15px' }}>
-          近期想和朋友一起去北京旅行，門票和酒店好訂嗎？有沒有省錢又好玩的行程路線推薦一下？求去過的朋友推薦下適合的線路 感謝！
+        {/* Answer Count */}
+        <div style={{ color: '#999', fontSize: '13px', marginBottom: '15px' }}>
+          312500个回答
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '12px', color: '#999' }}>
-          <span>312500個回答</span>
-          <span style={{ color: '#C41E3A', fontWeight: 'bold' }}>GESH</span>
-          <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>Lv.30</span>
-        </div>
+        {/* Answer Content */}
+        <div style={{ borderTop: '1px solid rgb(235, 240, 241)', paddingTop: '20px' }}>
 
-        <div style={{
-          border: '1px solid #ffe3b7',
-          backgroundColor: '#fff5e5',
-          padding: '15px 20px',
-          lineHeight: '1.8',
-          color: '#333',
-          borderRadius: '6px',
-          marginTop: '15px',
-          fontSize: '14px'
-        }}>
-          <strong>Tips：</strong><br/>
-          北京作為我國的首都，這里有巍峨的長城⛰️，莊嚴的故宮🏯，神秘的清華北大🏢，還有令人垂涎三尺的各種小吃🍝，在這里你可以卸下所有煩惱，🥰放慢腳步，體驗一場震撼人心的旅程～🧡
-        </div>
-      </div>
-
-      {/* Main Content */}
-      <div style={{
-        maxWidth: '800px',
-        margin: '0 auto 20px',
-        backgroundColor: '#fff',
-        borderRadius: '8px',
-        padding: '20px',
-        boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
-      }}>
-        <div style={{
-          background: 'linear-gradient(135deg, #C41E3A, #A01830)',
-          color: 'white',
-          padding: '20px',
-          borderRadius: '8px',
-          marginBottom: '20px',
-          textAlign: 'center'
-        }}>
-          <div style={{ fontSize: '14px', marginBottom: '10px', opacity: 0.9 }}>
-            【強烈推薦】北京旅遊超全攻略！5日遊良心不踩坑！
-          </div>
-          <div style={{ fontSize: '13px', lineHeight: '1.8', textAlign: 'left' }}>
-            我是香港的遊客，剛剛從北京旅遊回來，那邊景色真的非常美，故宮博物院、八達嶺長城、圓明園、頤和園、天壇公園、奧林匹克體育中心、清華北大等精華景點都玩遍了，還品嘗了北京烤鴨、炸醬面、豆汁兒等特色小吃，全程我們的相機和GoPro都停不下來。和大家分享下游玩北京的經驗，相信對於第一次去北京玩的朋友一定會有很大幫助。
-          </div>
-        </div>
-
-        {/* Guide Info */}
-        <div style={{
-          backgroundColor: '#f8f8f8',
-          padding: '15px',
-          borderRadius: '8px',
-          marginBottom: '20px',
-          display: 'flex',
-          gap: '15px',
-          alignItems: 'center'
-        }}>
-          <div style={{ position: 'relative' }}>
-            <Image
-              src="/素材/guide-avatar.jpg"
-              alt="導遊頭像"
-              width={60}
-              height={60}
-              style={{ borderRadius: '50%', objectFit: 'cover' }}
-            />
-            <div style={{
-              position: 'absolute',
-              bottom: '-5px',
-              right: '-5px',
-              backgroundColor: '#C41E3A',
-              color: 'white',
-              fontSize: '10px',
-              padding: '2px 6px',
-              borderRadius: '10px'
-            }}>
-              導遊
-            </div>
-          </div>
-          <div style={{ flex: 1 }}>
-            <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>
-              推薦北京本地金牌導遊小伍
-              <span style={{ fontSize: '12px', color: '#999', fontWeight: 'normal' }}>（人美踏實靠譜 人稱-百事通）</span>
-            </div>
-            <div style={{ fontSize: '13px', color: '#666' }}>
-              小伍做了好多年的旅遊接待，非常專業，經常組團帶團旅遊，想要去北京玩得省心省錢的朋友，可以加她的微信
-            </div>
-          </div>
-        </div>
-
-        {/* Contact Cards */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(2, 1fr)',
-          gap: '15px',
-          marginBottom: '20px'
-        }}>
-          {/* WeChat QR */}
-          <div style={{
-            backgroundColor: '#f8f8f8',
-            padding: '20px',
-            borderRadius: '8px',
-            textAlign: 'center'
-          }}>
-            <div style={{ fontSize: '14px', fontWeight: 'bold', marginBottom: '15px' }}>
-              掃描二維碼添加微信
-            </div>
-            <div style={{
-              width: '150px',
-              height: '150px',
-              margin: '0 auto 15px',
-              backgroundColor: 'white',
-              borderRadius: '8px',
-              overflow: 'hidden',
-              boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
-            }}>
+          {/* Author Info */}
+          <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px', position: 'relative' }}>
+            <div style={{ position: 'relative', marginRight: '10px' }}>
               <Image
-                src="/素材/wechat-qr.jpg"
-                alt="微信二維碼"
-                width={150}
-                height={150}
-                style={{ objectFit: 'contain' }}
+                src="/素材/yaoyao-avatar.jpg"
+                alt="GESH"
+                width={40}
+                height={40}
+                style={{ borderRadius: '50%' }}
               />
+              <span style={{
+                position: 'absolute',
+                bottom: '-2px',
+                right: '-2px',
+                width: '12px',
+                height: '12px',
+                backgroundColor: '#ffd700',
+                borderRadius: '50%',
+                border: '2px solid #fff'
+              }} />
             </div>
-            <div style={{ fontSize: '12px', color: '#999' }}>
-              微訊號：{guideWechatId}
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                <span style={{ fontWeight: 'bold', color: '#C41E3A' }}>GESH</span>
+                <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>Lv.30</span>
+              </div>
+              <div style={{ fontSize: '12px', color: '#999' }}>5天前</div>
             </div>
           </div>
 
-          {/* Contact Info */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+          {/* Content */}
+          <div style={{ lineHeight: '24px' }}>
+
+            {/* Title */}
+            <h3 style={{ textAlign: 'center', margin: '10px 0' }}>
+              <span style={{ color: '#e67e22' }}><strong>首都北京❤️一次庄严壮阔的旅行</strong></span>
+            </h3>
+
+            {/* Tips Box */}
             <div style={{
-              backgroundColor: '#f8f8f8',
-              padding: '15px',
-              borderRadius: '8px',
-              flex: 1
+              border: '1px solid #ffe3b7',
+              backgroundColor: '#fff5e5',
+              padding: '15px 20px',
+              lineHeight: '1.5',
+              color: '#333',
+              margin: '10px 0'
             }}>
-              <div style={{ fontSize: '13px', color: '#666', marginBottom: '5px' }}>📱 微信 / WhatsApp</div>
-              <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#333' }}>{guideWechatId}</div>
-              <button
-                onClick={() => copyToClipboard(guideWechatId)}
+              <b>Tips：</b><br/>
+              <b>北京</b>作为我国的首都，这里有巍峨的长城⛰️，庄严的故宫🏯，神秘的清华北大🏢，还有令人垂涎三尺的各种小吃🍝，在这里你可以卸下所有烦恼，🥰放慢脚步，体验一场震撼人心的旅程～🧡
+            </div>
+
+            {/* Main Content - Expandable */}
+            <div style={{ position: 'relative' }}>
+              {!expanded && (
+                <div style={{
+                  position: 'absolute',
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  height: '200px',
+                  background: 'linear-gradient(transparent, #fff)'
+                }} />
+              )}
+
+              <div style={{ display: expanded ? 'block' : 'none' }}>
+                <p style={{ margin: '10px 0' }}>
+                  <strong>【强烈推荐】</strong><strong>北京旅游超全攻略！5日游良心不踩坑！</strong>
+                </p>
+
+                <p style={{ color: '#000', marginLeft: '20px' }}>
+                  我是香港的游客，刚刚从北京旅游回来，那边景色真的非常美，故宫博物院、八达岭长城、圆明园、颐和园、天坛公园、奥林匹克体育中心、清华北大等精华景点都玩遍了，还品尝了北京烤鸭、炸酱面、豆汁儿等特色小吃，全程我们的相机和GoPro都停不下来。和大家分享下游玩北京的经验，相信对于第一次去北京玩的朋友一定会有很大帮助。
+                </p>
+
+                <p style={{ margin: '10px 0' }}>
+                  <strong>
+                    <span style={{ color: '#000' }}>推荐北京本地金牌导游</span>
+                    <span style={{ color: '#ff0000' }}>瑶瑶</span>
+                    <span style={{ color: '#000' }}>(人美踏实靠谱 人称-百事通)：</span>
+                    <span style={{ color: '#ff0000', textDecoration: 'underline' }}>瑶瑶的微信（WeChat）ID:18618119767</span>
+                    <span style={{ color: '#2ecc71' }}>（点击微信ID号复制添加好友）。</span>
+                    <span style={{ color: '#ff0000' }}>特别是在乎酒店的旅友们，一定要加瑶瑶，他们安排的酒店都在三环内！</span>
+                  </strong>
+                </p>
+
+                {/* QR Code Image */}
+                <div style={{ margin: '15px 0' }}>
+                  <Image
+                    src="/素材/yaoyao-qr.jpg"
+                    alt="微信二维码"
+                    width={705}
+                    height={935}
+                    style={{ width: '100%', height: 'auto', maxWidth: '705px' }}
+                  />
+                </div>
+
+                <p style={{ margin: '10px 0' }}>
+                  <span style={{ color: '#000' }}>瑶瑶做了好多年的旅游接待，非常专业，经常组团带团旅游，想要去北京玩得省心省钱的朋友，可以加她的微信  </span>
+                  <span style={{ color: '#ff0000', textDecoration: 'underline' }}><strong>18618119767</strong></span>
+                  <span style={{ color: '#2ecc71' }}><strong>（点击微信ID号复制 去添加微信）</strong></span>
+                  <span style={{ color: '#000' }}>，反正加了问线路行程又不要钱！记得和她说是熟人介绍的哦，这样不仅可以</span>
+                  <span style={{ color: '#2ecc71' }}><strong>免费定制行程</strong></span>
+                  <span style={{ color: '#000' }}>，<strong>还可以帮买机票 </strong></span>
+                  <span style={{ color: '#2c3e50' }}>！</span>
+                </p>
+
+                {/* Guide Intro Image */}
+                <div style={{ margin: '15px 0' }}>
+                  <Image
+                    src="/素材/guide-intro.jpg"
+                    alt="导游介绍"
+                    width={705}
+                    height={705}
+                    style={{ width: '100%', height: 'auto', maxWidth: '705px' }}
+                  />
+                </div>
+
+                <p>&nbsp;</p>
+
+                {/* Section 1 */}
+                <p style={{ color: '#e67e22' }}><strong>一、我的北京游玩经历：</strong></p>
+
+                <p style={{ marginLeft: '20px' }}>
+                  <strong><span>和朋友从香港出发，去北京玩了5天4晚，整个吃住行都是由瑶瑶安排妥当</span></strong>，<strong><span>全程的行程景点、住宿、吃饭、门票、车等都是提前安排好了的，很省心！5天这些吃住行门票加一起，瑶瑶给了我们一个早鸟优惠套餐价格，人均只</span><span style={{ color: '#ff0000' }}>花了1880人民币</span><span>，这也是我为什么推荐去</span>北京<span><strong>的原因</strong>，真的是省心又省钱，还玩的好，吃的好，住的好。</span></strong>
+                </p>
+
+                <p style={{ color: '#3366ff' }}><strong>花费：人均1880人民币（我是提前预订的，不然很多票都预约不到）</strong></p>
+                <p style={{ color: '#3366ff' }}><strong>时间：5天4晚</strong></p>
+                <p style={{ color: '#3366ff' }}><strong>包含：1.机场接机，全程交通（豪华商务旅游车，舒适不怕晕车），专车专导；（这点很关键，因为自己安排交通坐车很麻烦）</strong></p>
+                <p style={{ color: '#3366ff' }}><strong>2.一线星级酒店住宿，景点门票，每日用餐、导游、旅游车、等，这个真的是物超所值！</strong></p>
+
+                <p style={{ marginLeft: '20px' }}>
+                  如果大家想去北京旅游，推荐加一下当地导游<span style={{ color: '#ff0000' }}>瑶瑶</span>的微信(人很<span style={{ color: '#ff0000' }}>实在靠谱</span>)提前了解一下行程规划，她可以根据你的需求，比如说想去哪些景点啊、想吃啥玩啥、怎么玩啊，都可以帮你解答，还可以免费定制几条旅游线路，也省的自己到处找资料做攻略，就是个行走的北京攻略，哈哈~她的微信：<strong><span style={{ color: '#ff0000' }}>18618119767</span><span style={{ color: '#2ecc71' }}>(👈点击复制，添加微信 免费领取北京行程+报价) 咨询是免费的。</span></strong>
+                </p>
+
+                <p style={{ margin: '10px 0' }}>
+                  <span>加上</span><span style={{ color: '#ff0000' }}>瑶瑶</span>微信时，她会给每个人赠送了一份2025年【最新北京景点旅游攻略】的电子文档，非常接地气，为我们的旅游做好了足够的准备！
+                </p>
+
+                {/* Lazy Image 1 */}
+                <div style={{ margin: '15px 0' }}>
+                  <Image
+                    src="/素材/lazy-img1.jpg"
+                    alt="旅游攻略"
+                    width={705}
+                    height={470}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </div>
+
+                <p style={{ color: '#ff0000' }}>
+                  <strong>瑶瑶</strong>说去北京一定要玩这一条经典线路，我把瑶瑶根据我的意向景区安排的<span style={{ color: '#ff0000' }}>五天四晚行程</span>发出来参考下：
+                </p>
+
+                {/* Itinerary */}
+                <div style={{ margin: '15px 0' }}>
+                  <p><span style={{ color: '#27ae60' }}>❤️D1：</span><span style={{ color: '#2ecc71' }}>上午抵达北京，瑶瑶安排接机（24小时都可以接），入住饭店，自由活动，推荐，前门大街，王府井小吃街，西单，东单，三里屯等等....</span></p>
+                  <p>宿：北京 </p>
+                  <p>餐：自理</p>
+
+                  <p><span style={{ color: '#27ae60' }}>❤️D2：</span><span style={{ color: '#2ecc71' }}>天安门广场-毛主席纪念堂—故宫博物院－天坛公园-什刹海</span></p>
+                  <p>宿：北京 </p>
+                  <p>餐：早、中(正宗京菜）</p>
+
+                  <p><span style={{ color: '#27ae60' }}>❤️D3：</span><span style={{ color: '#2ecc71' }}>八达岭长城深度游－-奥林匹克公园（外观鸟巢、水立方）</span></p>
+                  <p>宿:  北京 </p>
+                  <p>餐：早、中（烤鸭餐）</p>
+
+                  <p><span style={{ color: '#27ae60' }}>❤️D4：</span><span style={{ color: '#2ecc71' }}>颐和园深游-圆明园-车览清北</span></p>
+                  <p>住：北京 </p>
+                  <p>餐：早、中</p>
+
+                  <p><span style={{ color: '#27ae60' }}>❤️D5：</span><span style={{ color: '#2ecc71' }}>回程，依回程车次时间，统一安排送站/送机，返回温馨的家 </span></p>
+                  <p>餐：早餐</p>
+                </div>
+
+                <p>本地导游<span style={{ color: '#ff0000' }}><strong>瑶瑶</strong></span>的微信：<span style={{ color: '#ff0000' }}><strong>18618119767</strong></span><span style={{ color: '#16a085' }}>(👈点击微信ID复制，添加微信 免费领取行程+报价）</span></p>
+
+                <p>也可以发送邮件给瑶瑶，瑶瑶的邮箱是：<strong><span style={{ color: '#ff0000' }}>a18618119767@163.com</span></strong></p>
+
+                {/* Section: 出行必备 */}
+                <p><strong>出行必备</strong></p>
+                <p>证件类：带好身份证（大部分景点都需要）护照，台胞证，港澳通行证，有学生证的必带，大部分景点是半票。</p>
+                <p>药品类：晕船药、肠胃药、创可贴、抗过敏药</p>
+                <p>自拍杆、保湿喷雾、美白面膜都可以带上。充电宝建议带一个，美照拍到一半手机没电可就尴尬了。</p>
+
+                {/* Lazy Image 2 */}
+                <div style={{ margin: '15px 0' }}>
+                  <Image
+                    src="/素材/lazy-img2.jpg"
+                    alt="出行必备"
+                    width={705}
+                    height={470}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </div>
+
+                {/* Section: 省RMB窍门 */}
+                <p><strong>省RMB窍门：</strong></p>
+                <p>第一次去是纯自由行，网上的攻略看的我是一头的雾水，花了很多冤枉钱还不省心！北京各个景点太分散，交通、安排路线也很麻烦，还有酒店预订、景点门票一大堆事情。在第一次去北京的时候，一个偶然的机会认识了一名网红旅游规划师--瑶瑶，她家是专门做北京半自由行的，有北京旅游的内部资源和专业的旅游规划服务，于是上次去的时候就联系她设计了行程旅游方案并陪同带着玩北京，不仅行程酒店全包干，还品尝了很多北京当地特色小吃，重点是只人均花了1880多人民币！强烈推荐一下</p>
+
+                <p>瑶瑶 微信：<span style={{ color: '#ff0000' }}><strong>18618119767</strong></span><span style={{ color: '#1abc9c' }}>(👈点击ID号复制或扫描二维码，添加微信 免费领取北京行程+报价+优惠) 咨询是免费的.</span></p>
+
+                {/* Section: 特色美食 */}
+                <p><strong>特色美食🍲</strong></p>
+                <p>✓北京烤鸭<br/>✓老北京炸酱面<br/>✓门钉肉饼<br/>✓铜锅涮肉<br/>✓炒肝（不是真的炒，像炖的）<br/>✓豆汁儿（谨慎😰尝试）<br/>✓老北京糖葫芦串</p>
+                <p>这些瑶瑶统统都可以安排~</p>
+
+                {/* Lazy Image 3 - Food */}
+                <div style={{ margin: '15px 0' }}>
+                  <Image
+                    src="/素材/lazy-img3.jpg"
+                    alt="特色美食"
+                    width={705}
+                    height={470}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </div>
+
+                {/* Section: 避坑 */}
+                <p><strong>避90%的坑</strong></p>
+                <p>不建议坐公交车，等车难，坐车累，到处堵车</p>
+                <p>特产：去当地的超市买，不要去司机或导游介绍的地方买，多半是坑！</p>
+                <p>路边吃饭拉客的不要去，多半是坑等着你跳。</p>
+
+                <p><span style={{ color: '#ff0000' }}><strong>要安排三环内酒店的旅友们可以加一下瑶瑶：18618119767</strong></span><span style={{ color: '#16a085' }}>(👈点击复制添加微信 免费领取北京行程+报价+优惠) 咨询是免费的。</span></p>
+
+                {/* Lazy Images 4 & 5 */}
+                <div style={{ margin: '15px 0' }}>
+                  <Image
+                    src="/素材/lazy-img4.jpg"
+                    alt="图片4"
+                    width={705}
+                    height={470}
+                    style={{ width: '100%', height: 'auto', marginBottom: '10px' }}
+                  />
+                  <Image
+                    src="/素材/lazy-img5.jpg"
+                    alt="图片5"
+                    width={705}
+                    height={470}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </div>
+
+                {/* Tips Section */}
+                <p><span>Tips：第一次来北京旅游的宝宝们，担心消费被宰被坑的，建议选</span>瑶瑶<span>的这种定制服务，五天四晚只要1880人民币，尽情玩。而且像八达岭长城这些较远的景区景点，就省去不少烦心事，自己也乐得轻松自在，还包含接送、门票和餐饮、住宿、导游、保险等费用，是非常省心划算的出行方式了，墙裂推荐给懒人宝宝们！！</span></p>
+
+                <p><span>发了这篇攻略之后，很多人私信我问</span>美女<span>的微信号是多少</span></p>
+                <p><span>个人也强烈推荐去</span>北京<span>找</span>美女<span>帮忙安排吧，我已经亲自体验回来了</span></p>
+                <p><span>我把她的微信发出来，</span>瑶瑶的微信ID：<span style={{ color: '#ff0000' }}><strong>18618119767</strong></span><span style={{ color: '#ff0000' }}><strong> </strong></span><span>（</span><span style={{ color: '#16a085' }}>←点击微信号复制添加，免费获取行程跟报价</span><span>）</span></p>
+
+                <p style={{ color: '#d35400' }}><strong>楼主温馨提醒: </strong><span style={{ color: '#16a085' }}>3分钟看完替您省40%费用，加好友再省30%</span></p>
+              </div>
+
+              {/* Expand Button */}
+              <div
+                onClick={() => setExpanded(!expanded)}
                 style={{
-                  marginTop: '8px',
-                  padding: '6px 12px',
-                  backgroundColor: '#C41E3A',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: '4px',
-                  fontSize: '12px',
-                  cursor: 'pointer'
+                  marginTop: expanded ? '10px' : '0',
+                  padding: '10px',
+                  textAlign: 'center',
+                  color: '#C41E3A',
+                  cursor: 'pointer',
+                  backgroundColor: expanded ? 'transparent' : 'linear-gradient(transparent, #fff)'
                 }}
               >
-                {copied ? '已複製！' : '複製微信號'}
-              </button>
-            </div>
-
-            <div style={{
-              backgroundColor: '#f8f8f8',
-              padding: '15px',
-              borderRadius: '8px',
-              flex: 1
-            }}>
-              <div style={{ fontSize: '13px', color: '#666', marginBottom: '5px' }}>📧 郵箱</div>
-              <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#333' }}>{guideEmail}</div>
-            </div>
-          </div>
-        </div>
-
-        <div style={{
-          padding: '15px',
-          backgroundColor: '#fff5e5',
-          borderRadius: '8px',
-          fontSize: '13px',
-          color: '#666',
-          textAlign: 'center',
-          marginBottom: '20px'
-        }}>
-          🌟 咨詢是免費的！加好友即可免費獲取行程規劃 + 報價
-        </div>
-
-        <h2 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          paddingBottom: '10px',
-          borderBottom: '2px solid #C41E3A'
-        }}>
-          一、我的北京遊玩經歷
-        </h2>
-
-        <p style={{ lineHeight: '1.8', marginBottom: '15px', fontSize: '14px' }}>
-          和朋友從香港出發，去北京玩了5天4晚，整個吃住行都是由小伍安排妥當，全程的行程景點、住宿、吃飯、門票、車等都是提前安排好了的，很省心！5天這些吃住行門票加一起，小伍給了我們一個早鳥優惠套餐價格，<strong style={{ color: '#C41E3A' }}>人均只花了1880人民幣</strong>，這也是我為什麼推薦去北京的原因，真的是省心又省錢，還玩的好，吃的好，住的好。
-        </p>
-
-        <div style={{
-          backgroundColor: '#f8f8f8',
-          padding: '15px',
-          borderRadius: '6px',
-          marginBottom: '20px'
-        }}>
-          <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', fontSize: '14px' }}>
-            <div><strong>花費：</strong>人均1880人民幣</div>
-            <div><strong>時間：</strong>5天4晚</div>
-            <div><strong>包含：</strong>接機、景點門票、酒店、每日用餐、導遊、旅遊車</div>
-          </div>
-        </div>
-
-        <h2 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          paddingBottom: '10px',
-          borderBottom: '2px solid #C41E3A'
-        }}>
-          二、精选行程推薦
-        </h2>
-
-        <div style={{ marginBottom: '20px' }}>
-          {[
-            { day: 'D1', content: '上午抵達北京，小伍安排接機（24小時都可以接），入住飯店，自由活動，推薦，前門大街，王府井小吃街，西單，東單，三里屯等等....\n宿：北京\n餐：自理' },
-            { day: 'D2', content: '天安門廣場-毛主席紀念堂—故宮博物院－天壇公園-什剎海\n宿：北京\n餐：早、中(正宗京菜）' },
-            { day: 'D3', content: '八達嶺長城深度遊－-奧林匹克公園（外觀鳥巢、水立方）\n宿: 北京\n餐：早、中（烤鴨餐）' },
-            { day: 'D4', content: '頤和園深遊-圓明園-車覽清北\n住：北京\n餐：早、中' },
-            { day: 'D5', content: '回程，依回程車次時間，統一安排送站/送機，返回溫馨的家\n餐：早餐' }
-          ].map((item, index) => (
-            <div key={index} style={{
-              backgroundColor: '#fff5e5',
-              padding: '12px 15px',
-              borderRadius: '6px',
-              marginBottom: '10px',
-              display: 'flex',
-              gap: '10px',
-              alignItems: 'flex-start'
-            }}>
-              <span style={{
-                backgroundColor: '#C41E3A',
-                color: 'white',
-                padding: '4px 10px',
-                borderRadius: '4px',
-                fontSize: '12px',
-                fontWeight: 'bold',
-                flexShrink: 0
-              }}>
-                {item.day}
-              </span>
-              <div style={{ fontSize: '13px', lineHeight: '1.6', whiteSpace: 'pre-line' }}>{item.content}</div>
-            </div>
-          ))}
-        </div>
-
-        <h2 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          paddingBottom: '10px',
-          borderBottom: '2px solid #C41E3A'
-        }}>
-          三、出行必備
-        </h2>
-
-        <div style={{ marginBottom: '20px' }}>
-          <div style={{ marginBottom: '15px' }}>
-            <strong style={{ color: '#C41E3A' }}>證件類：</strong>
-            <span style={{ fontSize: '14px' }}>帶好身份證（大部分景點都需要）護照，台胞證，港澳通行證，有學生證的必帶，大部分景點是半票。</span>
-          </div>
-          <div style={{ marginBottom: '15px' }}>
-            <strong style={{ color: '#C41E3A' }}>藥品類：</strong>
-            <span style={{ fontSize: '14px' }}>暈船藥、腸胃藥、創可貼、抗過敏藥</span>
-          </div>
-          <div>
-            <strong style={{ color: '#C41E3A' }}>其他：</strong>
-            <span style={{ fontSize: '14px' }}>自拍杆、保濕噴霧、美白面膜都可以帶上。充電寶建議帶一個，美照拍到一半手機沒電可就尷尬了。</span>
-          </div>
-        </div>
-
-        <h2 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          paddingBottom: '10px',
-          borderBottom: '2px solid #C41E3A'
-        }}>
-          四、省RMB竅門
-        </h2>
-
-        <p style={{ lineHeight: '1.8', marginBottom: '15px', fontSize: '14px' }}>
-          第一次去是純自由行，網上的攻略看的我是一頭的霧水，花了很多冤枉錢還不省心！北京各個景點太分散，交通、安排路線也很麻煩，還有酒店預訂，景點門票一大堆事情。在第一次去北京的時候，一個偶然的機會認識了一名網紅旅遊規劃師--小伍，她家是專門做北京半自由行的，有北京旅遊的內部資源和專業的旅遊規劃服務，於是上次去的時候就聯繫她設計了行程旅遊方案並陪同帶著玩北京，不僅行程酒店全包干，還品嘗了很多北京當地特色小吃，重點是只人均花了1880多人民幣！強烈推薦一下
-        </p>
-
-        <div style={{
-          padding: '15px',
-          backgroundColor: '#fff5e5',
-          borderRadius: '8px',
-          fontSize: '13px',
-          color: '#666',
-          textAlign: 'center',
-          marginBottom: '20px'
-        }}>
-          小伍 微信：{guideWechatId}（👈點擊ID號複製或掃描二維碼，添加微信 免費領取北京行程+報價+優惠）咨詢是免費的.
-        </div>
-
-        <h2 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          paddingBottom: '10px',
-          borderBottom: '2px solid #C41E3A'
-        }}>
-          五、特色美食🍲
-        </h2>
-
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          gap: '10px',
-          marginBottom: '20px'
-        }}>
-          {['北京烤鴨', '老北京炸醬面', '門釘肉餅', '銅鍋涮肉', '炒肝', '豆汁兒'].map((food, index) => (
-            <div key={index} style={{
-              backgroundColor: '#fff5e5',
-              padding: '10px',
-              borderRadius: '6px',
-              textAlign: 'center',
-              fontSize: '13px'
-            }}>
-              {food}
-            </div>
-          ))}
-        </div>
-
-        <h2 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          paddingBottom: '10px',
-          borderBottom: '2px solid #C41E3A'
-        }}>
-          六、避坑指南
-        </h2>
-
-        <div style={{ marginBottom: '20px' }}>
-          {[
-            { icon: '✕', text: '不建議坐公交車，等車難，坐車累，到處堵車' },
-            { icon: '✕', text: '特產：去當地的超市買，不要去司機或導遊介紹的地方買，多半是坑！' },
-            { icon: '✕', text: '路邊吃飯拉客的不要去，多半是坑等著你跳。' }
-          ].map((item, index) => (
-            <div key={index} style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '10px',
-              padding: '10px 0',
-              borderBottom: '1px solid #eee'
-            }}>
-              <span style={{
-                width: '24px',
-                height: '24px',
-                borderRadius: '50%',
-                backgroundColor: '#ff4d4f',
-                color: 'white',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '12px'
-              }}>
-                {item.icon}
-              </span>
-              <span style={{ fontSize: '14px' }}>{item.text}</span>
-            </div>
-          ))}
-        </div>
-
-        <div style={{
-          padding: '15px',
-          backgroundColor: '#fff5e5',
-          borderRadius: '8px',
-          marginBottom: '20px',
-          textAlign: 'center'
-        }}>
-          <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#C41E3A', marginBottom: '10px' }}>
-            Tips：第一次來北京旅遊的寶寶們
-          </div>
-          <div style={{ fontSize: '13px', color: '#666', lineHeight: '1.6' }}>
-            擔心消費被宰被坑的，建議選小伍的這種定制服務，五天四晚只要1880人民幣，盡情玩。而且像八達嶺長城這些較遠的景區景點，就省去不少煩心事，自己也樂得輕鬆自在，還包含接送、門票和餐飲、住宿、導遊、保險等費用，是非常省心划算的出行方式了，牆裂推薦給懶人寶寶們！！
-          </div>
-        </div>
-
-        {/* Comments Section */}
-        <h2 style={{
-          fontSize: '18px',
-          fontWeight: 'bold',
-          color: '#333',
-          marginBottom: '15px',
-          paddingBottom: '10px',
-          borderBottom: '2px solid #C41E3A'
-        }}>
-          最新評論（8條）
-        </h2>
-
-        <div style={{ marginBottom: '20px' }}>
-          {[
-            {
-              name: '卷卷1',
-              level: 'Lv.17',
-              avatar: '/素材/avatar-1.jpg',
-              time: '5天前',
-              content: '攻略做的好詳細啊，剛才看別人的都看暈了，都打算放棄了，看到你的又想去了，正好想帶孩子去北京玩，可以說是很及時了，聽說北京的景區都很大，自己玩的話作為外地人太費腦筋了，我也準備找一下你說的小伍帶我們玩。',
-              replies: []
-            },
-            {
-              name: '宋青鵆',
-              level: 'Lv.67',
-              avatar: '/素材/avatar-2.jpg',
-              time: '5天前',
-              content: '想下個月5天旅行遊覽北京可否帶我們？',
-              replies: [
-                {
-                  name: 'GES',
-                  level: 'Lv.30',
-                  avatar: '/素材/guide-avatar.jpg',
-                  time: '5天前',
-                  content: '當然可以，你可以直接加入小伍微信，她會為你安排詳細的行程，這是客服的微信：18195895772（👈點選複製新增好友（電話微信同號碼奧））咨詢小伍的人很多，不一定及時通過，可以多試幾次~或者發送郵件告訴小伍，郵箱：18195895772@163.com'
-                }
-              ]
-            },
-            {
-              name: 'LUV 2U',
-              level: 'Lv.30',
-              avatar: '/素材/avatar-3.jpg',
-              time: '5天前',
-              content: '你們是什麼時候去的呀，我們打算明年2月份去，不知道天氣怎麼樣？',
-              replies: []
-            }
-          ].map((comment, index) => (
-            <div key={index} style={{
-              backgroundColor: '#f8f8f8',
-              padding: '15px',
-              borderRadius: '8px',
-              marginBottom: '15px'
-            }}>
-              <div style={{ display: 'flex', gap: '12px' }}>
-                <Image
-                  src={comment.avatar}
-                  alt={comment.name}
-                  width={40}
-                  height={40}
-                  style={{ borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-                />
-                <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                    <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{comment.name}</span>
-                    <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>{comment.level}</span>
-                    <span style={{ fontSize: '12px', color: '#999' }}>{comment.time}</span>
-                  </div>
-                  <div style={{ fontSize: '14px', lineHeight: '1.6', color: '#333' }}>
-                    {comment.content}
-                  </div>
-
-                  {comment.replies.length > 0 && (
-                    <div style={{ marginTop: '12px' }}>
-                      {showReplies[index] && comment.replies.map((reply, replyIndex) => (
-                        <div key={replyIndex} style={{
-                          backgroundColor: '#fff',
-                          padding: '12px',
-                          borderRadius: '6px',
-                          marginTop: '8px',
-                          display: 'flex',
-                          gap: '10px'
-                        }}>
-                          <Image
-                            src={reply.avatar}
-                            alt={reply.name}
-                            width={32}
-                            height={32}
-                            style={{ borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-                          />
-                          <div>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
-                              <span style={{ fontWeight: 'bold', fontSize: '13px' }}>{reply.name}</span>
-                              <span style={{ backgroundColor: '#C41E3A', padding: '2px 6px', borderRadius: '3px', fontSize: '10px', color: 'white' }}>{reply.level}</span>
-                              <span style={{ fontSize: '11px', color: '#999' }}>{reply.time}</span>
-                            </div>
-                            <div style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>
-                              {reply.content}
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                      <button
-                        onClick={() => toggleReplies(index)}
-                        style={{
-                          marginTop: '8px',
-                          backgroundColor: 'transparent',
-                          border: 'none',
-                          color: '#C41E3A',
-                          fontSize: '12px',
-                          cursor: 'pointer'
-                        }}
-                      >
-                        {showReplies[index] ? '收起回复' : `展開回復（${comment.replies.length}條）`}
-                      </button>
-                    </div>
-                  )}
-                </div>
+                {expanded ? '收起全部' : '展开全部'}
               </div>
             </div>
-          ))}
+
+            {/* Comment Info */}
+            <div style={{
+              borderTop: '1px solid #eee',
+              paddingTop: '10px',
+              marginTop: '15px',
+              color: '#999',
+              fontSize: '13px'
+            }}>
+              <span style={{ color: '#C41E3A' }}>8条评论</span> | <span>收藏 0</span> | 发布于 5天前
+            </div>
+          </div>
         </div>
 
+        {/* Contact Section */}
         <div style={{
-          padding: '15px',
-          backgroundColor: '#fff5e5',
-          borderRadius: '8px',
-          textAlign: 'center',
-          fontSize: '13px',
-          color: '#666'
+          backgroundColor: '#f5f5f5',
+          padding: '20px',
+          marginTop: '20px',
+          borderRadius: '8px'
         }}>
-          樓主溫馨提醒: 3分鐘看完替您省40%費用，加好友再省30%
-        </div>
-      </div>
+          <div style={{ textAlign: 'center', marginBottom: '15px' }}>
+            <strong style={{ color: '#C41E3A', fontSize: '16px' }}>北京四季福旅行社</strong>
+          </div>
 
-      {/* Footer */}
-      <div style={{
-        maxWidth: '800px',
-        margin: '0 auto',
-        textAlign: 'center',
-        padding: '20px',
-        color: '#999',
-        fontSize: '12px'
-      }}>
-        <div style={{ marginBottom: '10px' }}>
-          <strong style={{ color: '#C41E3A' }}>北京四季福旅行社</strong> © 2024 All Rights Reserved
+          <div style={{ display: 'flex', gap: '15px', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <div style={{ textAlign: 'center' }}>
+              <Image
+                src="/素材/yaoyao-qr.jpg"
+                alt="微信二维码"
+                width={120}
+                height={160}
+                style={{ borderRadius: '4px' }}
+              />
+              <div style={{ fontSize: '12px', marginTop: '5px' }}>扫描添加瑶瑶</div>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              <div style={{ backgroundColor: '#fff', padding: '12px 20px', borderRadius: '6px' }}>
+                <div style={{ fontSize: '12px', color: '#666' }}>📱 微信 / WhatsApp</div>
+                <div style={{ fontSize: '18px', fontWeight: 'bold', color: '#333' }}>{guideWechatId}</div>
+                <button
+                  onClick={() => copyToClipboard(guideWechatId)}
+                  style={{
+                    marginTop: '8px',
+                    padding: '6px 12px',
+                    backgroundColor: '#C41E3A',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '4px',
+                    fontSize: '12px',
+                    cursor: 'pointer'
+                  }}
+                >
+                  {copied ? '已复制！' : '复制微信号'}
+                </button>
+              </div>
+
+              <div style={{ backgroundColor: '#fff', padding: '12px 20px', borderRadius: '6px' }}>
+                <div style={{ fontSize: '12px', color: '#666' }}>📧 邮箱</div>
+                <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#333' }}>{guideEmail}</div>
+              </div>
+            </div>
+          </div>
+
+          <div style={{
+            marginTop: '15px',
+            textAlign: 'center',
+            fontSize: '13px',
+            color: '#666',
+            padding: '10px',
+            backgroundColor: '#fff5e5',
+            borderRadius: '6px'
+          }}>
+            🌟 咨询是免费的！添加好友即可免费获取行程规划 + 报价
+          </div>
         </div>
-        <div>專注北京旅遊 · 十年品質服務 · 50,000+遊客選擇</div>
+
+        {/* Footer */}
+        <div style={{
+          textAlign: 'center',
+          padding: '20px',
+          color: '#999',
+          fontSize: '12px',
+          borderTop: '1px solid #eee',
+          marginTop: '20px'
+        }}>
+          <div>专注北京旅游 · 十年品质服务 · 50,000+游客选择</div>
+          <div style={{ marginTop: '5px' }}>© 2024 北京四季福旅行社 All Rights Reserved</div>
+        </div>
       </div>
     </div>
   );
