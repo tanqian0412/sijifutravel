@@ -168,11 +168,11 @@ export default function TravelGuidePage() {
                 />
               </p>
 
-              {/* 王府井夜景 - AI生成图片 */}
+              {/* 王府井夜景 - 官方图片 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/wangfujing_generated.png"
-                  alt="王府井商业街夜景"
+                  src="/素材/wangfujing_walk.jpg"
+                  alt="王府井商业街"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
