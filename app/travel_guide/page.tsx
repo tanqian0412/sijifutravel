@@ -445,11 +445,11 @@ export default function TravelGuidePage() {
           <div style={{ lineHeight: '24px' }}>
             <p>强烈推荐真真的团！这次带父母去北京，五天四晚全程专车接送，父亲腿脚不便还安排了轮椅服务。太贴心了！</p>
 
-            {/* User submitted photos */}
+            {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/beijing-2.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
-              <img src="/素材/beijing_kaoya_01.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
-              <img src="/素材/beijing_tiantan_02.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_hutong_02.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/lazy-img2.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_sanlitun_01.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
@@ -505,10 +505,10 @@ export default function TravelGuidePage() {
           <div style={{ lineHeight: '24px' }}>
             <p>作为一个摄影爱好者，我去过北京很多次，但这次跟真真的团让我拍到了最美的长城日出！行程安排非常专业，知道哪些角度最适合拍照。</p>
 
-            {/* User submitted photos */}
+            {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/beijing_greatwall_02.jpg" alt="长城日出" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
-              <img src="/素材/beijing_yiheyuan_02.png" alt="颐和园" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_beihai_03.jpg" alt="北海公园" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_hutong_02.jpg" alt="胡同" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 强烈推荐给喜欢摄影的朋友！</p>
