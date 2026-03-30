@@ -221,7 +221,7 @@ export default function TravelGuidePage() {
               {/* 圆明园 - AI生成图片 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/yuanmingyuan_generated.jpg"
+                  src="/素材/yuanmingyuan.jpg"
                   alt="圆明园遗址"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
