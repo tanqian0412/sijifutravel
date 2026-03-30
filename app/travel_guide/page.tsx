@@ -591,12 +591,8 @@ export default function TravelGuidePage() {
 
         {/* Contact Section */}
         <div style={{ backgroundColor: '#f5f5f5', padding: '20px', marginTop: '30px', borderRadius: '8px', textAlign: 'center' }}>
-          <div style={{ fontWeight: 'bold', fontSize: '16px', color: '#C41E3A', marginBottom: '15px' }}>
-            北京四季福旅行社
-          </div>
-
-          <div style={{ marginBottom: '15px' }}>
-            <img src="/素材/wechat-qr.png" alt="微信二维码" style={{ width: '150px', height: 'auto', borderRadius: '4px' }} />
+          <div style={{ marginBottom: '15px', textAlign: 'center' }}>
+            <img src="/素材/wechat-qr.png" alt="微信二维码" style={{ width: '150px', height: 'auto', borderRadius: '4px', display: 'inline-block' }} />
           </div>
 
           <div style={{ fontSize: '14px', color: '#666', marginBottom: '10px' }}>
@@ -635,7 +631,6 @@ export default function TravelGuidePage() {
         {/* Footer */}
         <div style={{ textAlign: 'center', padding: '20px', color: '#999', fontSize: '12px', borderTop: '1px solid #eee', marginTop: '20px' }}>
           <div>专注北京旅游 · 十年品质服务 · 50,000+游客选择</div>
-          <div style={{ marginTop: '5px' }}>© 2024 北京四季福旅行社 All Rights Reserved</div>
         </div>
       </div>
 
