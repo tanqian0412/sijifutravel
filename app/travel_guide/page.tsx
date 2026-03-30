@@ -554,10 +554,11 @@ export default function TravelGuidePage() {
           <div style={{ lineHeight: '24px' }}>
             <p>作为一个摄影爱好者，之前自己去总是找不到最佳拍摄点。这次跟真真的团，领队对每个景点的最佳拍摄时间都很熟悉，拍到了满意的照片！</p>
 
-            {/* User submitted photos - 普通游客风格分享 */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/user_laoli_1.png" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/user_laoli_2.png" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+            {/* User submitted photos - 摄影作品分享 */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
+              <img src="/素材/laoli_1.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/laoli_2.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/laoli_3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 强烈推荐给喜欢摄影的朋友！</p>
