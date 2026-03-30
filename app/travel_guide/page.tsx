@@ -159,10 +159,10 @@ export default function TravelGuidePage() {
                 晚上：逛王府井小吃街，品尝北京美食
               </p>
 
-              {/* 景山公园 - AI生成图片 */}
+              {/* 景山公园 - 官方图片 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/jingshan_park_generated.png"
+                  src="/素材/jingshan_official.webp"
                   alt="景山公园俯瞰故宫"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
