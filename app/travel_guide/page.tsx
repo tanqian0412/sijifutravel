@@ -75,8 +75,8 @@ export default function TravelGuidePage() {
             {/* Hero Image */}
             <p style={{ textAlign: 'center', margin: '15px 0' }}>
               <img
-                src="/素材/beijing-night.jpg"
-                alt="北京夜景"
+                src="/素材/forbidden-city.jpg"
+                alt="故宫全景"
                 style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
               />
             </p>
@@ -294,16 +294,16 @@ export default function TravelGuidePage() {
               {/* More Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/summer-palace.jpg"
-                  alt="颐和园昆明湖"
+                  src="/素材/beijing-2.jpg"
+                  alt="北京城市风光"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing_tiantan_02.jpg"
-                  alt="天坛祈年殿"
+                  src="/素材/beijing-1.jpg"
+                  alt="北京城市风景"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -447,9 +447,9 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/beijing_gugong_03.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/forbidden-city.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
               <img src="/素材/beijing_kaoya_01.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
-              <img src="/素材/tiananmen.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_tiantan_02.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
