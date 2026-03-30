@@ -314,7 +314,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/hotpot_new.jpg"
+                  src="/素材/hotpot.jpg"
                   alt="涮肉火锅"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
