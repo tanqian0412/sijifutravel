@@ -159,20 +159,11 @@ export default function TravelGuidePage() {
                 晚上：逛王府井小吃街，品尝北京美食
               </p>
 
-              {/* 景山公园 */}
+              {/* 景山公园 - 用故宫图片代替 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/jingshan_park.jpg"
-                  alt="景山公园俯瞰故宫"
-                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
-                />
-              </p>
-
-              {/* 王府井夜景 */}
-              <p style={{ textAlign: 'center', margin: '15px 0' }}>
-                <img
-                  src="/素材/wangfujing.jpg"
-                  alt="王府井夜景"
+                  src="/素材/xhs_beijing_guide_01.jpg"
+                  alt="故宫全景"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -218,11 +209,11 @@ export default function TravelGuidePage() {
                 傍晚：车览清华大学、北京大学外景
               </p>
 
-              {/* 圆明园 */}
+              {/* 圆明园 - 用颐和园图片代替 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/yuanmingyuan.jpg"
-                  alt="圆明园遗址"
+                  src="/素材/xhs_beijing_guide_05.jpg"
+                  alt="颐和园"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -314,16 +305,16 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhajiangmian.jpg"
-                  alt="老北京炸酱面"
+                  src="/素材/xhs_beijing_guide_08.jpg"
+                  alt="北京小吃"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/hotpot.jpg"
-                  alt="铜锅涮肉"
+                  src="/素材/hotpot_new.jpg"
+                  alt="涮肉火锅"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
