@@ -179,31 +179,63 @@ function CheckIcon({ className = '' }: { className?: string }) {
   );
 }
 
-// ─── Floating Contact Button ─────────────────────────────────────────────────
-function FloatingContactButton() {
-  const { t } = useLanguage();
+// ─── Floating Contact Sidebar ────────────────────────────────────────────────
+function FloatingContactSidebar() {
+  const { locale, t } = useLanguage();
+
+  const guideWechatId = 'ziyue11-15';
+  const guideEmail = '2584144797@qq.com';
+  const guideWhatsApp = '+86 189 0865 1384';
+
+  const getText = (key: string, fallback: string) => {
+    if (t.contact && t.contact[key as keyof typeof t.contact]) {
+      return t.contact[key as keyof typeof t.contact];
+    }
+    return fallback;
+  };
 
   return (
-    <a
-      href="#contact"
-      className="fixed bottom-6 right-6 z-50 group md:bottom-8 md:right-8"
+    <div
+      className="fixed right-[70px] top-1/2 -translate-y-1/2 z-50 bg-white rounded-xl shadow-xl p-4"
+      style={{
+        width: '160px',
+        boxShadow: '0 0 20px rgba(139, 139, 183, 0.21)',
+      }}
     >
-      <div className="relative">
-        {/* Pulse ring animation */}
-        <div className="absolute inset-0 rounded-full bg-[#C41E3A] animate-ping opacity-30" />
-        {/* Main button */}
-        <div className="relative w-12 h-12 md:w-14 md:h-14 rounded-full bg-gradient-to-br from-[#C41E3A] to-[#A01830] flex items-center justify-center shadow-lg shadow-primary/40 hover:shadow-xl hover:shadow-primary/60 transition-all duration-300 hover:scale-110">
-          <WechatIcon className="w-6 h-6 md:w-7 md:h-7 text-white" />
-        </div>
-        {/* Tooltip */}
-        <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-          <div className="bg-gray-900 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg shadow-lg whitespace-nowrap font-serif text-xs md:text-sm">
-            {t.contact?.title || 'Contact'}
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 border-8 border-transparent border-l-gray-900" />
-          </div>
+      {/* QR Code */}
+      <div style={{ textAlign: 'center', marginBottom: '15px' }}>
+        <img
+          src="/素材/wechat-qr.png"
+          alt="微信二维码"
+          style={{ width: '120px', height: 'auto', borderRadius: '4px', margin: '0 auto', display: 'block' }}
+        />
+        <div style={{ fontSize: '11px', color: '#666', marginTop: '5px' }}>
+          {locale === 'zh-CN' || locale === 'zh-TW' ? '扫码添加' : 'Scan to Add'}
         </div>
       </div>
-    </a>
+
+      <div style={{ borderTop: '1px solid #eee', margin: '10px 0' }}></div>
+
+      {/* WeChat */}
+      <div style={{ textAlign: 'center', marginBottom: '10px' }}>
+        <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>
+          {locale === 'zh-CN' || locale === 'zh-TW' ? '微信' : 'WeChat'}
+        </div>
+        <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#C41E3A' }}>{guideWechatId}</div>
+      </div>
+
+      {/* WhatsApp */}
+      <div style={{ textAlign: 'center', marginBottom: '10px' }}>
+        <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>WhatsApp</div>
+        <div style={{ fontSize: '12px', fontWeight: 'bold', color: '#25D366' }}>{guideWhatsApp}</div>
+      </div>
+
+      {/* Email */}
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>Email</div>
+        <div style={{ fontSize: '11px', fontWeight: 'bold', color: '#666', wordBreak: 'break-all' }}>{guideEmail}</div>
+      </div>
+    </div>
   );
 }
 
@@ -1394,7 +1426,7 @@ export default function Home() {
         <TourItineraries />
         <Contact />
         <Footer />
-        <FloatingContactButton />
+        <FloatingContactSidebar />
       </main>
     </LanguageContext.Provider>
   );
