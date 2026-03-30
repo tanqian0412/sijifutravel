@@ -1,10 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 
 export default function AdvertisementPage() {
-  const [expanded, setExpanded] = useState(false);
   const [copied, setCopied] = useState(false);
 
   const guideWechatId = 'ziyue11-15';
@@ -116,20 +114,9 @@ export default function AdvertisementPage() {
               <b>北京</b>作为我国的首都，这里有巍峨的长城⛰️，庄严的故宫🏯，神秘的清华北大🏢，还有令人垂涎三尺的各种小吃🍝，在这里你可以卸下所有烦恼，🥰放慢脚步，体验一场震撼人心的旅程～🧡
             </div>
 
-            {/* Main Content - Expandable */}
-            <div style={{ position: 'relative' }}>
-              {!expanded && (
-                <div style={{
-                  position: 'absolute',
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
-                  height: '300px',
-                  background: 'linear-gradient(transparent, #fff)'
-                }} />
-              )}
-
-              <div style={{ display: expanded ? 'block' : 'none' }}>
+            {/* Main Content */}
+            <div>
+              <div>
                 <p style={{ margin: '10px 0' }}>
                   <strong>【强烈推荐】</strong><strong>北京旅游超全攻略！5日游良心不踩坑！</strong>
                 </p>
@@ -305,21 +292,6 @@ export default function AdvertisementPage() {
                 <p style={{ color: '#d35400' }}><strong>楼主温馨提醒: </strong><span style={{ color: '#16a085' }}>3分钟看完替您省40%费用，加好友再省30%</span></p>
               </div>
 
-              {/* Expand Button */}
-              <div
-                onClick={() => setExpanded(!expanded)}
-                style={{
-                  marginTop: expanded ? '10px' : '0',
-                  padding: '10px',
-                  textAlign: 'center',
-                  color: '#C41E3A',
-                  cursor: 'pointer',
-                  position: 'relative',
-                  zIndex: 1
-                }}
-              >
-                {expanded ? '收起全部' : '展开全部'}
-              </div>
             </div>
 
             {/* Comment Info */}
