@@ -494,9 +494,9 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/tourist_selfie_1.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/tourist_selfie_2.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/tourist_selfie_3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/user_xiaomei_1.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/user_xiaomei_2.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/user_xiaomei_3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
@@ -554,8 +554,8 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos - 普通游客风格分享 */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/tourist_selfie_2.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
-              <img src="/素材/tourist_selfie_3.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/user_laoli_1.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
+              <img src="/素材/user_laoli_2.jpg" alt="用户分享" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '6px' }} />
             </div>
 
             <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 强烈推荐给喜欢摄影的朋友！</p>
