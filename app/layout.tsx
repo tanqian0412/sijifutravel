@@ -25,10 +25,10 @@ const locales = [
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: '北京四季福旅行社 | Four Seasons Fortune Travel - 专注北京团队游与定制游',
+    default: '北京旅行社 | 四季福旅行社 - 专注北京团队游与定制游',
     template: '%s | 北京四季福旅行社',
   },
-  description: '北京四季福旅行社，专注北京团队游与定制游十余年。50,000+游客选择，专业中英文双语导游。提供北京全景游、长城一日游、胡同文化游等经典线路。',
+  description: '北京旅行社首选——四季福旅行社，专注北京团队游与定制游十余年。50,000+游客信赖，专业中英文双语导游，提供故宫、长城、胡同等经典线路，立即咨询定制您的北京之旅。',
   keywords: [
     '北京旅游',
     '北京旅行社',
@@ -70,8 +70,8 @@ export const metadata: Metadata = {
     alternateLocale: locales.filter(l => l.code !== 'zh-CN').map(l => l.hreflang),
     url: BASE_URL,
     siteName: '北京四季福旅行社',
-    title: '北京四季福旅行社 | 专注北京团队游与定制游',
-    description: '十年深耕北京旅游，50,000+游客选择。提供北京全景游、长城一日游、胡同文化探秘等经典线路，专业中英文双语导游服务。',
+    title: '北京旅行社 | 四季福旅行社 - 专注北京团队游与定制游',
+    description: '北京旅行社首选——四季福旅行社，专注北京团队游与定制游十余年。50,000+游客信赖，专业中英文双语导游，提供故宫、长城、胡同等经典线路。',
     images: [
       {
         url: '/素材/hero-bg.jpg',
@@ -93,8 +93,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@sijifutravel',
     creator: '@sijifutravel',
-    title: '北京四季福旅行社 | 专注北京团队游与定制游',
-    description: '十年深耕北京旅游，50,000+游客选择。专业中英文双语导游，提供北京全景游、长城一日游等经典线路。',
+    title: '北京旅行社 | 四季福旅行社 - 专注北京团队游与定制游',
+    description: '北京旅行社首选——四季福旅行社，专注北京团队游与定制游十余年。专业中英文双语导游，提供故宫、长城、胡同等经典线路。',
     images: {
       url: '/素材/hero-bg.jpg',
       alt: '北京四季福旅行社',
