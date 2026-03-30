@@ -75,7 +75,7 @@ export default function TravelGuidePage() {
             {/* Hero Image */}
             <p style={{ textAlign: 'center', margin: '15px 0' }}>
               <img
-                src="/素材/forbidden-city.jpg"
+                src="/素材/beijing-2.jpg"
                 alt="故宫全景"
                 style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
               />
@@ -152,7 +152,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/tiananmen.jpg"
+                  src="/素材/lazy-img1.jpg"
                   alt="天安门广场"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -283,7 +283,7 @@ export default function TravelGuidePage() {
               {/* Beijing Night */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/olympic.jpg"
+                  src="/素材/beijing_niaochao_01.webp"
                   alt="鸟巢夜景"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -447,7 +447,7 @@ export default function TravelGuidePage() {
 
             {/* User submitted photos */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
-              <img src="/素材/forbidden-city.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing-2.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
               <img src="/素材/beijing_kaoya_01.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
               <img src="/素材/beijing_tiantan_02.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
             </div>
