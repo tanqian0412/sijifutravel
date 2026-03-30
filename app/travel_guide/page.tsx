@@ -33,10 +33,10 @@ export default function TravelGuidePage() {
         {/* Question Section */}
         <div style={{ marginBottom: '15px' }}>
           <h1 style={{ fontSize: '16px', fontWeight: 700, color: 'rgb(51, 51, 51)', lineHeight: '26px', margin: 0 }}>
-            <strong>北京5日游大概需要多少钱？有没有合适的路线推荐？</strong>
+            <strong>计划去北京玩几天，路线行程怎么安排？大概需要多少钱？</strong>
           </h1>
           <div style={{ marginTop: '5px', lineHeight: '20px' }}>
-            <span>打算和朋友去北京玩几天，门票和住宿怎么安排比较省钱？有没有熟悉北京的朋友给点建议，感谢！</span>
+            <span>打算和朋友去北京旅行，门票和住宿怎么安排比较省钱？有没有熟悉北京的朋友给点建议，感谢！</span>
           </div>
         </div>
 
@@ -69,8 +69,17 @@ export default function TravelGuidePage() {
 
             {/* Title */}
             <h3 style={{ textAlign: 'center', margin: '10px 0' }}>
-              <span style={{ color: '#e67e22' }}><strong>北京5日游真实体验分享</strong></span>
+              <span style={{ color: '#e67e22' }}><strong>2026北京旅游攻略｜热门景点+美食+住宿全攻略</strong></span>
             </h3>
+
+            {/* Hero Image */}
+            <p style={{ textAlign: 'center', margin: '15px 0' }}>
+              <img
+                src="/素材/zhihu-1.jpg"
+                alt="北京旅游"
+                style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+              />
+            </p>
 
             {/* Tips Box */}
             <div style={{
@@ -82,7 +91,7 @@ export default function TravelGuidePage() {
               margin: '10px 0'
             }}>
               <b>温馨提示：</b><br/>
-              <b>北京</b>是中国的政治文化中心，这里有雄伟的万里长城，宏伟的紫禁城，学术氛围浓厚的清华北大，还有数不尽的京味美食🍜。在这里放慢脚步，感受历史与现代的交融，是一次难忘的体验✨
+              北京是中国的政治文化中心，这里有雄伟的万里长城，宏伟的紫禁城，学术氛围浓厚的清华北大，还有数不尽的京味美食🍜。准备去北京旅游的宝宝们，这篇攻略帮你安排得明明白白！
             </div>
 
             {/* Main Content */}
@@ -95,7 +104,7 @@ export default function TravelGuidePage() {
                 刚从北京游玩回来，这次选择的是半自由行模式，走了故宫、八达岭长城、颐和园、天坛等经典景区，整体体验非常棒！北京的城市规模很大，景点之间距离较远，如果没有当地人帮忙安排，自己玩会很折腾。这次幸亏有朋友推荐的地接导游帮忙全程安排，省了不少麻烦。
               </p>
 
-              {/* Beijing Attraction Image */}
+              {/* Beijing Image */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
                   src="/素材/beijing_gugong_03.jpg"
@@ -109,7 +118,7 @@ export default function TravelGuidePage() {
                   <span>通过当地导游</span>
                   <span style={{ color: '#ff0000' }}>真真</span>
                   <span>安排的5日游，</span>
-                  <span style={{ color: '#ff0000', textDecoration: 'underline' }}>人均费用在1500-2500元之间</span>
+                  <span style={{ color: '#ff0000', textDecoration: 'underline' }}>人均费用在1500-3000元之间</span>
                   <span>，包含接机、住宿、交通和景区门票，</span>
                   <span style={{ color: '#ff0000' }}>三环内连锁酒店，环境干净整洁！</span>
                 </strong>
@@ -130,15 +139,65 @@ export default function TravelGuidePage() {
                 <span>（长按复制添加），全程没有任何强制消费。</span>
               </p>
 
-              {/* Section 1 */}
+              {/* Section 1: 北京三日游行程 */}
+              <h3 style={{ color: '#e67e22', marginTop: '20px' }}><strong>北京三日游行程安排</strong></h3>
+
+              <h4 style={{ color: '#27ae60' }}><strong>第一天：天安门广场-故宫-景山公园-王府井</strong></h4>
+              <p style={{ marginLeft: '15px' }}>
+                上午：早起前往天安门广场，看升旗仪式（需要提前查好时间）→ 毛主席纪念堂<br/>
+                上午：游览故宫，建议从午门进入，一直走到神武门<br/>
+                下午：登上景山公园，俯瞰故宫全景<br/>
+                晚上：逛王府井小吃街，品尝北京美食
+              </p>
+
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/zhihu-2.jpg"
+                  alt="故宫"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              <h4 style={{ color: '#27ae60' }}><strong>第二天：八达岭长城-奥林匹克公园</strong></h4>
+              <p style={{ marginLeft: '15px' }}>
+                上午：前往八达岭长城，建议乘坐官方旅游专线或包车前往<br/>
+                下午：返回市区，游览鸟巢、水立方外景，拍照打卡<br/>
+                晚上：可选择观看鸟巢灯光秀
+              </p>
+
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/beijing_greatwall_02.jpg"
+                  alt="八达岭长城"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              <h4 style={{ color: '#27ae60' }}><strong>第三天：颐和园-圆明园-清华北大</strong></h4>
+              <p style={{ marginLeft: '15px' }}>
+                上午：游览颐和园，昆明湖畔散步，参观长廊<br/>
+                下午：前往圆明园遗址，感受历史<br/>
+                傍晚：车览清华大学、北京大学外景
+              </p>
+
+              {/* Beijing Images */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/zhihu-3.jpg"
+                  alt="颐和园"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              {/* Section: 出行概况 */}
               <p style={{ color: '#e67e22' }}><strong>一、出行概况：</strong></p>
 
               <p style={{ marginLeft: '20px' }}>
-                <strong>和几位朋友从广州出发，在北京玩了5天4晚。</strong>从下飞机开始就有专车接站，酒店、景区门票、每日的用餐和出行交通全部提前安排好了，<span style={{ color: '#ff0000' }}>人均算下来不到2000元</span>，比自己单独订便宜不少。整个过程很轻松，不需要自己操心门票预约这些繁琐的事情。
+                <strong>和几位朋友从广州出发，在北京玩了5天4晚。</strong>从下飞机开始就有专车接站，酒店、景区门票、每日的用餐和出行交通全部提前安排好了，<span style={{ color: '#ff0000' }}>人均算下来不到2500元</span>，比自己单独订便宜不少。整个过程很轻松，不需要自己操心门票预约这些繁琐的事情。
               </p>
 
-              <p style={{ color: '#3366ff' }}><strong>费用参考：1500-2500元/人（根据淡旺季浮动）</strong></p>
-              <p style={{ color: '#3366ff' }}><strong>时长：5天4晚</strong></p>
+              <p style={{ color: '#3366ff' }}><strong>费用参考：1500-3000元/人（根据淡旺季浮动）</strong></p>
+              <p style={{ color: '#3366ff' }}><strong>时长：5天4晚 / 3天2晚</strong></p>
               <p style={{ color: '#3366ff' }}><strong>包含内容：</strong></p>
               <p style={{ color: '#3366ff' }}><strong>①24小时接机服务，专车往返各景区</strong></p>
               <p style={{ color: '#3366ff' }}><strong>②三环内连锁酒店，位置便利</strong></p>
@@ -147,15 +206,6 @@ export default function TravelGuidePage() {
 
               <p style={{ marginLeft: '20px' }}>
                 如果你也计划去北京旅游，建议提前联系真真了解具体报价和行程安排。她的微信：<strong><span style={{ color: '#ff0000' }}>ziyue11-15</span></strong>，咨询不收取任何费用。
-              </p>
-
-              {/* Great Wall Image */}
-              <p style={{ textAlign: 'center', margin: '15px 0' }}>
-                <img
-                  src="/素材/beijing_greatwall_02.jpg"
-                  alt="八达岭长城"
-                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
-                />
               </p>
 
               <p style={{ margin: '10px 0' }}>
@@ -189,8 +239,16 @@ export default function TravelGuidePage() {
               {/* Section: 出行准备 */}
               <p><strong>出发前准备</strong></p>
               <p>证件类：身份证、学生证（部分景区半价）、护照（外籍游客）</p>
-              <p>日用品：晕车药、肠胃药、创可贴、充电宝、润唇膏</p>
-              <p>其他：舒适的运动鞋、防晒霜、轻便背包</p>
+              <p>日用品：晕车药、肠胃药、创可贴、充电宝、润唇膏、防晒霜</p>
+              <p>其他：舒适的运动鞋（爬长城必备）、轻便背包</p>
+
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/zhihu-4.jpg"
+                  alt="北京美食"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
 
               {/* Section: 美食推荐 */}
               <p><strong>北京特色美食🍲</strong></p>
@@ -198,11 +256,19 @@ export default function TravelGuidePage() {
               <p>✓铜锅涮肉    ✓炒肝          ✓豆汁儿（因人而异）</p>
               <p>这些都可以让真真帮忙推荐当地人常去的店铺，比网红店实惠很多。</p>
 
-              {/* Food Image */}
+              {/* Food Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
                   src="/素材/beijing_kaoya_01.jpg"
                   alt="北京烤鸭"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/zhihu-5.jpg"
+                  alt="北京小吃"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -214,13 +280,30 @@ export default function TravelGuidePage() {
               <p>• 不要轻信路边拉客的，推荐通过正规渠道预约</p>
               <p>• 纪念品建议在正规商店购买，景区周边价格偏贵</p>
 
-              <p>想省心玩北京的朋友，可以加真真微信咨询：<strong><span style={{ color: '#ff0000' }}>ziyue11-15</span></strong>，她会根据你的需求定制专属行程。</p>
-
-              {/* Beijing Night Scene */}
+              {/* Beijing Night */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/beijing-night.jpg"
+                  src="/素材/zhihu-6.jpg"
                   alt="北京夜景"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              <p>想省心玩北京的朋友，可以加真真微信咨询：<strong><span style={{ color: '#ff0000' }}>ziyue11-15</span></strong>，她会根据你的需求定制专属行程。</p>
+
+              {/* More Images */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/zhihu-7.jpg"
+                  alt="北京景点"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/zhihu-8.jpg"
+                  alt="北京风光"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -230,7 +313,7 @@ export default function TravelGuidePage() {
 
             {/* Comment Info */}
             <div style={{ borderTop: '1px solid #eee', paddingTop: '10px', marginTop: '15px', color: '#999', fontSize: '13px' }}>
-              <span style={{ color: '#C41E3A' }}>6条评论</span> | <span>收藏 12</span> | <span>3天前</span>
+              <span style={{ color: '#C41E3A' }}>12条评论</span> | <span>收藏 28</span> | <span>3天前</span>
             </div>
 
             {/* Reply Section */}
@@ -238,7 +321,8 @@ export default function TravelGuidePage() {
               {[
                 { name: '小李', level: 'Lv.15', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-220610114H05.jpg', time: '2天前', type: '追问', content: '攻略好详细！请问11月中旬去北京天气怎么样？长城的红叶还有吗？' },
                 { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/20014/images/avatar/20014-23021G035016.jpg', time: '2天前', type: '回复', content: '11月天气比较凉爽，适合出行。长城的红叶这个时候已经比较少了，但景色依然很美。' },
-                { name: 'Mika', level: 'Lv.22', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-220610114J33.jpg', time: '1天前', type: '追问', content: '两个人可以成团吗？不想太多人一起。' }
+                { name: 'Mika', level: 'Lv.22', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-220610114J33.jpg', time: '1天前', type: '追问', content: '两个人可以成团吗？不想太多人一起。' },
+                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/20014/images/avatar/20014-23021G035016.jpg', time: '1天前', type: '回复', content: '可以的，半自由行可以单独成团，也可以和其他小团队拼团，很灵活。' }
               ].map((reply, index) => (
                 <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
                   <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
@@ -280,7 +364,7 @@ export default function TravelGuidePage() {
             <p>几点感受：1）专车接送不用自己挤公共交通；2）门票提前预定不用排队；3）行程安排合理，不赶时间。整体费用比自己玩还划算，推荐！</p>
 
             <div style={{ borderTop: '1px solid #eee', paddingTop: '10px', marginTop: '15px', color: '#999', fontSize: '13px' }}>
-              <span style={{ color: '#C41E3A' }}>2条评论</span> | <span>收藏 5</span> | <span>2天前</span>
+              <span style={{ color: '#C41E3A' }}>5条评论</span> | <span>收藏 15</span> | <span>2天前</span>
             </div>
 
             <div style={{ marginTop: '15px' }}>
@@ -325,13 +409,13 @@ export default function TravelGuidePage() {
 
           <div style={{ lineHeight: '24px' }}>
             <p>上周刚带家人走完北京5日游，总结几点：</p>
-            <p>1、带孩子和老人出行建议选半自由行，有专人负责景点接送，省去很多麻烦。</p>
+            <p>1、带带孩子和老人出行建议选半自由行，有专人负责景点接送，省去很多麻烦。</p>
             <p>2、八达岭长城建议坐缆车，老人家不用爬太多路。</p>
             <p>3、故宫提前7天预约门票比较稳妥。</p>
             <p>4、找当地导游安排确实比自己单独订酒店门票便宜不少。导游微信：ziyue11-15，有需要可以自己咨询。</p>
 
             <div style={{ borderTop: '1px solid #eee', paddingTop: '10px', marginTop: '15px', color: '#999', fontSize: '13px' }}>
-              <span style={{ color: '#C41E3A' }}>1条评论</span> | <span>收藏 8</span> | <span>1天前</span>
+              <span style={{ color: '#C41E3A' }}>3条评论</span> | <span>收藏 18</span> | <span>1天前</span>
             </div>
           </div>
         </div>
