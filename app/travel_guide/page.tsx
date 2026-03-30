@@ -159,11 +159,20 @@ export default function TravelGuidePage() {
                 晚上：逛王府井小吃街，品尝北京美食
               </p>
 
-              {/* 景山公园 - 用故宫图片代替 */}
+              {/* 景山公园 - AI生成图片 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/xhs_beijing_guide_01.jpg"
-                  alt="故宫全景"
+                  src="/素材/jingshan_park_generated.png"
+                  alt="景山公园俯瞰故宫"
+                  style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
+                />
+              </p>
+
+              {/* 王府井夜景 - AI生成图片 */}
+              <p style={{ textAlign: 'center', margin: '15px 0' }}>
+                <img
+                  src="/素材/wangfujing_generated.png"
+                  alt="王府井商业街夜景"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -209,11 +218,11 @@ export default function TravelGuidePage() {
                 傍晚：车览清华大学、北京大学外景
               </p>
 
-              {/* 圆明园 - 用颐和园图片代替 */}
+              {/* 圆明园 - AI生成图片 */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/xhs_beijing_guide_05.jpg"
-                  alt="颐和园"
+                  src="/素材/yuanmingyuan_generated.png"
+                  alt="圆明园遗址"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -305,8 +314,8 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/xhs_beijing_guide_08.jpg"
-                  alt="北京小吃"
+                  src="/素材/zhajiangmian_generated.png"
+                  alt="老北京炸酱面"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
