@@ -42,7 +42,7 @@ export default function TravelGuidePage() {
 
         {/* Answer Count */}
         <div style={{ fontWeight: 700, borderTop: '1px solid rgb(235, 240, 241)', paddingTop: '20px', marginBottom: '0' }}>
-          <span>286000个回答</span>
+          <span>286002个回答</span>
         </div>
 
         {/* Answer 1 */}
@@ -51,7 +51,7 @@ export default function TravelGuidePage() {
           {/* User Info */}
           <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
             <img
-              src="https://dj-1309972557.file.myqcloud.com/uploads/userfiles/20014/images/avatar/20014-23021G035016.jpg"
+              src="https://api.dicebear.com/7.x/avataaars/svg?seed=aming"
               alt="用户头像"
               style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
             />
@@ -75,8 +75,8 @@ export default function TravelGuidePage() {
             {/* Hero Image */}
             <p style={{ textAlign: 'center', margin: '15px 0' }}>
               <img
-                src="/素材/zhihu-1.jpg"
-                alt="北京旅游"
+                src="/素材/beijing-night.jpg"
+                alt="北京夜景"
                 style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
               />
             </p>
@@ -152,8 +152,8 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhihu-2.jpg"
-                  alt="故宫"
+                  src="/素材/tiananmen.jpg"
+                  alt="天安门广场"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -183,7 +183,7 @@ export default function TravelGuidePage() {
               {/* Beijing Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhihu-3.jpg"
+                  src="/素材/beijing_yiheyuan_02.png"
                   alt="颐和园"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -244,7 +244,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhihu-4.jpg"
+                  src="/素材/travel-food.jpg"
                   alt="北京美食"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -267,7 +267,7 @@ export default function TravelGuidePage() {
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhihu-5.jpg"
+                  src="/素材/local-food.jpg"
                   alt="北京小吃"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
@@ -283,8 +283,8 @@ export default function TravelGuidePage() {
               {/* Beijing Night */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhihu-6.jpg"
-                  alt="北京夜景"
+                  src="/素材/olympic.jpg"
+                  alt="鸟巢夜景"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -294,16 +294,16 @@ export default function TravelGuidePage() {
               {/* More Images */}
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhihu-7.jpg"
-                  alt="北京景点"
+                  src="/素材/summer-palace.jpg"
+                  alt="颐和园昆明湖"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
 
               <p style={{ textAlign: 'center', margin: '15px 0' }}>
                 <img
-                  src="/素材/zhihu-8.jpg"
-                  alt="北京风光"
+                  src="/素材/beijing_tiantan_02.jpg"
+                  alt="天坛祈年殿"
                   style={{ width: '100%', maxWidth: '705px', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '8px' }}
                 />
               </p>
@@ -319,10 +319,12 @@ export default function TravelGuidePage() {
             {/* Reply Section */}
             <div style={{ marginTop: '15px' }}>
               {[
-                { name: '小李', level: 'Lv.15', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-220610114H05.jpg', time: '2天前', type: '追问', content: '攻略好详细！请问11月中旬去北京天气怎么样？长城的红叶还有吗？' },
-                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/20014/images/avatar/20014-23021G035016.jpg', time: '2天前', type: '回复', content: '11月天气比较凉爽，适合出行。长城的红叶这个时候已经比较少了，但景色依然很美。' },
-                { name: 'Mika', level: 'Lv.22', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-220610114J33.jpg', time: '1天前', type: '追问', content: '两个人可以成团吗？不想太多人一起。' },
-                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/20014/images/avatar/20014-23021G035016.jpg', time: '1天前', type: '回复', content: '可以的，半自由行可以单独成团，也可以和其他小团队拼团，很灵活。' }
+                { name: '小李', level: 'Lv.15', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaoli', time: '2天前', type: '追问', content: '攻略好详细！请问11月中旬去北京天气怎么样？长城的红叶还有吗？' },
+                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '2天前', type: '回复', content: '11月天气比较凉爽，适合出行。长城的红叶这个时候已经比较少了，但景色依然很美。' },
+                { name: 'Mika', level: 'Lv.22', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=mika', time: '1天前', type: '追问', content: '两个人可以成团吗？不想太多人一起。' },
+                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '1天前', type: '回复', content: '可以的，半自由行可以单独成团，也可以和其他小团队拼团，很灵活。' },
+                { name: '阳光明媚', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sunny', time: '1天前', type: '追问', content: '上周刚跟真真的团回来，确实很靠谱！住的酒店就在三环内，去景点都有专车接送，推荐给想去北京的朋友。' },
+                { name: '旅行者阿明', level: 'Lv.28', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhen', time: '1天前', type: '回复', content: '是的，真真的团性价比很高，我们上次也是找她安排的，整个行程很轻松。' }
               ].map((reply, index) => (
                 <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
                   <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
@@ -346,7 +348,7 @@ export default function TravelGuidePage() {
 
           <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
             <img
-              src="https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-200PQ4421E.jpg"
+              src="https://api.dicebear.com/7.x/avataaars/svg?seed=xiaowang"
               alt="用户头像"
               style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
             />
@@ -369,8 +371,10 @@ export default function TravelGuidePage() {
 
             <div style={{ marginTop: '15px' }}>
               {[
-                { name: '旅行爱好者', level: 'Lv.12', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-2206101234536.jpg', time: '1天前', type: '追问', content: '请问有联系方式吗？想了解具体报价。' },
-                { name: '背包客小王', level: 'Lv.16', avatar: 'https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-200PQ4421E.jpg', time: '1天前', type: '回复', content: '微信：ziyue11-15，直接加她问就好，很专业。' }
+                { name: '旅行爱好者', level: 'Lv.12', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=lvxing', time: '1天前', type: '追问', content: '请问有联系方式吗？想了解具体报价。' },
+                { name: '背包客小王', level: 'Lv.16', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=wang', time: '1天前', type: '回复', content: '微信：ziyue11-15，直接加她问就好，很专业。' },
+                { name: '北京游客小张', level: 'Lv.20', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=zhang', time: '1天前', type: '追问', content: '刚参加完真真安排的旅行团回来，五天四晚玩遍北京精华景点，导游很负责，推荐！' },
+                { name: '背包客小王', level: 'Lv.16', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=wang', time: '1天前', type: '回复', content: '看来我们选择一样，我也很满意这次的行程安排，真真人很耐心，有问必答。' }
               ].map((reply, index) => (
                 <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
                   <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
@@ -394,7 +398,7 @@ export default function TravelGuidePage() {
 
           <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
             <img
-              src="https://dj-1309972557.file.myqcloud.com/uploads/userfiles/1/images/avatar/1-2103291126408.jpg"
+              src="https://api.dicebear.com/7.x/avataaars/svg?seed=zhoumo"
               alt="用户头像"
               style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
             />
@@ -416,6 +420,121 @@ export default function TravelGuidePage() {
 
             <div style={{ borderTop: '1px solid #eee', paddingTop: '10px', marginTop: '15px', color: '#999', fontSize: '13px' }}>
               <span style={{ color: '#C41E3A' }}>3条评论</span> | <span>收藏 18</span> | <span>1天前</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Answer 4 - User Testimonials with Photos */}
+        <div style={{ borderTop: '1px solid rgb(235, 240, 241)', paddingTop: '20px', marginTop: '30px' }}>
+
+          <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
+            <img
+              src="https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei"
+              alt="用户头像"
+              style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
+            />
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                <span style={{ fontWeight: 'bold', color: '#333' }}>美食达人小美</span>
+                <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>Lv.32</span>
+              </div>
+              <div style={{ fontSize: '12px', color: '#999' }}>5小时前</div>
+            </div>
+          </div>
+
+          <div style={{ lineHeight: '24px' }}>
+            <p>强烈推荐真真的团！这次带父母去北京，五天四晚全程专车接送，父亲腿脚不便还安排了轮椅服务。太贴心了！</p>
+
+            {/* User submitted photos */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', margin: '15px 0' }}>
+              <img src="/素材/beijing_gugong_03.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_kaoya_01.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/tiananmen.jpg" alt="用户分享" style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '6px' }} />
+            </div>
+
+            <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 这是一次非常满意的旅行，感谢真真的精心安排！</p>
+
+            <div style={{ borderTop: '1px solid #eee', paddingTop: '10px', marginTop: '15px', color: '#999', fontSize: '13px' }}>
+              <span style={{ color: '#C41E3A' }}>8条评论</span> | <span>收藏 45</span> | <span>5小时前</span>
+            </div>
+
+            <div style={{ marginTop: '15px' }}>
+              {[
+                { name: '开心果', level: 'Lv.18', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=kaixinguo', time: '4小时前', type: '追问', content: '请问怎么联系真真？也想带爸妈去北京玩', contentImage: null },
+                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '4小时前', type: '回复', content: '微信：ziyue11-15，人很nice，咨询不收费', contentImage: null },
+                { name: '老北京', level: 'Lv.25', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=laobeijing', time: '3小时前', type: '追问', content: '父母游适合选择什么套餐？有高血压老人', contentImage: null },
+                { name: '美食达人小美', level: 'Lv.32', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaomei', time: '3小时前', type: '回复', content: '真真会安排无障碍通道和充足休息时间，很适合老人', contentImage: null },
+                { name: '糖糖', level: 'Lv.14', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=tangtang', time: '2小时前', type: '追问', content: '已加真真微信，回复好快！已经报名了下周的团', contentImage: null },
+              ].map((reply, index) => (
+                <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
+                  <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+                      <span style={{ fontWeight: 'bold', fontSize: '13px' }}>{reply.name}</span>
+                      <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>{reply.level}</span>
+                      <span style={{ color: reply.type === '追问' ? '#27ae60' : '#C41E3A', fontSize: '12px' }}>{reply.type}</span>
+                      <span style={{ fontSize: '11px', color: '#999' }}>{reply.time}</span>
+                    </div>
+                    <div style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>{reply.content}</div>
+                    {reply.contentImage && <img src={reply.contentImage} alt="" style={{ width: '80px', height: '80px', borderRadius: '4px', marginTop: '8px', objectFit: 'cover' }} />}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Answer 5 - Another Testimonial */}
+        <div style={{ borderTop: '1px solid rgb(235, 240, 241)', paddingTop: '20px', marginTop: '30px' }}>
+
+          <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
+            <img
+              src="https://api.dicebear.com/7.x/avataaars/svg?seed=laoli"
+              alt="用户头像"
+              style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
+            />
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                <span style={{ fontWeight: 'bold', color: '#333' }}>摄影爱好者老李</span>
+                <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>Lv.40</span>
+              </div>
+              <div style={{ fontSize: '12px', color: '#999' }}>1小时前</div>
+            </div>
+          </div>
+
+          <div style={{ lineHeight: '24px' }}>
+            <p>作为一个摄影爱好者，我去过北京很多次，但这次跟真真的团让我拍到了最美的长城日出！行程安排非常专业，知道哪些角度最适合拍照。</p>
+
+            {/* User submitted photos */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px', margin: '15px 0' }}>
+              <img src="/素材/beijing_greatwall_02.jpg" alt="长城日出" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
+              <img src="/素材/beijing_yiheyuan_02.png" alt="颐和园" style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '6px' }} />
+            </div>
+
+            <p style={{ color: '#27ae60', fontSize: '13px' }}>✓ 强烈推荐给喜欢摄影的朋友！</p>
+
+            <div style={{ borderTop: '1px solid #eee', paddingTop: '10px', marginTop: '15px', color: '#999', fontSize: '13px' }}>
+              <span style={{ color: '#C41E3A' }}>6条评论</span> | <span>收藏 52</span> | <span>1小时前</span>
+            </div>
+
+            <div style={{ marginTop: '15px' }}>
+              {[
+                { name: '摄影师小陈', level: 'Lv.22', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=xiaochen', time: '30分钟前', type: '追问', content: '请问是哪个季节去拍照效果最好？想拍红叶', contentImage: null },
+                { name: '摄影爱好者老李', level: 'Lv.40', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=laoli', time: '20分钟前', type: '回复', content: '10月中旬到11月初是最佳时间，长城红叶很美', contentImage: null },
+              ].map((reply, index) => (
+                <div key={index} style={{ borderTop: '1px solid #eee', padding: '10px 0', display: 'flex', gap: '10px' }}>
+                  <img src={reply.avatar} alt={reply.name} style={{ width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0 }} />
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+                      <span style={{ fontWeight: 'bold', fontSize: '13px' }}>{reply.name}</span>
+                      <span style={{ backgroundColor: '#ffd700', padding: '2px 6px', borderRadius: '3px', fontSize: '10px' }}>{reply.level}</span>
+                      <span style={{ color: reply.type === '追问' ? '#27ae60' : '#C41E3A', fontSize: '12px' }}>{reply.type}</span>
+                      <span style={{ fontSize: '11px', color: '#999' }}>{reply.time}</span>
+                    </div>
+                    <div style={{ fontSize: '13px', lineHeight: '1.5', color: '#666' }}>{reply.content}</div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
